@@ -3,7 +3,7 @@ import { fetchText, fetchJson } from './http.mjs';
 import { excludesIsrael, extractEligibility } from './eligibility.mjs';
 import {
   collapse, decodeEntities, detectFormType, extractLinks, hasHebrew, idFor, isIsraelRelevant,
-  isPaid, isSurveyish, parseReward, stripTags, truncate, canAutofill,
+  isPaid, isSurveyish, looksLikeRecruitment, parseReward, stripTags, truncate, canAutofill,
 } from './text.mjs';
 
 const nowIso = () => new Date().toISOString();
@@ -55,6 +55,12 @@ export async function redditAdapter(feed) {
     const blob = `${title}\n${body}`;
     if (feed.requirePaid !== false && !isPaid(blob)) continue;
     if (!isSurveyish(blob)) continue;
+
+    const recruitment = looksLikeRecruitment(title);
+    // On a general subreddit every post is off-topic until the title says
+    // otherwise; on a research subreddit a named amount is evidence enough.
+    if (feed.requireSurvey && !recruitment) continue;
+    if (!recruitment && !parseReward(blob)?.amount && !isVoucher(blob)) continue;
     if (feed.requireSurvey && !isSurveyish(blob)) continue;
     var scope = 'israel';
     if (feed.requireIsrael && !isIsraelRelevant(blob)) {
@@ -93,6 +99,8 @@ export async function redditAdapter(feed) {
 /** Drop reddit's "submitted by /u/x [link] [comments]" footer. */
 const stripReddit = (s) =>
   collapse(s.replace(/submitted by\s*\/u\/\S+[\s\S]*$/i, '').replace(/\[link\]|\[comments\]/gi, ''));
+
+const isVoucher = (text) => parseReward(text)?.type === 'voucher';
 
 const tag = (s, name) => {
   const m = s.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`));
