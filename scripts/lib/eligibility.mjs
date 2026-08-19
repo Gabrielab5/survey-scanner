@@ -7,7 +7,7 @@
  */
 
 const RULES = [
-  { key: 'students',  re: /(students?\s+only|only\s+students|must\s+be\s+(?:a\s+)?student|university\s+students?\s+(?:only|needed|wanted|required)|college\s+students?\s+(?:only|needed|wanted)|undergraduates?\s+(?:only|needed)|psychology\s+students?|סטודנטים?\s*(?:\/ות)?\s*בלבד|רק\s+סטודנטים|מיועד\s+לסטודנטים|לסטודנטים\s+בלבד|סטודנטיות\s+בלבד)/i,
+  { key: 'students',  re: /(students?\s+only|only\s+students|must\s+be\s+(?:a\s+)?student|university\s+students?\s+(?:only|needed|wanted|required)|college\s+students?\s+(?:only|needed|wanted)|undergraduates?\s+(?:only|needed)|psychology\s+students?|students?\s+(?:wanted|needed|sought|required)|סטודנטים?\s*(?:\/ות)?\s*בלבד|רק\s+סטודנטים|מיועד\s+לסטודנטים|לסטודנטים\s+בלבד|סטודנטיות\s+בלבד)/i,
     label: 'סטודנטים בלבד' },
   { key: 'partner',   re: /(couples?\s+(?:study|survey|research|only|needed|wanted)|romantic\s+couples?|both\s+partners|with\s+your\s+partner|dyadic\s+study|\bdyads?\b|זוגות|בני\s+זוג|עם\s+בן\/?\s*בת\s+הזוג|מחקר\s+זוגי)/i,
     label: 'זוגות' },

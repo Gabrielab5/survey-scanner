@@ -58,6 +58,15 @@ const SURVEY_RE =
 
 export const isSurveyish = (text = '') => SURVEY_RE.test(text);
 
+/**
+ * A recruitment post announces a study; a discussion post merely mentions one.
+ * Matched against the title only - bodies are far too chatty to separate them.
+ */
+const RECRUIT_TITLE_RE =
+  /^\s*\[(?:academic|research|paid|casual|survey|study)\b|participants?\s+(?:wanted|needed|sought)|(?:respondents?|volunteers?|subjects?)\s+(?:wanted|needed)|\bsurvey\b|\bquestionnaire\b|\bstudy\b|\bexperiment\b|take\s+(?:my|our)\b|משתתפים|נבדקים|דרושים|מחפשים|סקר|שאלון|ניסוי/i;
+
+export const looksLikeRecruitment = (title = '') => RECRUIT_TITLE_RE.test(title);
+
 const RAFFLE_RE = /(raffle|lottery|prize draw|sweepstake|chance to win|הגרלה|הגרלת|סיכוי לזכות)/i;
 
 /**

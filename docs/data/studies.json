@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-19T13:54:28.068Z",
-  "nextUpdateHint": "2026-08-19T14:54:28.068Z",
+  "generatedAt": "2026-08-19T14:01:09.738Z",
+  "nextUpdateHint": "2026-08-19T15:01:09.738Z",
   "counts": {
-    "total": 61,
-    "paid": 8,
-    "autofillable": 0,
+    "total": 65,
+    "paid": 11,
+    "autofillable": 2,
     "evergreen": 11,
     "stale": 0
   },
@@ -19,10 +19,10 @@
       "id": "reddit-samplesize",
       "label": "r/SampleSize",
       "type": "reddit",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "count": 0,
-      "ms": 3122
+      "count": 4,
+      "ms": 3893
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 33952
+      "ms": 36772
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 36960
+      "ms": 69710
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 67859
+      "ms": 86356
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2838
+      "ms": 3215
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 46,
-      "ms": 5524
+      "ms": 5904
     },
     {
       "id": "manual",
@@ -76,52 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 141
+      "ms": 23
     }
   ],
   "items": [
-    {
-      "id": "panel-bgu-psych",
-      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
-      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
-      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.079Z",
-      "tags": [
-        "באר שבע",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Ben-Gurion University psychology experiments",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
-      "stale": false
-    },
     {
       "id": "panel-reichman-lab",
       "title": "מעבדות מחקר – אוניברסיטת רייכמן",
@@ -152,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.079Z",
+      "postedAt": "2026-08-19T14:01:09.755Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -160,26 +118,26 @@
       "evergreen": true,
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
-      "id": "panel-toluna-il",
-      "title": "Toluna ישראל",
-      "summary": "קהילת סקרים בינלאומית עם פאנל ישראלי. נקודות לכל סקר, המרה לשוברי מתנה.",
-      "url": "https://il.toluna.com/",
+      "id": "panel-technion-lab",
+      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
+      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
+      "url": "https://ie.technion.ac.il/",
       "source": "registry",
       "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
+      "kind": "lab",
+      "mode": "in-person",
       "language": "he",
       "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 30,
+        "amountMax": 100,
+        "raw": "30–100 ₪"
       },
       "paymentConfirmed": true,
       "location": null,
@@ -194,16 +152,58 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.078Z",
+      "postedAt": "2026-08-19T14:01:09.754Z",
       "tags": [
-        "בינלאומי",
-        "שוברים"
+        "חיפה",
+        "מעבדה"
       ],
       "evergreen": true,
-      "titleEn": "Toluna Israel",
-      "rewardNote": "נקודות → שוברי מתנה",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "titleEn": "Technion behavioral lab",
+      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
+      "stale": false
+    },
+    {
+      "id": "panel-bgu-psych",
+      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
+      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
+      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-19T14:01:09.754Z",
+      "tags": [
+        "באר שבע",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Ben-Gurion University psychology experiments",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -238,7 +238,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.078Z",
+      "postedAt": "2026-08-19T14:01:09.753Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -247,8 +247,8 @@
       "evergreen": true,
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -281,7 +281,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.078Z",
+      "postedAt": "2026-08-19T14:01:09.753Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -290,8 +290,8 @@
       "evergreen": true,
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -324,7 +324,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.078Z",
+      "postedAt": "2026-08-19T14:01:09.753Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -333,50 +333,8 @@
       "evergreen": true,
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
-      "stale": false
-    },
-    {
-      "id": "panel-technion-lab",
-      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
-      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
-      "url": "https://ie.technion.ac.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 30,
-        "amountMax": 100,
-        "raw": "30–100 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.078Z",
-      "tags": [
-        "חיפה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Technion behavioral lab",
-      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -409,7 +367,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.077Z",
+      "postedAt": "2026-08-19T14:01:09.752Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -417,8 +375,8 @@
       "evergreen": true,
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -451,7 +409,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.077Z",
+      "postedAt": "2026-08-19T14:01:09.752Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -459,8 +417,8 @@
       "evergreen": true,
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -493,15 +451,57 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.077Z",
+      "postedAt": "2026-08-19T14:01:09.752Z",
       "tags": [
         "צרכנות"
       ],
       "evergreen": true,
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
+      "stale": false
+    },
+    {
+      "id": "panel-toluna-il",
+      "title": "Toluna ישראל",
+      "summary": "קהילת סקרים בינלאומית עם פאנל ישראלי. נקודות לכל סקר, המרה לשוברי מתנה.",
+      "url": "https://il.toluna.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-19T14:01:09.752Z",
+      "tags": [
+        "בינלאומי",
+        "שוברים"
+      ],
+      "evergreen": true,
+      "titleEn": "Toluna Israel",
+      "rewardNote": "נקודות → שוברי מתנה",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:54:28.075Z",
+      "postedAt": "2026-08-19T14:01:09.748Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -543,8 +543,49 @@
       "evergreen": true,
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
+      "stale": false
+    },
+    {
+      "id": "ae4ec0f681cc",
+      "title": "University of Sydney, Honours Project Survey - Effect of public seating in enhancing place attachment in urban public spaces (Parramatta Square as a Case study) (Over 18, Have visited Parramatta Square, NSW Australia)",
+      "summary": "Hi everyone! We are conducting a research project at the University of Sydney to better understand how the design of public seating in Parramatta Square influences people's sense of connection to the space. The findings will help improve understanding of how public space design can support more welcoming and inclusive urban environments.\n Who can take part \n You may be eligible to participate if…",
+      "url": "https://forms.cloud.microsoft/r/Lg10kZAdr4",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-19T01:29:35+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -582,8 +623,130 @@
         "Rambam Health Care Campus",
         "NCT07725237"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
+      "stale": false
+    },
+    {
+      "id": "2ce75f01c699",
+      "title": "Rural Students Wanted (Rural Students)",
+      "summary": "Participate in Research! 📣 If you:\n 🌾Are from Regional, Rural or Remote (RRR) Victoria (MM2-MM7)\n 👤 Are ages 18 -25\n 📍Have relocated to metropolitan Victoria for University\n 🎓Are currently enrolled and studying at university You can \n participate in this research!!\n What’s this about?\n We’re exploring the wellbeing of RRR students who relocated to Metropolitan Victoria for university. We…",
+      "url": "https://rmit.au1.qualtrics.com/jfe/form/SV_3IVgrDwRPycajZk",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 20,
+        "amountMax": null,
+        "raw": "$20"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 25,
+        "requires": [
+          "students"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "סטודנטים בלבד",
+          "גיל 18–25"
+        ]
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-08-18T22:21:51+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
+      "stale": false
+    },
+    {
+      "id": "d74b8cc957bf",
+      "title": "[Academic] Workplace communication in Germany (South Asians in Germany, Germans)",
+      "summary": "Hello! I am looking for participants to answer my questionnaire for my last paper in my Master's degree program.\n Specifically, I am looking for two groups:\n German people who grew up in Germany and currently live in Germany\n People from South Asia who are currently studying and/or working in Germany\n If you fit to any of these groups, I would be very grateful if you would participate. There is a…",
+      "url": "https://laband.limesurvey.net/177417?lang=en",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "limesurvey",
+      "autofill": true,
+      "postedAt": "2026-08-18T19:34:22+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
+      "stale": false
+    },
+    {
+      "id": "fa65e33ec6a9",
+      "title": "[Academic] Attitudes and Behaviors Study (18+, Survey in English)",
+      "summary": "--- Participants Needed --- \n Hey everyone,\n I am a Master’s student at the University of Bern (Switzerland) conducting a scientific research study examining how certain traits, life experiences, attitudes and behaviors are related to each other.\n I would greatly appreciate if you could participate in my survey: https://ww3.unipark.de/uc/research_study_university_Bern_Switzerland/ \n Participate…",
+      "url": "https://ww3.unipark.de/uc/research_study_university_Bern_Switzerland/",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 100,
+        "amountMax": null,
+        "raw": "$100"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-18T11:33:11+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -623,8 +786,8 @@
         "Rabin Medical Center",
         "NCT06049784"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -664,8 +827,8 @@
         "Holy Family Hospital",
         "NCT07703917"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -704,8 +867,8 @@
         "Holy Family Hospital",
         "NCT03626844"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -742,8 +905,8 @@
         "Weizmann Institute of Science",
         "NCT03334708"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -784,8 +947,8 @@
         "Ichilov Medical Center",
         "NCT07763990"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -824,8 +987,8 @@
         "Weizmann Institute of Science",
         "NCT06681246"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -866,8 +1029,8 @@
         "Rambam healthcare campus",
         "NCT05837884"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -908,8 +1071,8 @@
         "University of Haifa",
         "NCT05133804"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -947,8 +1110,8 @@
         "Tel Aviv Sourasky Medical Center",
         "NCT04477785"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -987,8 +1150,8 @@
         "Sheba Medical Center",
         "NCT04970056"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1030,8 +1193,8 @@
         "Rambam Medical Center",
         "NCT07714902"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1074,8 +1237,8 @@
         "Shamir Medical Center",
         "NCT06235749"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1117,8 +1280,8 @@
         "Edith Wolfson Medical Center",
         "NCT07168187"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1159,8 +1322,8 @@
         "Meir medical center",
         "NCT07362992"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1198,8 +1361,8 @@
         "Western Galilee Hospital-Nahariya",
         "NCT07311395"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1243,8 +1406,8 @@
         "Investigational Site Number : 3760001",
         "NCT00231400"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1284,8 +1447,8 @@
         "Holy family hospital",
         "NCT06963047"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1323,8 +1486,8 @@
         "Weizmann institute of science",
         "NCT05972317"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1362,8 +1525,8 @@
         "Emek medical center",
         "NCT06494826"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1401,8 +1564,8 @@
         "Carmel medical center",
         "NCT07620002"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1439,8 +1602,8 @@
         "Shaare Zedek Medical Center",
         "NCT07620067"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1478,8 +1641,8 @@
         "Glyance Ltd",
         "NCT07495865"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1518,8 +1681,8 @@
         "Hadassah Mt. Scopus Hebrew University Medical Center",
         "NCT07430358"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1556,8 +1719,8 @@
         "Souraski medical center",
         "NCT05325736"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1593,8 +1756,8 @@
         "Sheba Medical Center",
         "NCT07596576"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1635,8 +1798,8 @@
         "Sheba Medical Center",
         "NCT07038785"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1672,8 +1835,8 @@
         "Center for the study of movement, cognition and mobility",
         "NCT07580612"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1709,8 +1872,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center",
         "NCT07558928"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1746,8 +1909,8 @@
         "Michal Becker- Cohen",
         "NCT05253560"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1787,8 +1950,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT05842239"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1834,8 +1997,8 @@
         "Rabin medical center",
         "NCT03451968"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1871,8 +2034,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT07539506"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1908,8 +2071,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT06748586"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1945,8 +2108,8 @@
         "Hadassah Medical Organization",
         "NCT00162474"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -1983,8 +2146,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT05447416"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2023,8 +2186,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT07430150"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2064,8 +2227,8 @@
         "Sheba Medical Center",
         "NCT07405723"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2106,8 +2269,8 @@
         "Meir Medical Center",
         "NCT06591247"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2147,8 +2310,8 @@
         "Holy Family Hospital",
         "NCT06325007"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2186,8 +2349,8 @@
         "Holy Family Hospital",
         "NCT06494280"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2226,8 +2389,8 @@
         "Holy Family hospital, Nazareth",
         "NCT06335017"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2265,8 +2428,8 @@
         "Holy Family Hospital",
         "NCT06580327"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2305,8 +2468,8 @@
         "Galilee Medical Center",
         "NCT07517796"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2342,8 +2505,8 @@
         "Sheba Medical Center",
         "NCT07474987"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2383,8 +2546,8 @@
         "Hadassah University Medical Center, Ein Karem Campus",
         "NCT07483411"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2423,8 +2586,8 @@
         "Tel-Aviv Sourasky Medical Center (TASMC)",
         "NCT05913752"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2469,8 +2632,8 @@
         "The Chaim Sheba Medical Center /ID# 273313",
         "NCT06764693"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2508,8 +2671,8 @@
         "Shneider children's Medical Center",
         "NCT07321171"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     },
     {
@@ -2545,8 +2708,8 @@
         "The Coronary Care Intensive Care Unit, Hadassah Hospital, Ein Kerem",
         "NCT06605079"
       ],
-      "firstSeen": "2026-08-19T13:51:40.368Z",
-      "lastSeen": "2026-08-19T13:54:28.068Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-19T14:01:09.738Z",
       "stale": false
     }
   ]
