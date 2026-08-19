@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T11:46:44.609Z",
-  "nextUpdateHint": "2026-08-19T12:46:44.609Z",
+  "generatedAt": "2026-08-19T13:03:25.048Z",
+  "nextUpdateHint": "2026-08-19T14:03:25.048Z",
   "counts": {
-    "total": 60,
+    "total": 61,
     "paid": 8,
     "autofillable": 0,
     "evergreen": 11,
@@ -22,7 +22,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 2975
+      "ms": 3183
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 34217
+      "ms": 33771
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 65115
+      "ms": 40659
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 80297
+      "ms": 71297
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2747
+      "ms": 2982
     },
     {
       "id": "ct-israel-healthy",
@@ -66,8 +66,8 @@
       "type": "clinicaltrials",
       "status": "ok",
       "error": null,
-      "count": 45,
-      "ms": 5371
+      "count": 46,
+      "ms": 5571
     },
     {
       "id": "manual",
@@ -76,7 +76,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 47
+      "ms": 206
     }
   ],
   "items": [
@@ -101,7 +101,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.615Z",
+      "postedAt": "2026-08-19T13:03:25.054Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -111,7 +111,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -135,7 +135,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.615Z",
+      "postedAt": "2026-08-19T13:03:25.054Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -144,7 +144,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -168,7 +168,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.615Z",
+      "postedAt": "2026-08-19T13:03:25.054Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -177,7 +177,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -201,7 +201,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.615Z",
+      "postedAt": "2026-08-19T13:03:25.054Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -210,39 +210,7 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
-      "stale": false
-    },
-    {
-      "id": "panel-sekernet",
-      "title": "סקרנט",
-      "summary": "פאנל סקרים בתשלום בעברית, כולל סקרים קצרים וסקרי צרכנות.",
-      "url": "https://www.sekernet.co.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.614Z",
-      "tags": [
-        "צרכנות"
-      ],
-      "evergreen": true,
-      "titleEn": "Sekernet",
-      "rewardNote": "נקודות/שוברים",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -266,7 +234,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.614Z",
+      "postedAt": "2026-08-19T13:03:25.053Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -275,7 +243,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -299,7 +267,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.614Z",
+      "postedAt": "2026-08-19T13:03:25.053Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -309,7 +277,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -333,7 +301,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.614Z",
+      "postedAt": "2026-08-19T13:03:25.053Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -343,7 +311,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -367,7 +335,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.613Z",
+      "postedAt": "2026-08-19T13:03:25.052Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -377,7 +345,7 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -401,7 +369,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.613Z",
+      "postedAt": "2026-08-19T13:03:25.052Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -410,7 +378,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -434,7 +402,7 @@
       "location": null,
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T11:46:44.613Z",
+      "postedAt": "2026-08-19T13:03:25.052Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -443,14 +411,46 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
-      "id": "14fcc8c1c205",
-      "title": "TENS for Postpartum Uterine Pain During Breastfeeding",
-      "summary": "This clinical study is designed to evaluate whether Transcutaneous Electrical Nerve Stimulation (TENS) is an effective, non-drug method to relieve postpartum uterine pain during breastfeeding in multiparous women (women who have given birth multiple times). Breastfeeding in the first 48 hours after delivery often triggers strong, painful uterine contractions due to the natural release of…",
-      "url": "https://clinicaltrials.gov/study/NCT07703917",
+      "id": "panel-sekernet",
+      "title": "סקרנט",
+      "summary": "פאנל סקרים בתשלום בעברית, כולל סקרים קצרים וסקרי צרכנות.",
+      "url": "https://www.sekernet.co.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-19T13:03:25.052Z",
+      "tags": [
+        "צרכנות"
+      ],
+      "evergreen": true,
+      "titleEn": "Sekernet",
+      "rewardNote": "נקודות/שוברים",
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "3ec08c5fd390",
+      "title": "Single Photon Emission Computed Tomography/Computed Tomography (SPECT/CT) Prospective Double-Scanning Study",
+      "summary": "The goal of this study is to collect image data for the StarGuide GX Single Photon Emission Computed Tomography/Computed Tomography (SPECT/CT) System in a clinical setting. The StarGuide GX scan will be compared to the participant's clinically indicated SPECT/CT scanner.",
+      "url": "https://clinicaltrials.gov/study/NCT07725237",
       "source": "ct-israel-healthy",
       "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
       "kind": "clinical",
@@ -458,18 +458,18 @@
       "language": "en",
       "reward": null,
       "paymentConfirmed": false,
-      "location": "Nazareth",
+      "location": "Haifa",
       "formType": "other",
       "autofill": false,
-      "postedAt": "2026-08-18T00:00:00.000Z",
+      "postedAt": "2026-08-19T00:00:00.000Z",
       "tags": [
         "מתנדבים בריאים",
         "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family Hospital",
-        "NCT07703917"
+        "Rambam Health Care Campus",
+        "NCT07725237"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "firstSeen": "2026-08-19T13:03:25.048Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -495,7 +495,33 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "14fcc8c1c205",
+      "title": "TENS for Postpartum Uterine Pain During Breastfeeding",
+      "summary": "This clinical study is designed to evaluate whether Transcutaneous Electrical Nerve Stimulation (TENS) is an effective, non-drug method to relieve postpartum uterine pain during breastfeeding in multiparous women (women who have given birth multiple times). Breastfeeding in the first 48 hours after delivery often triggers strong, painful uterine contractions due to the natural release of…",
+      "url": "https://clinicaltrials.gov/study/NCT07703917",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-18T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family Hospital",
+        "NCT07703917"
+      ],
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -521,7 +547,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -548,7 +574,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -575,7 +601,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -601,7 +627,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -628,7 +654,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -655,7 +681,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -681,7 +707,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -707,7 +733,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -733,7 +759,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -760,7 +786,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -786,7 +812,7 @@
         "NCT07168187"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -813,7 +839,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -839,7 +865,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -871,7 +897,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -897,7 +923,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -923,7 +949,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -949,7 +975,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -975,7 +1001,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1001,7 +1027,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1027,7 +1053,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1053,7 +1079,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1080,7 +1106,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1106,7 +1132,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1133,7 +1159,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1159,7 +1185,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1185,7 +1211,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1211,7 +1237,33 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "08c8647253f1",
+      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
+      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
+      "url": "https://clinicaltrials.gov/study/NCT05842239",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Ẕerifin",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-22T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT05842239"
+      ],
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1243,33 +1295,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
-      "stale": false
-    },
-    {
-      "id": "08c8647253f1",
-      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
-      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
-      "url": "https://clinicaltrials.gov/study/NCT05842239",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Ẕerifin",
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05842239"
-      ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1295,59 +1321,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
-      "stale": false
-    },
-    {
-      "id": "c30f6a37053d",
-      "title": "Long Lasting Effect of Hyperbaric Oxygen Therapy on Cognitive Function in Traumatic Brain Injury Patients",
-      "summary": "To evaluate the cognitive functions of patients who suffered brain injury due to traumatic head injury and were previously treated in a hyperbaric chamber between one and four years after the end of treatment.",
-      "url": "https://clinicaltrials.gov/study/NCT07430150",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT07430150"
-      ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
-      "stale": false
-    },
-    {
-      "id": "8aa9f3b9e10c",
-      "title": "Determinants of Warfarin Metabolism",
-      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
-      "url": "https://clinicaltrials.gov/study/NCT00162474",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Jerusalem",
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Hadassah Medical Organization",
-        "NCT00162474"
-      ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1373,7 +1347,33 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "8aa9f3b9e10c",
+      "title": "Determinants of Warfarin Metabolism",
+      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
+      "url": "https://clinicaltrials.gov/study/NCT00162474",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Jerusalem",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Hadassah Medical Organization",
+        "NCT00162474"
+      ],
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1399,7 +1399,33 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "c30f6a37053d",
+      "title": "Long Lasting Effect of Hyperbaric Oxygen Therapy on Cognitive Function in Traumatic Brain Injury Patients",
+      "summary": "To evaluate the cognitive functions of patients who suffered brain injury due to traumatic head injury and were previously treated in a hyperbaric chamber between one and four years after the end of treatment.",
+      "url": "https://clinicaltrials.gov/study/NCT07430150",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT07430150"
+      ],
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1425,7 +1451,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1451,85 +1477,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
-      "stale": false
-    },
-    {
-      "id": "485f4232e773",
-      "title": "PIEB Compared With CEI on Breakthrough Pain in Nulliparous Women",
-      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in nulliparous women compared to continuous epidural infusion.\nNulliparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
-      "url": "https://clinicaltrials.gov/study/NCT06494280",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family Hospital",
-        "NCT06494280"
-      ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
-      "stale": false
-    },
-    {
-      "id": "5d94978faa14",
-      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
-      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
-      "url": "https://clinicaltrials.gov/study/NCT06580327",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family Hospital",
-        "NCT06580327"
-      ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
-      "stale": false
-    },
-    {
-      "id": "1df45dd705f1",
-      "title": "Castor Oil Ingestion and Balloon Catheter for Labor Induction in Multiparous",
-      "summary": "The goal of this randomized controlled trial is to examine the efficacy of combining castor oil ingestion with extra-amniotic single balloon catheter for cervical ripening on time from induction to delivery in multiparous women.\nThe main question it aims to answer are:\nDoes the addition of the use of castor oil to extra-amniotic single balloon reduce the time until birth? Does the addition of the…",
-      "url": "https://clinicaltrials.gov/study/NCT06335017",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family hospital, Nazareth",
-        "NCT06335017"
-      ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1556,7 +1504,85 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "485f4232e773",
+      "title": "PIEB Compared With CEI on Breakthrough Pain in Nulliparous Women",
+      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in nulliparous women compared to continuous epidural infusion.\nNulliparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
+      "url": "https://clinicaltrials.gov/study/NCT06494280",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family Hospital",
+        "NCT06494280"
+      ],
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "1df45dd705f1",
+      "title": "Castor Oil Ingestion and Balloon Catheter for Labor Induction in Multiparous",
+      "summary": "The goal of this randomized controlled trial is to examine the efficacy of combining castor oil ingestion with extra-amniotic single balloon catheter for cervical ripening on time from induction to delivery in multiparous women.\nThe main question it aims to answer are:\nDoes the addition of the use of castor oil to extra-amniotic single balloon reduce the time until birth? Does the addition of the…",
+      "url": "https://clinicaltrials.gov/study/NCT06335017",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family hospital, Nazareth",
+        "NCT06335017"
+      ],
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "stale": false
+    },
+    {
+      "id": "5d94978faa14",
+      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
+      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
+      "url": "https://clinicaltrials.gov/study/NCT06580327",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family Hospital",
+        "NCT06580327"
+      ],
+      "firstSeen": "2026-08-19T11:45:16.910Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1582,7 +1608,7 @@
         "NCT07517796"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1608,7 +1634,7 @@
         "NCT07474987"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1634,7 +1660,7 @@
         "NCT07483411"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1661,7 +1687,7 @@
         "NCT05913752"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1693,7 +1719,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1718,7 +1744,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     },
     {
@@ -1744,7 +1770,7 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T11:46:44.609Z",
+      "lastSeen": "2026-08-19T13:03:25.048Z",
       "stale": false
     }
   ]
