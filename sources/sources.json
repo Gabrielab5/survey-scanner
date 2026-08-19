@@ -1,0 +1,239 @@
+{
+  "$comment": "Registry of sources. 'panels' are always-open paid panels/pools (shown as evergreen cards). 'feeds' are polled hourly by scripts/update.mjs.",
+  "panels": [
+    {
+      "id": "midgam-project",
+      "title": "פרויקט מדגם",
+      "titleEn": "Midgam Project",
+      "url": "https://www.midgamproject.com/",
+      "summary": "פאנל אקדמי ישראלי: חוקרים מהאוניברסיטאות מפרסמים סקרים מקוונים ומשלמים לכל משתתף. נרשמים פעם אחת ומקבלים הזמנות לסקרים במייל.",
+      "reward": "כ-10–60 ₪ לסקר (לפי אורך)",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "tags": [
+        "אקדמי",
+        "סקרים מקוונים",
+        "תשלום למשתתף"
+      ]
+    },
+    {
+      "id": "panel4all",
+      "title": "פאנל פור אול",
+      "titleEn": "Panel4All",
+      "url": "https://www.panel4all.co.il/",
+      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
+      "reward": "נקודות → שוברים/העברה כספית",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "tags": [
+        "מחקרי שוק",
+        "נקודות"
+      ]
+    },
+    {
+      "id": "ipanel",
+      "title": "iPanel",
+      "titleEn": "iPanel",
+      "url": "https://www.ipanel.co.il/",
+      "summary": "אחד מפאנלי האינטרנט הגדולים בישראל. סקרי דעת קהל ומחקרי שוק בתשלום, לעיתים גם קבוצות מיקוד.",
+      "reward": "נקודות → שוברים/מזומן",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "tags": [
+        "דעת קהל",
+        "מחקרי שוק"
+      ]
+    },
+    {
+      "id": "sekernet",
+      "title": "סקרנט",
+      "titleEn": "Sekernet",
+      "url": "https://www.sekernet.co.il/",
+      "summary": "פאנל סקרים בתשלום בעברית, כולל סקרים קצרים וסקרי צרכנות.",
+      "reward": "נקודות/שוברים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "tags": [
+        "צרכנות"
+      ]
+    },
+    {
+      "id": "toluna-il",
+      "title": "Toluna ישראל",
+      "titleEn": "Toluna Israel",
+      "url": "https://il.toluna.com/",
+      "summary": "קהילת סקרים בינלאומית עם פאנל ישראלי. נקודות לכל סקר, המרה לשוברי מתנה.",
+      "reward": "נקודות → שוברי מתנה",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "tags": [
+        "בינלאומי",
+        "שוברים"
+      ]
+    },
+    {
+      "id": "prolific",
+      "title": "Prolific",
+      "titleEn": "Prolific",
+      "url": "https://www.prolific.com/",
+      "summary": "פלטפורמה בינלאומית למחקר אקדמי. פתוחה לתושבי ישראל, משלמת בשעון (מינימום מוצהר לשעה) ישירות ל-PayPal.",
+      "reward": "£6–£12 לשעה בממוצע",
+      "kind": "panel",
+      "mode": "online",
+      "language": "en",
+      "tags": [
+        "אקדמי",
+        "בינלאומי",
+        "PayPal"
+      ]
+    },
+    {
+      "id": "huji-pool",
+      "title": "מאגר הנבדקים – האוניברסיטה העברית",
+      "titleEn": "Hebrew University participant pool",
+      "url": "https://huji.sona-systems.com/",
+      "summary": "מאגר נבדקים של האוניברסיטה העברית (Sona). ניסויים בפסיכולוגיה/כלכלה התנהגותית, חלקם בתשלום מזומן וחלקם בקרדיט אקדמי.",
+      "reward": "כ-40–80 ₪ לשעה בניסויי מעבדה",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "tags": [
+        "ירושלים",
+        "מעבדה",
+        "Sona"
+      ]
+    },
+    {
+      "id": "tau-pool",
+      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
+      "titleEn": "Tel Aviv University participant pool",
+      "url": "https://tau-social.sona-systems.com/",
+      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
+      "reward": "תשלום או קרדיט, לפי הניסוי",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "tags": [
+        "תל אביב",
+        "מעבדה",
+        "Sona"
+      ]
+    },
+    {
+      "id": "technion-lab",
+      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
+      "titleEn": "Technion behavioral lab",
+      "url": "https://ie.technion.ac.il/",
+      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
+      "reward": "מזומן, לרוב 30–100 ₪ למפגש",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "tags": [
+        "חיפה",
+        "מעבדה"
+      ]
+    },
+    {
+      "id": "bgu-psych",
+      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
+      "titleEn": "Ben-Gurion University psychology experiments",
+      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
+      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
+      "reward": "לפי הניסוי",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "tags": [
+        "באר שבע",
+        "מעבדה"
+      ]
+    },
+    {
+      "id": "reichman-lab",
+      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
+      "titleEn": "Reichman University labs",
+      "url": "https://www.runi.ac.il/research-institutes/",
+      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
+      "reward": "לפי הניסוי",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "tags": [
+        "הרצליה",
+        "מעבדה"
+      ]
+    }
+  ],
+  "feeds": [
+    {
+      "id": "reddit-samplesize",
+      "type": "reddit",
+      "label": "r/SampleSize",
+      "url": "https://www.reddit.com/r/SampleSize/new/.rss",
+      "requireIsrael": true,
+      "requirePaid": true
+    },
+    {
+      "id": "reddit-israel",
+      "type": "reddit",
+      "label": "r/Israel",
+      "url": "https://www.reddit.com/r/Israel/new/.rss",
+      "requireIsrael": false,
+      "requirePaid": true,
+      "requireSurvey": true
+    },
+    {
+      "id": "reddit-telaviv",
+      "type": "reddit",
+      "label": "r/TelAviv",
+      "url": "https://www.reddit.com/r/TelAviv/new/.rss",
+      "requireIsrael": false,
+      "requirePaid": true,
+      "requireSurvey": true
+    },
+    {
+      "id": "reddit-academic-psych",
+      "type": "reddit",
+      "label": "r/AcademicPsychology",
+      "url": "https://www.reddit.com/r/AcademicPsychology/new/.rss",
+      "requireIsrael": true,
+      "requirePaid": true
+    },
+    {
+      "id": "ct-israel-paid",
+      "type": "clinicaltrials",
+      "label": "ClinicalTrials.gov – ישראל, תשלום/החזר הוצאות",
+      "query": "compensation OR reimbursement OR stipend OR \"paid participants\"",
+      "pageSize": 60
+    },
+    {
+      "id": "ct-israel-healthy",
+      "type": "clinicaltrials",
+      "label": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "healthyOnly": true,
+      "pageSize": 60
+    },
+    {
+      "id": "manual",
+      "type": "manual",
+      "label": "רשומות שהוזנו ידנית",
+      "file": "sources/manual.json"
+    },
+    {
+      "id": "example-html-source",
+      "type": "html",
+      "label": "דוגמה: סריקת עמוד גיוס משתתפים",
+      "url": "https://example.org/participants",
+      "requireIsrael": true,
+      "requirePaid": true,
+      "enabled": false,
+      "$comment": "תבנית להוספת אתר חדש: מעתיקים את הבלוק, מחליפים url ו-label ומדליקים enabled."
+    }
+  ]
+}
