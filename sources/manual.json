@@ -1,0 +1,17 @@
+{
+  "$comment": "Hand-added studies. Anything here shows up on the site within the hour. Delete an entry or set expiresAt in the past to drop it. Keep it factual - only add studies you have actually seen advertised.",
+  "$example": {
+    "title": "ניסוי קבלת החלטות – מעבדה, תל אביב",
+    "url": "https://example.org/signup",
+    "summary": "מפגש של 45 דקות במעבדה. תשלום במזומן בסוף המפגש.",
+    "reward": "60 ₪",
+    "kind": "study",
+    "mode": "in-person",
+    "location": "תל אביב",
+    "language": "he",
+    "tags": ["מעבדה", "כלכלה התנהגותית"],
+    "addedAt": "2026-08-19",
+    "expiresAt": "2026-09-30"
+  },
+  "items": []
+}

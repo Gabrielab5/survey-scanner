@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>סורק הסקרים – מחקרים וסקרים בתשלום בישראל</title>
+<meta name="description" content="ריכוז אוטומטי של סקרים, ניסויים ומחקרים בישראל שמשלמים למשתתפים. מתעדכן כל שעה.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>₪</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#results">דלג לתוצאות</a>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <div class="brand">
+      <span class="brand__mark">₪</span>
+      <div>
+        <h1>סורק הסקרים</h1>
+        <p class="brand__sub">סקרים, ניסויים ומחקרים בישראל שמשלמים למשתתפים</p>
+      </div>
+    </div>
+    <div class="topbar__meta">
+      <span class="pill pill--live" id="freshness">טוען…</span>
+      <button class="btn btn--ghost" id="openProfile" type="button">הפרופיל שלי</button>
+      <button class="btn btn--ghost" id="toggleTheme" type="button" aria-label="החלפת ערכת נושא">◐</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="stats" id="stats" aria-label="נתוני סיכום"></section>
+
+  <section class="controls" aria-label="סינון">
+    <div class="controls__row">
+      <label class="search">
+        <span class="sr-only">חיפוש</span>
+        <input type="search" id="q" placeholder="חיפוש חופשי – נושא, עיר, מוסד…" autocomplete="off">
+      </label>
+      <label class="select">
+        <span class="sr-only">מיון</span>
+        <select id="sort">
+          <option value="relevance">מיון: תשלום מאושר תחילה</option>
+          <option value="newest">מיון: הכי חדש</option>
+          <option value="amount">מיון: סכום גבוה</option>
+        </select>
+      </label>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="מסננים מהירים">
+      <button class="chip" data-filter="paid">רק תשלום מאושר</button>
+      <button class="chip" data-filter="online">מקוון בלבד</button>
+      <button class="chip" data-filter="he">בעברית</button>
+      <button class="chip" data-filter="autofill">ניתן למילוי אוטומטי</button>
+      <button class="chip" data-filter="hidePanels">בלי פאנלים קבועים</button>
+      <button class="chip" data-filter="hideClinical">בלי ניסויים קליניים</button>
+    </div>
+  </section>
+
+  <section id="results" class="grid" aria-live="polite"></section>
+  <p id="empty" class="empty" hidden>לא נמצאו רשומות שמתאימות לסינון.</p>
+
+  <section class="panel panel--autofill" id="autofill">
+    <h2>מילוי אוטומטי של שאלונים</h2>
+    <p class="muted">
+      שומרים פרופיל אישי בדפדפן (רק אצלכם, ב-<code>localStorage</code>, שום דבר לא נשלח לשרת) —
+      וכלי המילוי משלים אוטומטית שדות נפוצים בשאלון: שם, אימייל, גיל, מגדר, עיר, השכלה ועוד.
+      הכלי <strong>לעולם לא שולח את הטופס</strong> — אתם בודקים ומאשרים.
+    </p>
+    <div class="autofill__actions">
+      <a class="btn btn--primary" id="bookmarklet" href="#">📌 מלא טופס אוטומטית</a>
+      <button class="btn" id="copyUserscript" type="button">⬇ הורדת סקריפט ל-Tampermonkey</button>
+      <button class="btn btn--ghost" id="editProfile" type="button">עריכת הפרופיל</button>
+    </div>
+    <p class="hint">
+      גררו את הכפתור הכחול לשורת הסימניות בדפדפן. בכל עמוד שאלון (Google Forms, Qualtrics,
+      SurveyMonkey, Jotform, LimeSurvey, MS Forms ועוד) לחיצה עליו תמלא את השדות המוכרים.
+    </p>
+  </section>
+
+  <section class="panel" id="sourcesPanel">
+    <h2>מקורות ומצב עדכון</h2>
+    <div id="sourceStatus" class="sources"></div>
+    <p class="muted small">
+      הנתונים נאספים אוטומטית כל שעה. מקור שנכשל מסומן כאן ולא מוחק את הרשומות הקיימות —
+      רשומה שנעלמה נשמרת עד 48 שעות ומסומנת כ״ייתכן שנסגר״.
+    </p>
+  </section>
+
+  <section class="panel panel--warn">
+    <h2>לפני שנרשמים</h2>
+    <ul class="notes">
+      <li>הרשימה נאספת אוטומטית ממקורות פומביים. תמיד לוודא את תנאי התשלום מול מפרסם המחקר.</li>
+      <li>מחקר לגיטימי לא יבקש פרטי אשראי, סיסמאות או תשלום מראש.</li>
+      <li>ניסויים קליניים מוצגים לצורך מידע; תשלום או החזר הוצאות משתנים בין מרכזים רפואיים.</li>
+      <li>״הגרלה״ אינה תשלום מובטח, ומסומנת בנפרד.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <p>
+    פרויקט קוד פתוח · הנתונים מתעדכנים אוטומטית כל שעה ·
+    <a href="https://github.com/Gabrielab5/survey-scanner" rel="noopener">קוד המקור ב-GitHub</a>
+  </p>
+</footer>
+
+<dialog id="profileDialog" class="dialog">
+  <form method="dialog" id="profileForm">
+    <h2>הפרופיל שלי</h2>
+    <p class="muted small">נשמר רק בדפדפן שלכם ומשמש למילוי אוטומטי. אפשר להשאיר שדות ריקים.</p>
+    <div class="fields">
+      <label>שם פרטי <input name="firstName" autocomplete="given-name"></label>
+      <label>שם משפחה <input name="lastName" autocomplete="family-name"></label>
+      <label>אימייל <input name="email" type="email" autocomplete="email"></label>
+      <label>טלפון <input name="phone" type="tel" autocomplete="tel"></label>
+      <label>גיל <input name="age" type="number" min="0" max="120"></label>
+      <label>שנת לידה <input name="birthYear" type="number" min="1900" max="2026"></label>
+      <label>מגדר
+        <select name="gender">
+          <option value="">—</option>
+          <option value="female">נקבה</option>
+          <option value="male">זכר</option>
+          <option value="other">אחר</option>
+          <option value="prefer-not">מעדיף/ה לא לענות</option>
+        </select>
+      </label>
+      <label>עיר <input name="city" autocomplete="address-level2"></label>
+      <label>מדינה <input name="country" value="ישראל"></label>
+      <label>שפת אם <input name="nativeLanguage" value="עברית"></label>
+      <label>השכלה
+        <select name="education">
+          <option value="">—</option>
+          <option value="high-school">תיכונית</option>
+          <option value="bachelor">תואר ראשון</option>
+          <option value="master">תואר שני</option>
+          <option value="phd">דוקטורט</option>
+        </select>
+      </label>
+      <label>עיסוק <input name="occupation"></label>
+      <label>מצב משפחתי
+        <select name="maritalStatus">
+          <option value="">—</option>
+          <option value="single">רווק/ה</option>
+          <option value="married">נשוי/אה</option>
+          <option value="divorced">גרוש/ה</option>
+        </select>
+      </label>
+      <label>מזהה Prolific <input name="prolificId" placeholder="אם יש"></label>
+    </div>
+    <div class="dialog__actions">
+      <button class="btn btn--primary" value="save">שמירה</button>
+      <button class="btn btn--ghost" value="cancel" formnovalidate>ביטול</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="autofill-core.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
