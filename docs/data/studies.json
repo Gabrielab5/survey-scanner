@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T13:03:25.048Z",
-  "nextUpdateHint": "2026-08-19T14:03:25.048Z",
+  "generatedAt": "2026-08-19T13:51:40.368Z",
+  "nextUpdateHint": "2026-08-19T14:51:40.368Z",
   "counts": {
     "total": 61,
     "paid": 8,
@@ -22,7 +22,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 3183
+      "ms": 4255
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 33771
+      "ms": 19841
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 40659
+      "ms": 22791
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 71297
+      "ms": 38532
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2982
+      "ms": 3128
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 46,
-      "ms": 5571
+      "ms": 5842
     },
     {
       "id": "manual",
@@ -76,77 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 206
+      "ms": 30
     }
   ],
   "items": [
-    {
-      "id": "panel-tau-pool",
-      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
-      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
-      "url": "https://tau-social.sona-systems.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.054Z",
-      "tags": [
-        "תל אביב",
-        "מעבדה",
-        "Sona"
-      ],
-      "evergreen": true,
-      "titleEn": "Tel Aviv University participant pool",
-      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
-      "stale": false
-    },
-    {
-      "id": "panel-technion-lab",
-      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
-      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
-      "url": "https://ie.technion.ac.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 30,
-        "amountMax": 100,
-        "raw": "30–100 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.054Z",
-      "tags": [
-        "חיפה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Technion behavioral lab",
-      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
-      "stale": false
-    },
     {
       "id": "panel-bgu-psych",
       "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
@@ -166,9 +99,18 @@
       },
       "paymentConfirmed": false,
       "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.054Z",
+      "postedAt": "2026-08-19T13:51:40.387Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -176,8 +118,8 @@
       "evergreen": true,
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -199,9 +141,18 @@
       },
       "paymentConfirmed": false,
       "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.054Z",
+      "postedAt": "2026-08-19T13:51:40.387Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -209,75 +160,8 @@
       "evergreen": true,
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
-      "stale": false
-    },
-    {
-      "id": "panel-toluna-il",
-      "title": "Toluna ישראל",
-      "summary": "קהילת סקרים בינלאומית עם פאנל ישראלי. נקודות לכל סקר, המרה לשוברי מתנה.",
-      "url": "https://il.toluna.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.053Z",
-      "tags": [
-        "בינלאומי",
-        "שוברים"
-      ],
-      "evergreen": true,
-      "titleEn": "Toluna Israel",
-      "rewardNote": "נקודות → שוברי מתנה",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
-      "stale": false
-    },
-    {
-      "id": "panel-prolific",
-      "title": "Prolific",
-      "summary": "פלטפורמה בינלאומית למחקר אקדמי. פתוחה לתושבי ישראל, משלמת בשעון (מינימום מוצהר לשעה) ישירות ל-PayPal.",
-      "url": "https://www.prolific.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "GBP",
-        "amount": 6,
-        "amountMax": null,
-        "raw": "£6"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.053Z",
-      "tags": [
-        "אקדמי",
-        "בינלאומי",
-        "PayPal"
-      ],
-      "evergreen": true,
-      "titleEn": "Prolific",
-      "rewardNote": "£6–£12 לשעה בממוצע",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -299,9 +183,18 @@
       },
       "paymentConfirmed": true,
       "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.053Z",
+      "postedAt": "2026-08-19T13:51:40.386Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -310,42 +203,93 @@
       "evergreen": true,
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
-      "id": "panel-midgam-project",
-      "title": "פרויקט מדגם",
-      "summary": "פאנל אקדמי ישראלי: חוקרים מהאוניברסיטאות מפרסמים סקרים מקוונים ומשלמים לכל משתתף. נרשמים פעם אחת ומקבלים הזמנות לסקרים במייל.",
-      "url": "https://www.midgamproject.com/",
+      "id": "panel-tau-pool",
+      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
+      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
+      "url": "https://tau-social.sona-systems.com/",
       "source": "registry",
       "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-19T13:51:40.386Z",
+      "tags": [
+        "תל אביב",
+        "מעבדה",
+        "Sona"
+      ],
+      "evergreen": true,
+      "titleEn": "Tel Aviv University participant pool",
+      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
+      "stale": false
+    },
+    {
+      "id": "panel-technion-lab",
+      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
+      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
+      "url": "https://ie.technion.ac.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
       "language": "he",
       "reward": {
         "type": "cash",
         "currency": "ILS",
-        "amount": 10,
-        "amountMax": 60,
-        "raw": "10–60 ₪"
+        "amount": 30,
+        "amountMax": 100,
+        "raw": "30–100 ₪"
       },
       "paymentConfirmed": true,
       "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.052Z",
+      "postedAt": "2026-08-19T13:51:40.386Z",
       "tags": [
-        "אקדמי",
-        "סקרים מקוונים",
-        "תשלום למשתתף"
+        "חיפה",
+        "מעבדה"
       ],
       "evergreen": true,
-      "titleEn": "Midgam Project",
-      "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "titleEn": "Technion behavioral lab",
+      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -367,9 +311,18 @@
       },
       "paymentConfirmed": true,
       "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.052Z",
+      "postedAt": "2026-08-19T13:51:40.385Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -377,8 +330,8 @@
       "evergreen": true,
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -400,9 +353,18 @@
       },
       "paymentConfirmed": true,
       "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.052Z",
+      "postedAt": "2026-08-19T13:51:40.385Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -410,8 +372,8 @@
       "evergreen": true,
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -433,17 +395,156 @@
       },
       "paymentConfirmed": true,
       "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-19T13:03:25.052Z",
+      "postedAt": "2026-08-19T13:51:40.385Z",
       "tags": [
         "צרכנות"
       ],
       "evergreen": true,
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
+      "stale": false
+    },
+    {
+      "id": "panel-toluna-il",
+      "title": "Toluna ישראל",
+      "summary": "קהילת סקרים בינלאומית עם פאנל ישראלי. נקודות לכל סקר, המרה לשוברי מתנה.",
+      "url": "https://il.toluna.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-19T13:51:40.385Z",
+      "tags": [
+        "בינלאומי",
+        "שוברים"
+      ],
+      "evergreen": true,
+      "titleEn": "Toluna Israel",
+      "rewardNote": "נקודות → שוברי מתנה",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
+      "stale": false
+    },
+    {
+      "id": "panel-prolific",
+      "title": "Prolific",
+      "summary": "פלטפורמה בינלאומית למחקר אקדמי. פתוחה לתושבי ישראל, משלמת בשעון (מינימום מוצהר לשעה) ישירות ל-PayPal.",
+      "url": "https://www.prolific.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "GBP",
+        "amount": 6,
+        "amountMax": null,
+        "raw": "£6"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": "IL",
+        "notes": [
+          "תושבי ישראל"
+        ]
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-19T13:51:40.385Z",
+      "tags": [
+        "אקדמי",
+        "בינלאומי",
+        "PayPal"
+      ],
+      "evergreen": true,
+      "titleEn": "Prolific",
+      "rewardNote": "£6–£12 לשעה בממוצע",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
+      "stale": false
+    },
+    {
+      "id": "panel-midgam-project",
+      "title": "פרויקט מדגם",
+      "summary": "פאנל אקדמי ישראלי: חוקרים מהאוניברסיטאות מפרסמים סקרים מקוונים ומשלמים לכל משתתף. נרשמים פעם אחת ומקבלים הזמנות לסקרים במייל.",
+      "url": "https://www.midgamproject.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 10,
+        "amountMax": 60,
+        "raw": "10–60 ₪"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-19T13:51:40.380Z",
+      "tags": [
+        "אקדמי",
+        "סקרים מקוונים",
+        "תשלום למשתתף"
+      ],
+      "evergreen": true,
+      "titleEn": "Midgam Project",
+      "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -459,6 +560,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Haifa",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-19T00:00:00.000Z",
@@ -468,8 +582,8 @@
         "Rambam Health Care Campus",
         "NCT07725237"
       ],
-      "firstSeen": "2026-08-19T13:03:25.048Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -485,6 +599,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Petah Tikva",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "נשים בלבד",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-18T00:00:00.000Z",
@@ -494,8 +623,8 @@
         "Rabin Medical Center",
         "NCT06049784"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -511,6 +640,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "נשים בלבד",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-18T00:00:00.000Z",
@@ -520,8 +664,8 @@
         "Holy Family Hospital",
         "NCT07703917"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -537,6 +681,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–45"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-17T00:00:00.000Z",
@@ -546,8 +704,8 @@
         "Holy Family Hospital",
         "NCT03626844"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -563,6 +721,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem, Rehovot, Tel Litwinsky",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-14T00:00:00.000Z",
@@ -573,8 +742,8 @@
         "Weizmann Institute of Science",
         "NCT03334708"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -590,6 +759,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 21,
+        "ageMax": null,
+        "requires": [
+          "pregnant",
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 21+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-13T00:00:00.000Z",
@@ -600,8 +784,8 @@
         "Ichilov Medical Center",
         "NCT07763990"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -617,6 +801,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Rehovot",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 65,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 10+",
+          "גיל 18–65"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-11T00:00:00.000Z",
@@ -626,8 +824,8 @@
         "Weizmann Institute of Science",
         "NCT06681246"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -643,6 +841,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Beersheba, Haifa, Petah Tikva, Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 30,
+        "ageMax": null,
+        "requires": [
+          "pregnant",
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 30+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-11T00:00:00.000Z",
@@ -653,8 +866,8 @@
         "Rambam healthcare campus",
         "NCT05837884"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -670,6 +883,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Afula, Haifa, Netanya",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 60,
+        "requires": [
+          "patients",
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 20–60"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-08-11T00:00:00.000Z",
@@ -680,8 +908,8 @@
         "University of Haifa",
         "NCT05133804"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -697,6 +925,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 30,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 30+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-07-27T00:00:00.000Z",
@@ -706,8 +947,8 @@
         "Tel Aviv Sourasky Medical Center",
         "NCT04477785"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -723,6 +964,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Ramat Gan",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 90,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 18–90"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-07-22T00:00:00.000Z",
@@ -732,8 +987,8 @@
         "Sheba Medical Center",
         "NCT04970056"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -749,6 +1004,23 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Haifa",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant",
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "גברים בלבד",
+          "אבחנה רפואית",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-07-20T00:00:00.000Z",
@@ -758,8 +1030,8 @@
         "Rambam Medical Center",
         "NCT07714902"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -775,6 +1047,23 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Beersheba, Be’er Ya‘aqov, Haifa, Holon",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant",
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "אבחנה רפואית",
+          "נשים בלבד",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-07-16T00:00:00.000Z",
@@ -785,8 +1074,8 @@
         "Shamir Medical Center",
         "NCT06235749"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -802,6 +1091,23 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Holon",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant",
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "נשים בלבד",
+          "אבחנה רפואית",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-07-08T00:00:00.000Z",
@@ -811,8 +1117,8 @@
         "Edith Wolfson Medical Center",
         "NCT07168187"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -828,6 +1134,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Holon, Kfar Saba, Petah Tikva, Rehovot",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 51,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "גיל 18–51",
+          "נשים בלבד"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-07-02T00:00:00.000Z",
@@ -838,8 +1159,8 @@
         "Meir medical center",
         "NCT07362992"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -855,6 +1176,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nahariya",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 30,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "עד גיל 30",
+          "נשים בלבד",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-06-26T00:00:00.000Z",
@@ -864,8 +1198,8 @@
         "Western Galilee Hospital-Nahariya",
         "NCT07311395"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -887,6 +1221,19 @@
       },
       "paymentConfirmed": false,
       "location": "Beersheba, Haifa, Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-06-23T00:00:00.000Z",
@@ -896,8 +1243,8 @@
         "Investigational Site Number : 3760001",
         "NCT00231400"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -913,6 +1260,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 50,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "נשים בלבד",
+          "גיל 18–50"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-06-16T00:00:00.000Z",
@@ -922,8 +1284,8 @@
         "Holy family hospital",
         "NCT06963047"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -939,6 +1301,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Rehovot",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 70,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–70"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-06-11T00:00:00.000Z",
@@ -948,8 +1323,8 @@
         "Weizmann institute of science",
         "NCT05972317"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -965,6 +1340,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Afula",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-06-11T00:00:00.000Z",
@@ -974,8 +1362,8 @@
         "Emek medical center",
         "NCT06494826"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -991,6 +1379,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Haifa",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-06-02T00:00:00.000Z",
@@ -1000,8 +1401,8 @@
         "Carmel medical center",
         "NCT07620002"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1017,6 +1418,18 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–45"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-06-02T00:00:00.000Z",
@@ -1026,8 +1439,8 @@
         "Shaare Zedek Medical Center",
         "NCT07620067"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1043,6 +1456,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Lod",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-05-28T00:00:00.000Z",
@@ -1052,8 +1478,8 @@
         "Glyance Ltd",
         "NCT07495865"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1069,6 +1495,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-05-22T00:00:00.000Z",
@@ -1078,8 +1518,8 @@
         "Hadassah Mt. Scopus Hebrew University Medical Center",
         "NCT07430358"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1095,6 +1535,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Rehovot, Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 70,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–70"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-05-20T00:00:00.000Z",
@@ -1105,8 +1556,8 @@
         "Souraski medical center",
         "NCT05325736"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1122,6 +1573,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Ramat Gan",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 50,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 50+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-05-19T00:00:00.000Z",
@@ -1131,8 +1593,8 @@
         "Sheba Medical Center",
         "NCT07596576"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1148,6 +1610,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Haifa, Ramat Gan, Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "אבחנה רפואית",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-05-15T00:00:00.000Z",
@@ -1158,8 +1635,8 @@
         "Sheba Medical Center",
         "NCT07038785"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1175,6 +1652,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-05-12T00:00:00.000Z",
@@ -1184,8 +1672,8 @@
         "Center for the study of movement, cognition and mobility",
         "NCT07580612"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1201,6 +1689,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–45"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-30T00:00:00.000Z",
@@ -1210,8 +1709,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center",
         "NCT07558928"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1227,6 +1726,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 40,
+        "ageMax": 75,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 40–75"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-29T00:00:00.000Z",
@@ -1236,8 +1746,8 @@
         "Michal Becker- Cohen",
         "NCT05253560"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1253,6 +1763,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Ẕerifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 21,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גברים בלבד",
+          "גיל 21+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-22T00:00:00.000Z",
@@ -1262,8 +1787,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT05842239"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1285,6 +1810,21 @@
       },
       "paymentConfirmed": false,
       "location": "Petah Tikva",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 7+",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-22T00:00:00.000Z",
@@ -1294,8 +1834,8 @@
         "Rabin medical center",
         "NCT03451968"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1311,6 +1851,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-22T00:00:00.000Z",
@@ -1320,8 +1871,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT07539506"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1337,6 +1888,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 80,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–80"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-21T00:00:00.000Z",
@@ -1346,8 +1908,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT06748586"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1363,6 +1925,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 50,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–50"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-21T00:00:00.000Z",
@@ -1372,8 +1945,8 @@
         "Hadassah Medical Organization",
         "NCT00162474"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1389,6 +1962,18 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גברים בלבד",
+          "גיל 18–45"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-21T00:00:00.000Z",
@@ -1398,8 +1983,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT05447416"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1415,6 +2000,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-21T00:00:00.000Z",
@@ -1424,8 +2023,8 @@
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
         "NCT07430150"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1441,6 +2040,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Ramat Gan",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 55,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "נשים בלבד",
+          "גיל 18–55"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-16T00:00:00.000Z",
@@ -1450,8 +2064,8 @@
         "Sheba Medical Center",
         "NCT07405723"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1467,6 +2081,22 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Kfar Saba",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 50,
+        "requires": [
+          "pregnant",
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "אבחנה רפואית",
+          "גיל 18–50"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-15T00:00:00.000Z",
@@ -1476,8 +2106,8 @@
         "Meir Medical Center",
         "NCT06591247"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1493,6 +2123,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 60,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–60"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-13T00:00:00.000Z",
@@ -1503,8 +2147,8 @@
         "Holy Family Hospital",
         "NCT06325007"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1520,6 +2164,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-13T00:00:00.000Z",
@@ -1529,8 +2186,8 @@
         "Holy Family Hospital",
         "NCT06494280"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1546,6 +2203,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 60,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–60"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-13T00:00:00.000Z",
@@ -1555,8 +2226,8 @@
         "Holy Family hospital, Nazareth",
         "NCT06335017"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1572,6 +2243,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-13T00:00:00.000Z",
@@ -1581,8 +2265,8 @@
         "Holy Family Hospital",
         "NCT06580327"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1598,6 +2282,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Nahariya",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–45"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-08T00:00:00.000Z",
@@ -1607,8 +2305,8 @@
         "Galilee Medical Center",
         "NCT07517796"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1624,6 +2322,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Tel Litwinsky",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 67,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–67"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-02T00:00:00.000Z",
@@ -1633,8 +2342,8 @@
         "Sheba Medical Center",
         "NCT07474987"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1650,6 +2359,21 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "אבחנה רפואית",
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-04-02T00:00:00.000Z",
@@ -1659,8 +2383,8 @@
         "Hadassah University Medical Center, Ein Karem Campus",
         "NCT07483411"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1676,6 +2400,19 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem, Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 60,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–60"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-03-31T00:00:00.000Z",
@@ -1686,8 +2423,8 @@
         "Tel-Aviv Sourasky Medical Center (TASMC)",
         "NCT05913752"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1709,6 +2446,20 @@
       },
       "paymentConfirmed": false,
       "location": "Kfar Saba, Ramat Gan, Tel Aviv, Haifa, Jerusalem, Nahariya",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 75,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 18–75"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-02-17T00:00:00.000Z",
@@ -1718,8 +2469,8 @@
         "The Chaim Sheba Medical Center /ID# 273313",
         "NCT06764693"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1735,6 +2486,20 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Petah Tikva",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 6,
+        "ageMax": 18,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 6–18"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2026-01-06T00:00:00.000Z",
@@ -1743,8 +2508,8 @@
         "Shneider children's Medical Center",
         "NCT07321171"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     },
     {
@@ -1760,6 +2525,17 @@
       "reward": null,
       "paymentConfirmed": false,
       "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
       "formType": "other",
       "autofill": false,
       "postedAt": "2025-09-30T00:00:00.000Z",
@@ -1769,8 +2545,8 @@
         "The Coronary Care Intensive Care Unit, Hadassah Hospital, Ein Kerem",
         "NCT06605079"
       ],
-      "firstSeen": "2026-08-19T11:45:16.910Z",
-      "lastSeen": "2026-08-19T13:03:25.048Z",
+      "firstSeen": "2026-08-19T13:51:40.368Z",
+      "lastSeen": "2026-08-19T13:51:40.368Z",
       "stale": false
     }
   ]

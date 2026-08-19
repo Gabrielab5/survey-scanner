@@ -52,6 +52,8 @@
       <button class="chip" data-filter="he">בעברית</button>
       <button class="chip" data-filter="autofill">ניתן למילוי אוטומטי</button>
       <button class="chip" data-filter="hidePanels">בלי פאנלים קבועים</button>
+      <button class="chip" data-filter="fits">מתאים לי (לפי הפרופיל)</button>
+      <button class="chip" data-filter="israel">בישראל בלבד</button>
       <button class="chip" data-filter="hideClinical">בלי ניסויים קליניים</button>
     </div>
   </section>
@@ -74,6 +76,23 @@
     <p class="hint">
       גררו את הכפתור הכחול לשורת הסימניות בדפדפן. בכל עמוד שאלון (Google Forms, Qualtrics,
       SurveyMonkey, Jotform, LimeSurvey, MS Forms ועוד) לחיצה עליו תמלא את השדות המוכרים.
+    </p>
+  </section>
+
+  <section class="panel" id="eligibilityPanel">
+    <h2>בדיקת התאמה</h2>
+    <p class="muted">
+      כל רשומה נסרקת גם עבור תנאי ההשתתפות — סטודנטים בלבד, נשים/גברים בלבד, טווח גיל,
+      זוגות, הורים, נשואים, אבחנה רפואית ומגבלת מדינה. אחרי מילוי הפרופיל כל כרטיס מסומן:
+    </p>
+    <p class="legend">
+      <span class="verdict verdict--yes">מתאים לך</span> עומדים בכל התנאים שצוינו ·
+      <span class="verdict verdict--no">לא מתאים</span> יש תנאי שאתם לא עומדים בו ·
+      <span class="verdict verdict--maybe">לבדוק</span> יש תנאי שאין עליו תשובה בפרופיל
+    </p>
+    <p class="muted small">
+      התנאים נקראים מהטקסט שהחוקרים פרסמו. אם לא כתוב תנאי — הוא לא יופיע כאן,
+      ולכן ״מתאים לך״ אינו תחליף לקריאת דף המחקר עצמו.
     </p>
   </section>
 
@@ -107,7 +126,11 @@
 <dialog id="profileDialog" class="dialog">
   <form method="dialog" id="profileForm">
     <h2>הפרופיל שלי</h2>
-    <p class="muted small">נשמר רק בדפדפן שלכם ומשמש למילוי אוטומטי. אפשר להשאיר שדות ריקים.</p>
+    <p class="muted small">
+      נשמר רק בדפדפן שלכם. משמש למילוי אוטומטי של שאלונים <strong>וגם</strong> לבדיקה
+      אוטומטית אם אתם עומדים בתנאי ההשתתפות של כל מחקר. אפשר להשאיר שדות ריקים —
+      שדה ריק פשוט יסומן כ״לא ידוע״.
+    </p>
     <div class="fields">
       <label>שם פרטי <input name="firstName" autocomplete="given-name"></label>
       <label>שם משפחה <input name="lastName" autocomplete="family-name"></label>
@@ -146,6 +169,15 @@
         </select>
       </label>
       <label>מזהה Prolific <input name="prolificId" placeholder="אם יש"></label>
+      <label>סטודנט/ית?
+        <select name="isStudent"><option value="">—</option><option value="yes">כן</option><option value="no">לא</option></select>
+      </label>
+      <label>יש בן/בת זוג?
+        <select name="hasPartner"><option value="">—</option><option value="yes">כן</option><option value="no">לא</option></select>
+      </label>
+      <label>יש ילדים?
+        <select name="hasChildren"><option value="">—</option><option value="yes">כן</option><option value="no">לא</option></select>
+      </label>
     </div>
     <div class="dialog__actions">
       <button class="btn btn--primary" value="save">שמירה</button>

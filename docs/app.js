@@ -4,7 +4,7 @@
 
   var PROFILE_KEY = 'survey-scanner.profile';
   var THEME_KEY = 'survey-scanner.theme';
-  var state = { items: [], meta: null, filters: new Set(), q: '', sort: 'relevance' };
+  var state = { items: [], meta: null, filters: new Set(), q: '', sort: 'relevance', profile: {} };
 
   var $ = function (sel) { return document.querySelector(sel); };
 
@@ -75,6 +75,8 @@
     if (f.has('autofill') && !item.autofill) return false;
     if (f.has('hidePanels') && item.evergreen) return false;
     if (f.has('hideClinical') && item.kind === 'clinical') return false;
+    if (f.has('israel') && item.scope === 'global') return false;
+    if (f.has('fits') && verdictFor(item, state.profile).level === 'no') return false;
     if (state.q) {
       var hay = [item.title, item.titleEn, item.summary, item.location, item.sourceLabel]
         .concat(item.tags || []).join(' ').toLowerCase();
@@ -105,7 +107,9 @@
   }
 
   function weight(i) {
-    return (i.paymentConfirmed ? 100 : 0) + (i.evergreen ? 60 : 0) +
+    var v = verdictFor(i, state.profile);
+    return (v.level === 'no' ? -500 : v.level === 'yes' ? 40 : 0) +
+      (i.paymentConfirmed ? 100 : 0) + (i.evergreen ? 60 : 0) +
       (i.autofill ? 10 : 0) - (i.stale ? 200 : 0) - (i.kind === 'clinical' ? 30 : 0);
   }
 
@@ -115,7 +119,9 @@
   };
 
   function card(item) {
-    var cls = 'card' + (item.evergreen ? ' card--evergreen' : '') + (item.stale ? ' card--stale' : '');
+    var v = verdictFor(item, state.profile);
+    var cls = 'card' + (item.evergreen ? ' card--evergreen' : '') + (item.stale ? ' card--stale' : '') +
+      (v.level === 'no' ? ' card--blocked' : '');
     var tags = (item.tags || []).slice(0, 3).map(function (t) {
       return '<span class="tag">' + esc(t) + '</span>';
     }).join('');
@@ -133,8 +139,11 @@
         (item.mode === 'online' ? '<span class="tag">מקוון</span>' : '') +
         (item.location ? '<span class="tag">' + esc(item.location) + '</span>' : '') +
         (item.stale ? '<span class="tag tag--warn">ייתכן שנסגר</span>' : '') +
+        (item.scope === 'global' ? '<span class="tag">פתוח בכל העולם</span>' : '') +
+        requirementTags(item) +
         tags +
       '</div>' +
+      (v.level === 'none' ? '' : '<div class="card__verdict">' + verdictPill(v) + '</div>') +
       '<div class="card__foot">' +
         '<span class="card__meta">' + esc(item.sourceLabel || item.source) +
           (item.postedAt ? ' · ' + relTime(Date.now() - time(item)) : '') + '</span>' +
@@ -144,6 +153,13 @@
         '</span>' +
       '</div>' +
     '</article>';
+  }
+
+  function requirementTags(item) {
+    var notes = (item.eligibility && item.eligibility.notes) || [];
+    return notes.slice(0, 4).map(function (n) {
+      return '<span class="tag tag--req">' + esc(n) + '</span>';
+    }).join('');
   }
 
   function rewardBadge(item) {
@@ -157,6 +173,85 @@
     }
     var soft = r.type === 'raffle' || r.type === 'unspecified';
     return '<span class="reward ' + (soft ? 'reward--soft' : '') + '">' + esc(r.raw) + '</span>';
+  }
+
+
+  /* ------------------------------------------------------- eligibility check */
+
+  var REQUIREMENT_LABEL = {
+    students: 'סטודנטים בלבד',
+    partner: 'זוגות / עם בן-בת זוג',
+    children: 'הורים לילדים',
+    married: 'נשואים',
+    pregnant: 'הריון או לאחר לידה',
+    patients: 'אבחנה רפואית',
+    smoker: 'מעשנים',
+    driver: 'בעלי רישיון נהיגה',
+    employed: 'מועסקים',
+  };
+
+  // Maps a requirement to the profile answer that settles it. Anything not here
+  // (a medical diagnosis, say) can never be settled from the profile alone.
+  var REQUIREMENT_ANSWER = {
+    students: function (p) { return p.isStudent; },
+    partner: function (p) { return p.hasPartner; },
+    children: function (p) { return p.hasChildren; },
+    married: function (p) { return p.maritalStatus ? (p.maritalStatus === 'married' ? 'yes' : 'no') : ''; },
+  };
+
+  /**
+   * Decides whether the stored profile satisfies a listing's stated conditions.
+   * Returns 'yes' only when conditions existed and all of them were met, so a
+   * listing that states nothing stays unlabelled rather than falsely reassuring.
+   */
+  function verdictFor(item, p) {
+    var e = item.eligibility || {};
+    var blockers = [];
+    var unknowns = [];
+    var checked = 0;
+
+    if (e.gender) {
+      checked++;
+      if (!p.gender) unknowns.push(e.gender === 'female' ? 'נשים בלבד' : 'גברים בלבד');
+      else if (p.gender !== e.gender) blockers.push(e.gender === 'female' ? 'נשים בלבד' : 'גברים בלבד');
+    }
+
+    if (e.ageMin || e.ageMax) {
+      checked++;
+      var age = parseInt(p.age, 10);
+      var range = e.ageMin && e.ageMax ? 'גיל ' + e.ageMin + '–' + e.ageMax
+        : e.ageMin ? 'גיל ' + e.ageMin + '+' : 'עד גיל ' + e.ageMax;
+      if (!age) unknowns.push(range);
+      else if ((e.ageMin && age < e.ageMin) || (e.ageMax && age > e.ageMax)) blockers.push(range);
+    }
+
+    (e.requires || []).forEach(function (key) {
+      checked++;
+      var label = REQUIREMENT_LABEL[key] || key;
+      var answer = REQUIREMENT_ANSWER[key] ? REQUIREMENT_ANSWER[key](p) : '';
+      // Someone who cannot be pregnant is ruled out; otherwise it is unknowable.
+      if (key === 'pregnant' && p.gender === 'male') { blockers.push(label); return; }
+      if (!answer) unknowns.push(label);
+      else if (answer === 'no') blockers.push(label);
+    });
+
+    if (e.countryOnly && e.countryOnly !== 'IL') {
+      checked++;
+      blockers.push('פתוח רק ל-' + e.countryOnly);
+    }
+
+    if (blockers.length) return { level: 'no', reasons: blockers };
+    if (unknowns.length) return { level: 'maybe', reasons: unknowns };
+    return { level: checked ? 'yes' : 'none', reasons: [] };
+  }
+
+  var VERDICT_TEXT = { yes: 'מתאים לך', no: 'לא מתאים', maybe: 'לבדוק' };
+
+  function verdictPill(v) {
+    if (v.level === 'none') return '';
+    var title = v.reasons.length ? ' title="' + esc(v.reasons.join(' · ')) + '"' : '';
+    return '<span class="verdict verdict--' + v.level + '"' + title + '>' +
+      VERDICT_TEXT[v.level] + (v.reasons.length ? ': ' + esc(v.reasons.join(', ')) : '') + '</span>';
   }
 
   /* ---------------------------------------------------------------- controls */
@@ -196,8 +291,12 @@
 
   function saveProfile(p) {
     localStorage.setItem(PROFILE_KEY, JSON.stringify(p));
+    state.profile = p;
     buildTools(p);
+    render();
   }
+
+  state.profile = loadProfile();
 
   var dialog = $('#profileDialog');
   var form = $('#profileForm');

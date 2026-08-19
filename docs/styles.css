@@ -13,6 +13,7 @@
   --warn: #9a5b00;
   --warn-soft: #fdf0d9;
   --danger: #b3261e;
+  --danger-soft: #fdeceb;
   --radius: 14px;
   --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 8px 24px rgba(16, 24, 40, .06);
   --font: "Assistant", "Heebo", "Segoe UI", system-ui, -apple-system, "Noto Sans Hebrew", Arial, sans-serif;
@@ -32,6 +33,7 @@
   --warn: #e0a75a;
   --warn-soft: #2a2113;
   --danger: #ff8a80;
+  --danger-soft: #2c1614;
   --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .3);
 }
 
@@ -142,6 +144,18 @@ body {
 .tag { font-size: .72rem; padding: .15rem .5rem; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
 .tag--kind { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .tag--warn { background: var(--warn-soft); color: var(--warn); }
+.tag--req { background: transparent; border: 1px dashed var(--line); color: var(--muted); }
+
+.card__verdict { margin-block-start: -.2rem; }
+.card--blocked { opacity: .72; }
+.verdict {
+  display: inline-block; font-size: .76rem; font-weight: 600;
+  padding: .2rem .55rem; border-radius: 8px;
+}
+.verdict--yes { background: var(--pay-soft); color: var(--pay); }
+.verdict--no { background: var(--danger-soft); color: var(--danger); }
+.verdict--maybe { background: var(--warn-soft); color: var(--warn); }
+.legend { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; font-size: .82rem; color: var(--muted); }
 
 .card__foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: .5rem; flex-wrap: wrap; }
 .card__meta { font-size: .76rem; color: var(--muted); }
