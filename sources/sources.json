@@ -177,7 +177,9 @@
       "label": "r/SampleSize",
       "url": "https://www.reddit.com/r/SampleSize/new/.rss",
       "requireIsrael": true,
-      "requirePaid": true
+      "requirePaid": true,
+      "allowGlobal": true,
+      "$comment": "allowGlobal: keeps paid online studies that are open worldwide (Israelis can take them); anything gated to another country is dropped."
     },
     {
       "id": "reddit-israel",
@@ -203,7 +205,9 @@
       "label": "r/AcademicPsychology",
       "url": "https://www.reddit.com/r/AcademicPsychology/new/.rss",
       "requireIsrael": true,
-      "requirePaid": true
+      "requirePaid": true,
+      "allowGlobal": true,
+      "$comment": "allowGlobal: keeps paid online studies that are open worldwide (Israelis can take them); anything gated to another country is dropped."
     },
     {
       "id": "ct-israel-paid",

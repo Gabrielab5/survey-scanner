@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { fetchText, fetchJson } from './http.mjs';
+import { excludesIsrael, extractEligibility } from './eligibility.mjs';
 import {
   collapse, decodeEntities, detectFormType, extractLinks, hasHebrew, idFor, isIsraelRelevant,
   isPaid, isSurveyish, parseReward, stripTags, truncate, canAutofill,
@@ -7,7 +8,7 @@ import {
 
 const nowIso = () => new Date().toISOString();
 
-function makeItem({ title, summary, url, source, sourceLabel, kind, mode, text, postedAt, location, tags = [] }) {
+function makeItem({ title, summary, url, source, sourceLabel, kind, mode, text, postedAt, location, tags = [], scope = 'israel' }) {
   const blob = `${title}\n${summary || ''}\n${text || ''}`;
   const formType = detectFormType(url);
   const reward = parseReward(blob);
@@ -26,6 +27,9 @@ function makeItem({ title, summary, url, source, sourceLabel, kind, mode, text, 
     // "payment" - the UI uses this to separate confirmed pay from "maybe".
     paymentConfirmed: !!reward && ['cash', 'voucher'].includes(reward.type),
     location: location || null,
+    // 'israel' = tied to Israel; 'global' = open worldwide, so takeable from Israel.
+    scope,
+    eligibility: extractEligibility(blob),
     formType,
     autofill: canAutofill(formType),
     postedAt: postedAt || nowIso(),
@@ -52,7 +56,14 @@ export async function redditAdapter(feed) {
     if (feed.requirePaid !== false && !isPaid(blob)) continue;
     if (!isSurveyish(blob)) continue;
     if (feed.requireSurvey && !isSurveyish(blob)) continue;
-    if (feed.requireIsrael && !isIsraelRelevant(blob)) continue;
+    var scope = 'israel';
+    if (feed.requireIsrael && !isIsraelRelevant(blob)) {
+      // Not about Israel - keep it only if the feed opts in and nothing gates it
+      // to another country, since an open online study pays from anywhere.
+      if (!feed.allowGlobal) continue;
+      if (excludesIsrael(extractEligibility(blob))) continue;
+      scope = 'global';
+    }
 
     // Prefer the actual survey link from the post body over the reddit permalink.
     const external = extractLinks(contentHtml, link).find(
@@ -70,7 +81,9 @@ export async function redditAdapter(feed) {
         kind: 'survey',
         text: body,
         postedAt: published || undefined,
-        tags: external ? ['קישור ישיר לשאלון'] : ['פוסט ב-Reddit'],
+        scope,
+        tags: [scope === 'global' ? 'פתוח בכל העולם' : null, external ? 'קישור ישיר לשאלון' : 'פוסט ב-Reddit']
+          .filter(Boolean),
       })
     );
   }
@@ -91,6 +104,7 @@ const tag = (s, name) => {
 const CT_FIELDS = [
   'NCTId', 'BriefTitle', 'BriefSummary', 'OverallStatus', 'StudyType', 'LocationCity',
   'LocationCountry', 'LocationFacility', 'LastUpdatePostDate', 'HealthyVolunteers', 'Phase',
+  'Sex', 'MinimumAge', 'MaximumAge', 'EligibilityCriteria',
 ].join(',');
 
 export async function clinicalTrialsAdapter(feed) {
@@ -123,8 +137,7 @@ export async function clinicalTrialsAdapter(feed) {
     const cities = [...new Set(locations.map((l) => l.city).filter(Boolean))];
     const facilities = [...new Set(locations.map((l) => l.facility).filter(Boolean))];
 
-    items.push(
-      makeItem({
+    const item = makeItem({
         title,
         summary,
         url: `https://clinicaltrials.gov/study/${nctId}`,
@@ -143,13 +156,43 @@ export async function clinicalTrialsAdapter(feed) {
           ...facilities.slice(0, 2),
           nctId,
         ],
-      })
-    );
+    });
+    items.push({ ...item, eligibility: trialEligibility(p, item.eligibility) });
   }
   return items;
 }
 
 const isoDate = (d) => (d ? new Date(`${d}T00:00:00Z`).toISOString() : undefined);
+
+/** ClinicalTrials.gov states sex/age/healthy-volunteer status as real fields. */
+function trialEligibility(protocolSection, fromText) {
+  const e = protocolSection.eligibilityModule || {};
+  const parsed = extractEligibility(e.eligibilityCriteria || '');
+  const requires = [...new Set([...fromText.requires, ...parsed.requires])];
+  if (e.healthyVolunteers === false && !requires.includes('patients')) requires.push('patients');
+
+  return {
+    ...fromText,
+    gender: e.sex === 'FEMALE' ? 'female' : e.sex === 'MALE' ? 'male' : fromText.gender,
+    ageMin: years(e.minimumAge) ?? fromText.ageMin,
+    ageMax: years(e.maximumAge) ?? fromText.ageMax,
+    requires,
+    notes: [...new Set([
+      ...fromText.notes,
+      ...(e.sex === 'FEMALE' ? ['נשים בלבד'] : e.sex === 'MALE' ? ['גברים בלבד'] : []),
+      ...(requires.includes('patients') ? ['אבחנה רפואית'] : []),
+      ...ageNote(years(e.minimumAge), years(e.maximumAge)),
+    ])],
+  };
+}
+
+const years = (s) => {
+  const m = /^(\d{1,3})\s*Year/i.exec(String(s || ''));
+  return m ? parseInt(m[1], 10) : null;
+};
+
+const ageNote = (min, max) =>
+  min && max ? [`גיל ${min}–${max}`] : min ? [`גיל ${min}+`] : max ? [`עד גיל ${max}`] : [];
 
 /* --------------------------------------------------------------- html pages */
 
@@ -221,6 +264,7 @@ export function panelItems(panels) {
     // Panels are landing pages, not a single form — never promise auto-fill.
     autofill: false,
     formType: 'portal',
+    scope: panels[i].scope || 'israel',
   }));
 }
 
