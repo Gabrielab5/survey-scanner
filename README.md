@@ -31,12 +31,15 @@ npx http-server docs -p 8080     # מריץ את האתר
 ## הפעלת האתר (GitHub Pages)
 
 1. **Settings → Pages → Source: Deploy from a branch**
-2. בוחרים את ענף ברירת המחדל ואת התיקייה **`/docs`**.
+2. בוחרים את הענף בתפריט הראשון. **רק אחרי בחירת ענף** מופיע לידו תפריט שני
+   (ברירת מחדל `/ (root)`) — שם בוחרים **`/docs`** ולוחצים **Save**.
 3. **Settings → Actions → General → Workflow permissions → Read and write permissions**
    (כדי שה-workflow יוכל לדחוף את קובץ הנתונים המעודכן).
 
-> ⚠️ GitHub מריץ `schedule` **רק מענף ברירת המחדל**. כל עוד הקוד יושב בענף פיצ׳ר,
-> העדכון השעתי לא ירוץ מעצמו — אפשר להריץ ידנית דרך **Actions → Update studies → Run workflow**.
+> ⚠️ GitHub מריץ `schedule` **רק מענף ברירת המחדל**. בריפו הזה ענף ברירת המחדל הוא
+> `claude/israeli-studies-aggregator-crztzn`, ולכן העדכון השעתי רץ ממנו כמו שהוא.
+> אם משנים ברירת מחדל — לוודא שהקוד נמצא שם. הרצה ידנית תמיד זמינה דרך
+> **Actions → Update studies → Run workflow**.
 
 ## המקורות
 
