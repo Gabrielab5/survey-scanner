@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-26T11:38:22.495Z",
-  "nextUpdateHint": "2026-08-26T12:38:22.495Z",
+  "generatedAt": "2026-08-26T13:10:18.296Z",
+  "nextUpdateHint": "2026-08-26T14:10:18.296Z",
   "counts": {
-    "total": 80,
-    "paid": 15,
-    "autofillable": 15,
+    "total": 79,
+    "paid": 14,
+    "autofillable": 14,
     "evergreen": 11,
-    "stale": 16
+    "stale": 18
   },
   "sources": [
     {
@@ -19,10 +19,10 @@
       "id": "reddit-samplesize",
       "label": "r/SampleSize",
       "type": "reddit",
-      "status": "ok",
+      "status": "empty",
       "error": null,
-      "count": 3,
-      "ms": 3594
+      "count": 0,
+      "ms": 30772
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 34422
+      "ms": 46392
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 42381
+      "ms": 77041
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 73239
+      "ms": 109005
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2761
+      "ms": 2679
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 46,
-      "ms": 5420
+      "ms": 5289
     },
     {
       "id": "manual",
@@ -76,10 +76,95 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 49
+      "ms": 45
     }
   ],
   "items": [
+    {
+      "id": "panel-reichman-lab",
+      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
+      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
+      "url": "https://www.runi.ac.il/research-institutes/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-26T13:10:18.309Z",
+      "tags": [
+        "הרצליה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Reichman University labs",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
+    {
+      "id": "panel-huji-pool",
+      "title": "מאגר הנבדקים – האוניברסיטה העברית",
+      "summary": "מאגר נבדקים של האוניברסיטה העברית (Sona). ניסויים בפסיכולוגיה/כלכלה התנהגותית, חלקם בתשלום מזומן וחלקם בקרדיט אקדמי.",
+      "url": "https://huji.sona-systems.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 40,
+        "amountMax": 80,
+        "raw": "40–80 ₪"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-26T13:10:18.308Z",
+      "tags": [
+        "ירושלים",
+        "מעבדה",
+        "Sona"
+      ],
+      "evergreen": true,
+      "titleEn": "Hebrew University participant pool",
+      "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
     {
       "id": "panel-tau-pool",
       "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
@@ -110,7 +195,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.507Z",
+      "postedAt": "2026-08-26T13:10:18.308Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -120,7 +205,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -153,7 +238,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.507Z",
+      "postedAt": "2026-08-26T13:10:18.308Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -162,7 +247,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -195,7 +280,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.507Z",
+      "postedAt": "2026-08-26T13:10:18.308Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -204,49 +289,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "panel-reichman-lab",
-      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
-      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
-      "url": "https://www.runi.ac.il/research-institutes/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.507Z",
-      "tags": [
-        "הרצליה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Reichman University labs",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -279,7 +322,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.506Z",
+      "postedAt": "2026-08-26T13:10:18.307Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -288,7 +331,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -321,7 +364,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.506Z",
+      "postedAt": "2026-08-26T13:10:18.307Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -330,7 +373,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -363,7 +406,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.506Z",
+      "postedAt": "2026-08-26T13:10:18.307Z",
       "tags": [
         "צרכנות"
       ],
@@ -371,7 +414,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -404,7 +447,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.506Z",
+      "postedAt": "2026-08-26T13:10:18.307Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -413,7 +456,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -448,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.506Z",
+      "postedAt": "2026-08-26T13:10:18.307Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -458,50 +501,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "panel-huji-pool",
-      "title": "מאגר הנבדקים – האוניברסיטה העברית",
-      "summary": "מאגר נבדקים של האוניברסיטה העברית (Sona). ניסויים בפסיכולוגיה/כלכלה התנהגותית, חלקם בתשלום מזומן וחלקם בקרדיט אקדמי.",
-      "url": "https://huji.sona-systems.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 40,
-        "amountMax": 80,
-        "raw": "40–80 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.506Z",
-      "tags": [
-        "ירושלים",
-        "מעבדה",
-        "Sona"
-      ],
-      "evergreen": true,
-      "titleEn": "Hebrew University participant pool",
-      "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-26T11:38:22.503Z",
+      "postedAt": "2026-08-26T13:10:18.304Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,126 +544,7 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "945c5423c887",
-      "title": "Urgent! Academic Survey on Online Shopping Behavior and Customer Satisfaction (Young Adults, 18-40)",
-      "summary": "Hi everyone!\n I am in my final stretch for a university research project on online shopping habits and consumer satisfaction, but I still need about 30 more people to hit my sample size.\n • Target Group: Anyone aged 18 to 40 years old\n Time to Complete: Only 2 to 3 minutes\n Survey link: https://forms.gle/SdZHNyJV3WE1u2Gp9 \n The survey looks at your experience using platforms like Daraz, Amazon,…",
-      "url": "https://forms.gle/SdZHNyJV3WE1u2Gp9",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 40,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18–40"
-        ]
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-08-26T06:21:51+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-08-26T07:03:08.719Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "e68e88a6672b",
-      "title": "Research Participants Needed Anonymous Survey: Lesbian & Bisexual Women (18+, Assigned Female at Birth, Current/Past Alcohol or Substance Use, English Fluent)",
-      "summary": "https://www.surveymonkey.com/r/TX9PQFB \n CAN WIN A $25 gift card through entering raffle after completing survey. \n We talk a lot about substance use, but not nearly enough about what people are carrying before substance use ever enters the picture. This study looks at the intersection of adversity, minority stress, emotional regulation, and substance use among lesbian and bisexual women. If you…",
-      "url": "https://www.surveymonkey.com/r/TX9PQFB",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "USD",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "$25"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "surveymonkey",
-      "autofill": true,
-      "postedAt": "2026-08-25T21:58:09+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-08-25T22:37:40.116Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "ec7bbc29de4a",
-      "title": "Honorarium Based Research Study: (United States)",
-      "summary": "Hope you are doing well.\n I’m Siddhant , conducting paid research across the Healthcare, Pharmaceutical, Lifesciences, and Biotech industries .\n We invite you to join my Expert Panel and participate in relevant research studies for an honorarium upon successful completion .\n The introductory call involves a brief 5–10 minute Microsoft Teams/Zoom call to understand your professional background and…",
-      "url": "https://www.reddit.com/r/SampleSize/comments/1vybf09/honorarium_based_research_study_united_states/",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-25T20:24:27+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "פוסט ב-Reddit"
-      ],
-      "firstSeen": "2026-08-25T20:39:10.430Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -702,7 +583,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -743,7 +624,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -784,7 +665,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -824,7 +705,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -862,7 +743,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -904,49 +785,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "b79b6fb98c1b",
-      "title": "Efficacy of Reboxetine and Methylphenidate Treatment on Attentional, Sensory and Emotional Dysregulation in Adults With PTSD",
-      "summary": "Up-to-date, no studies have examined the attentional, sensory and emotional processing (difficulties) among patients diagnosed with Posttraumatic Stress Disorder (PTSD). In addition, the efficiency of drug treatments that focus on the noradrenergic and dopaminergic, and thus influence attention processing and PTSD symptoms through these pathways, have only briefly been investigated. There is…",
-      "url": "https://clinicaltrials.gov/study/NCT05133804",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Afula, Haifa, Netanya",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 60,
-        "requires": [
-          "patients",
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "אבחנה רפואית",
-          "גיל 20–60"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-11T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Emek Medical Center",
-        "University of Haifa",
-        "NCT05133804"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -986,7 +825,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1028,7 +867,49 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
+    {
+      "id": "b79b6fb98c1b",
+      "title": "Efficacy of Reboxetine and Methylphenidate Treatment on Attentional, Sensory and Emotional Dysregulation in Adults With PTSD",
+      "summary": "Up-to-date, no studies have examined the attentional, sensory and emotional processing (difficulties) among patients diagnosed with Posttraumatic Stress Disorder (PTSD). In addition, the efficiency of drug treatments that focus on the noradrenergic and dopaminergic, and thus influence attention processing and PTSD symptoms through these pathways, have only briefly been investigated. There is…",
+      "url": "https://clinicaltrials.gov/study/NCT05133804",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Afula, Haifa, Netanya",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 60,
+        "requires": [
+          "patients",
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 20–60"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-11T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Emek Medical Center",
+        "University of Haifa",
+        "NCT05133804"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1067,7 +948,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1107,7 +988,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1150,7 +1031,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1194,7 +1075,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1237,7 +1118,7 @@
         "NCT07168187"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1279,7 +1160,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1318,7 +1199,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1363,7 +1244,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1404,7 +1285,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1443,7 +1324,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1482,7 +1363,45 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
+    {
+      "id": "f8061538ec4c",
+      "title": "GnRH for Luteal Support - Mechanism of Action",
+      "summary": "This prospective observational study will include women undergoing IVF treatment with a GnRH antagonist protocol and fresh embryo transfer at the IVF unit of Shaare Zedek Medical Center. Patients will undergo controlled ovarian stimulation followed by ovulation triggering with hCG, GnRH agonist, or dual trigger according to OHSS risk. After oocyte retrieval and fertilization by IVF/ICSI, embryos…",
+      "url": "https://clinicaltrials.gov/study/NCT07620067",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–45"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-06-02T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Shaare Zedek Medical Center",
+        "NCT07620067"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1521,45 +1440,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "f8061538ec4c",
-      "title": "GnRH for Luteal Support - Mechanism of Action",
-      "summary": "This prospective observational study will include women undergoing IVF treatment with a GnRH antagonist protocol and fresh embryo transfer at the IVF unit of Shaare Zedek Medical Center. Patients will undergo controlled ovarian stimulation followed by ovulation triggering with hCG, GnRH agonist, or dual trigger according to OHSS risk. After oocyte retrieval and fertilization by IVF/ICSI, embryos…",
-      "url": "https://clinicaltrials.gov/study/NCT07620067",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Jerusalem",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": 18,
-        "ageMax": 45,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד",
-          "גיל 18–45"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-06-02T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Shaare Zedek Medical Center",
-        "NCT07620067"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1598,7 +1479,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1638,7 +1519,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1676,7 +1557,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1713,7 +1594,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1755,7 +1636,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1792,7 +1673,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1829,7 +1710,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1866,7 +1747,44 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
+    {
+      "id": "a034a7011388",
+      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
+      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
+      "url": "https://clinicaltrials.gov/study/NCT07539506",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-22T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT07539506"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1913,7 +1831,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -1954,14 +1872,14 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
-      "id": "a034a7011388",
-      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
-      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
-      "url": "https://clinicaltrials.gov/study/NCT07539506",
+      "id": "536be59cd020",
+      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
+      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
+      "url": "https://clinicaltrials.gov/study/NCT05447416",
       "source": "ct-israel-healthy",
       "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
       "kind": "clinical",
@@ -1972,50 +1890,14 @@
       "location": "Zrifin",
       "scope": "israel",
       "eligibility": {
-        "gender": null,
+        "gender": "male",
         "ageMin": 18,
-        "ageMax": null,
+        "ageMax": 45,
         "requires": [],
         "countryOnly": null,
         "notes": [
-          "גיל 18+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT07539506"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "8aa9f3b9e10c",
-      "title": "Determinants of Warfarin Metabolism",
-      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
-      "url": "https://clinicaltrials.gov/study/NCT00162474",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Jerusalem",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 50,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 20–50"
+          "גברים בלבד",
+          "גיל 18–45"
         ]
       },
       "formType": "other",
@@ -2024,11 +1906,11 @@
       "tags": [
         "מתנדבים בריאים",
         "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Hadassah Medical Organization",
-        "NCT00162474"
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2068,7 +1950,44 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
+    {
+      "id": "8aa9f3b9e10c",
+      "title": "Determinants of Warfarin Metabolism",
+      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
+      "url": "https://clinicaltrials.gov/study/NCT00162474",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 50,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–50"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Hadassah Medical Organization",
+        "NCT00162474"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2105,45 +2024,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "536be59cd020",
-      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
-      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
-      "url": "https://clinicaltrials.gov/study/NCT05447416",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "male",
-        "ageMin": 18,
-        "ageMax": 45,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גברים בלבד",
-          "גיל 18–45"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05447416"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2184,7 +2065,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2226,86 +2107,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "5d94978faa14",
-      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
-      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
-      "url": "https://clinicaltrials.gov/study/NCT06580327",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family Hospital",
-        "NCT06580327"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
-      "stale": false
-    },
-    {
-      "id": "1df45dd705f1",
-      "title": "Castor Oil Ingestion and Balloon Catheter for Labor Induction in Multiparous",
-      "summary": "The goal of this randomized controlled trial is to examine the efficacy of combining castor oil ingestion with extra-amniotic single balloon catheter for cervical ripening on time from induction to delivery in multiparous women.\nThe main question it aims to answer are:\nDoes the addition of the use of castor oil to extra-amniotic single balloon reduce the time until birth? Does the addition of the…",
-      "url": "https://clinicaltrials.gov/study/NCT06335017",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": 18,
-        "ageMax": 60,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד",
-          "גיל 18–60"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family hospital, Nazareth",
-        "NCT06335017"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2346,7 +2148,86 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
+    {
+      "id": "5d94978faa14",
+      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
+      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
+      "url": "https://clinicaltrials.gov/study/NCT06580327",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family Hospital",
+        "NCT06580327"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
+      "stale": false
+    },
+    {
+      "id": "1df45dd705f1",
+      "title": "Castor Oil Ingestion and Balloon Catheter for Labor Induction in Multiparous",
+      "summary": "The goal of this randomized controlled trial is to examine the efficacy of combining castor oil ingestion with extra-amniotic single balloon catheter for cervical ripening on time from induction to delivery in multiparous women.\nThe main question it aims to answer are:\nDoes the addition of the use of castor oil to extra-amniotic single balloon reduce the time until birth? Does the addition of the…",
+      "url": "https://clinicaltrials.gov/study/NCT06335017",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 60,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–60"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family hospital, Nazareth",
+        "NCT06335017"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2385,7 +2266,7 @@
         "NCT06494280"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2425,7 +2306,7 @@
         "NCT07517796"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2462,7 +2343,7 @@
         "NCT07474987"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2503,7 +2384,7 @@
         "NCT07483411"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2543,7 +2424,7 @@
         "NCT05913752"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2589,7 +2470,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2628,7 +2509,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
     },
     {
@@ -2665,8 +2546,127 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "lastSeen": "2026-08-26T13:10:18.296Z",
       "stale": false
+    },
+    {
+      "id": "945c5423c887",
+      "title": "Urgent! Academic Survey on Online Shopping Behavior and Customer Satisfaction (Young Adults, 18-40)",
+      "summary": "Hi everyone!\n I am in my final stretch for a university research project on online shopping habits and consumer satisfaction, but I still need about 30 more people to hit my sample size.\n • Target Group: Anyone aged 18 to 40 years old\n Time to Complete: Only 2 to 3 minutes\n Survey link: https://forms.gle/SdZHNyJV3WE1u2Gp9 \n The survey looks at your experience using platforms like Daraz, Amazon,…",
+      "url": "https://forms.gle/SdZHNyJV3WE1u2Gp9",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 40,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–40"
+        ]
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-08-26T06:21:51+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-26T07:03:08.719Z",
+      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "stale": true
+    },
+    {
+      "id": "e68e88a6672b",
+      "title": "Research Participants Needed Anonymous Survey: Lesbian & Bisexual Women (18+, Assigned Female at Birth, Current/Past Alcohol or Substance Use, English Fluent)",
+      "summary": "https://www.surveymonkey.com/r/TX9PQFB \n CAN WIN A $25 gift card through entering raffle after completing survey. \n We talk a lot about substance use, but not nearly enough about what people are carrying before substance use ever enters the picture. This study looks at the intersection of adversity, minority stress, emotional regulation, and substance use among lesbian and bisexual women. If you…",
+      "url": "https://www.surveymonkey.com/r/TX9PQFB",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "USD",
+        "amount": 25,
+        "amountMax": null,
+        "raw": "$25"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "surveymonkey",
+      "autofill": true,
+      "postedAt": "2026-08-25T21:58:09+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-25T22:37:40.116Z",
+      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "stale": true
+    },
+    {
+      "id": "ec7bbc29de4a",
+      "title": "Honorarium Based Research Study: (United States)",
+      "summary": "Hope you are doing well.\n I’m Siddhant , conducting paid research across the Healthcare, Pharmaceutical, Lifesciences, and Biotech industries .\n We invite you to join my Expert Panel and participate in relevant research studies for an honorarium upon successful completion .\n The introductory call involves a brief 5–10 minute Microsoft Teams/Zoom call to understand your professional background and…",
+      "url": "https://www.reddit.com/r/SampleSize/comments/1vybf09/honorarium_based_research_study_united_states/",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-25T20:24:27+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "פוסט ב-Reddit"
+      ],
+      "firstSeen": "2026-08-25T20:39:10.430Z",
+      "lastSeen": "2026-08-26T11:38:22.495Z",
+      "stale": true
     },
     {
       "id": "90ff4847e54a",
@@ -3271,45 +3271,6 @@
       ],
       "firstSeen": "2026-08-23T22:32:37.416Z",
       "lastSeen": "2026-08-24T19:37:38.404Z",
-      "stale": true
-    },
-    {
-      "id": "d74b8cc957bf",
-      "title": "[Academic] Workplace communication in Germany (South Asians in Germany, Germans)",
-      "summary": "Hello! I am looking for participants to answer my questionnaire for my last paper in my Master's degree program.\n Specifically, I am looking for two groups:\n German people who grew up in Germany and currently live in Germany\n People from South Asia who are currently studying and/or working in Germany\n If you fit to any of these groups, I would be very grateful if you would participate. There is a…",
-      "url": "https://laband.limesurvey.net/177417?lang=en",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "limesurvey",
-      "autofill": true,
-      "postedAt": "2026-08-23T09:52:25+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-08-23T10:33:56.936Z",
-      "lastSeen": "2026-08-24T13:07:12.622Z",
       "stale": true
     }
   ]
