@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-30T00:09:28.361Z",
-  "nextUpdateHint": "2026-08-30T01:09:28.361Z",
+  "generatedAt": "2026-08-30T06:31:53.763Z",
+  "nextUpdateHint": "2026-08-30T07:31:53.763Z",
   "counts": {
-    "total": 78,
-    "paid": 16,
+    "total": 77,
+    "paid": 15,
     "autofillable": 13,
     "evergreen": 11,
     "stale": 15
@@ -21,8 +21,8 @@
       "type": "reddit",
       "status": "ok",
       "error": null,
-      "count": 2,
-      "ms": 3607
+      "count": 1,
+      "ms": 3231
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 35387
+      "ms": 10654
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 66002
+      "ms": 41255
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 97770
+      "ms": 72940
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2747
+      "ms": 2653
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 46,
-      "ms": 5346
+      "ms": 5244
     },
     {
       "id": "manual",
@@ -76,10 +76,52 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 83
+      "ms": 48
     }
   ],
   "items": [
+    {
+      "id": "panel-reichman-lab",
+      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
+      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
+      "url": "https://www.runi.ac.il/research-institutes/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-08-30T06:31:53.776Z",
+      "tags": [
+        "הרצליה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Reichman University labs",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
+      "stale": false
+    },
     {
       "id": "panel-tau-pool",
       "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
@@ -110,7 +152,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.373Z",
+      "postedAt": "2026-08-30T06:31:53.775Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -120,7 +162,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -153,7 +195,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.373Z",
+      "postedAt": "2026-08-30T06:31:53.775Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -162,7 +204,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -195,7 +237,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.373Z",
+      "postedAt": "2026-08-30T06:31:53.775Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -204,27 +246,27 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
-      "id": "panel-reichman-lab",
-      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
-      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
-      "url": "https://www.runi.ac.il/research-institutes/",
+      "id": "panel-panel4all",
+      "title": "פאנל פור אול",
+      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
+      "url": "https://www.panel4all.co.il/",
       "source": "registry",
       "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
+      "kind": "panel",
+      "mode": "online",
       "language": "he",
       "reward": {
-        "type": "unspecified",
+        "type": "voucher",
         "currency": null,
         "amount": null,
         "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
+        "raw": "שובר / כרטיס מתנה"
       },
-      "paymentConfirmed": false,
+      "paymentConfirmed": true,
       "location": null,
       "scope": "israel",
       "eligibility": {
@@ -237,16 +279,16 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.373Z",
+      "postedAt": "2026-08-30T06:31:53.774Z",
       "tags": [
-        "הרצליה",
-        "מעבדה"
+        "מחקרי שוק",
+        "נקודות"
       ],
       "evergreen": true,
-      "titleEn": "Reichman University labs",
-      "rewardNote": "לפי הניסוי",
+      "titleEn": "Panel4All",
+      "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -279,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.372Z",
+      "postedAt": "2026-08-30T06:31:53.774Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -288,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -321,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.372Z",
+      "postedAt": "2026-08-30T06:31:53.774Z",
       "tags": [
         "צרכנות"
       ],
@@ -329,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -362,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.372Z",
+      "postedAt": "2026-08-30T06:31:53.774Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -371,7 +413,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -406,7 +448,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.372Z",
+      "postedAt": "2026-08-30T06:31:53.774Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -416,7 +458,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -449,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.372Z",
+      "postedAt": "2026-08-30T06:31:53.774Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -459,49 +501,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
-      "stale": false
-    },
-    {
-      "id": "panel-panel4all",
-      "title": "פאנל פור אול",
-      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
-      "url": "https://www.panel4all.co.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.371Z",
-      "tags": [
-        "מחקרי שוק",
-        "נקודות"
-      ],
-      "evergreen": true,
-      "titleEn": "Panel4All",
-      "rewardNote": "נקודות → שוברים/העברה כספית",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-08-30T00:09:28.369Z",
+      "postedAt": "2026-08-30T06:31:53.771Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,57 +544,18 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
-      "id": "da6fa6d7e78f",
-      "title": "How do you decide a graphic tee is worth $40+? Looking for a few 15min. chats (research, not selling, US, 18+)",
-      "summary": "I'm doing some research (not selling anything, no brand to plug yet) on how people actually decide an artist/graphic tee is worth paying up for vs not. If you've bought a $40+ graphic or artist tee in the last year and would be up for a 15min chat about how you shop, find brands, and what makes one worth it - I'd really appreciate it. Happy to trade notes on what I'm learning too. Quick screener…",
-      "url": "https://tally.so/r/NpOZ8Q?utm_source=streetwearstartup",
+      "id": "3d5c20056855",
+      "title": "[Academic Research] Mental Health, Coping in Young Adults with stressful life experiences (18-30, United States only)(Raffle for $50 Amazon gift cards)",
+      "summary": "Hello everyone! I am a PhD student in clinical psychology at Adelphi University. I am conducting a study on the relationship between existential threat and mental health, coping strategies, and meaning making for young adults who have experienced stressful life events.\n This study is being conducted online only and should take approximately 45-60 minutes to complete. During the study, you will be…",
+      "url": "https://adelphiderner.qualtrics.com/jfe/form/SV_8IxQWoUH8D1Wuq2",
       "source": "reddit-samplesize",
       "sourceLabel": "r/SampleSize",
       "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 40,
-        "amountMax": null,
-        "raw": "$40"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-29T00:15:24+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-08-29T02:05:29.217Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
-      "stale": false
-    },
-    {
-      "id": "c20ad192bef8",
-      "title": "Research Survey: Do the arts influence how we think and work in STEM? (must be 18+, STEM/medical fields)",
-      "summary": "We are conducting a research study through the UConn Health Department of Biomedical Engineering exploring how artistic engagement relates to scientific thinking, professional experiences, innovation, and conversely, how science and technology may influence artistic engagement.\n We are looking for people 18+ who are currently or were previously involved in STEM, STEM-related, health, or medical…",
-      "url": "https://uconn.co1.qualtrics.com/jfe/form/SV_6P76cjb4BOg3E4C",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
+      "mode": "online",
       "language": "en",
       "reward": {
         "type": "raffle",
@@ -608,21 +569,23 @@
       "scope": "global",
       "eligibility": {
         "gender": null,
-        "ageMin": null,
-        "ageMax": null,
+        "ageMin": 18,
+        "ageMax": 30,
         "requires": [],
         "countryOnly": null,
-        "notes": []
+        "notes": [
+          "גיל 18–30"
+        ]
       },
       "formType": "qualtrics",
       "autofill": true,
-      "postedAt": "2026-08-28T21:20:09+00:00",
+      "postedAt": "2026-08-30T02:26:12+00:00",
       "tags": [
         "פתוח בכל העולם",
         "קישור ישיר לשאלון"
       ],
-      "firstSeen": "2026-08-29T02:05:29.217Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "firstSeen": "2026-08-30T06:31:53.763Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -661,7 +624,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -702,7 +665,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -743,7 +706,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -783,7 +746,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -821,7 +784,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -863,7 +826,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -905,7 +868,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -945,7 +908,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -987,7 +950,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1026,7 +989,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1066,7 +1029,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1109,7 +1072,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1153,7 +1116,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1196,7 +1159,7 @@
         "NCT07168187"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1238,7 +1201,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1277,7 +1240,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1322,7 +1285,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1363,7 +1326,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1402,7 +1365,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1441,7 +1404,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1479,7 +1442,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1518,7 +1481,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1557,7 +1520,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1597,7 +1560,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1635,7 +1598,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1672,7 +1635,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1714,7 +1677,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1751,7 +1714,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1788,7 +1751,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1825,7 +1788,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1862,7 +1825,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1903,7 +1866,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1950,7 +1913,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -1987,7 +1950,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2025,7 +1988,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2065,7 +2028,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2102,7 +2065,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2143,7 +2106,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2185,7 +2148,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2224,7 +2187,7 @@
         "NCT06494280"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2264,7 +2227,7 @@
         "NCT06335017"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2303,7 +2266,7 @@
         "NCT06580327"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2344,7 +2307,7 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2384,7 +2347,7 @@
         "NCT07517796"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2421,7 +2384,7 @@
         "NCT07474987"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2462,7 +2425,7 @@
         "NCT07483411"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2502,7 +2465,7 @@
         "NCT05913752"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2548,7 +2511,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2587,7 +2550,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
     },
     {
@@ -2624,8 +2587,86 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "lastSeen": "2026-08-30T06:31:53.763Z",
       "stale": false
+    },
+    {
+      "id": "da6fa6d7e78f",
+      "title": "How do you decide a graphic tee is worth $40+? Looking for a few 15min. chats (research, not selling, US, 18+)",
+      "summary": "I'm doing some research (not selling anything, no brand to plug yet) on how people actually decide an artist/graphic tee is worth paying up for vs not. If you've bought a $40+ graphic or artist tee in the last year and would be up for a 15min chat about how you shop, find brands, and what makes one worth it - I'd really appreciate it. Happy to trade notes on what I'm learning too. Quick screener…",
+      "url": "https://tally.so/r/NpOZ8Q?utm_source=streetwearstartup",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 40,
+        "amountMax": null,
+        "raw": "$40"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-29T00:15:24+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-29T02:05:29.217Z",
+      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "stale": true
+    },
+    {
+      "id": "c20ad192bef8",
+      "title": "Research Survey: Do the arts influence how we think and work in STEM? (must be 18+, STEM/medical fields)",
+      "summary": "We are conducting a research study through the UConn Health Department of Biomedical Engineering exploring how artistic engagement relates to scientific thinking, professional experiences, innovation, and conversely, how science and technology may influence artistic engagement.\n We are looking for people 18+ who are currently or were previously involved in STEM, STEM-related, health, or medical…",
+      "url": "https://uconn.co1.qualtrics.com/jfe/form/SV_6P76cjb4BOg3E4C",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "USD",
+        "amount": 50,
+        "amountMax": null,
+        "raw": "$50"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-08-28T21:20:09+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-08-29T02:05:29.217Z",
+      "lastSeen": "2026-08-30T00:09:28.361Z",
+      "stale": true
     },
     {
       "id": "f4a953d5cdb1",
@@ -3145,84 +3186,6 @@
       ],
       "firstSeen": "2026-08-27T20:19:09.535Z",
       "lastSeen": "2026-08-28T18:34:08.132Z",
-      "stale": true
-    },
-    {
-      "id": "d9c0fd9e0e61",
-      "title": "Early Life Trauma and Psychedelics (anybody 18+)",
-      "summary": "Hello everyone!\n We have a current study on early life adversity and psychedelic usage. Anybody can partake, even non-users are welcome to participate, and we especially encourage older demographics.\n Entry offers a chance to win £50!\n 🍄‍🟫✨Psychedelic Experiences and Early-life Adversity",
-      "url": "https://durhamuniversity.qualtrics.com/jfe/form/SV_3UCT67kxsm406a2",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "GBP",
-        "amount": 50,
-        "amountMax": null,
-        "raw": "£50"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-08-27T11:02:42+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-08-27T20:19:09.535Z",
-      "lastSeen": "2026-08-28T05:18:04.275Z",
-      "stale": true
-    },
-    {
-      "id": "9bf5e738b3c8",
-      "title": "[Paid Research] £250 for a 60-minute remote interview — UK/Ireland professionals in insurance or property who deal with payments (UK) (Ireland)",
-      "summary": "I work at Askable, a research recruitment company. We're currently recruiting for a study on how organisations manage, evaluate and make decisions about payments. Disclosing that up front: this is paid research, not a sales call, and nobody will pitch you anything at the end.\n Who we're looking for \n Based in the UK or Ireland\n Working in insurance or property / real estate\n Your organization…",
-      "url": "https://my.askable.com/opportunities/6a86cfc206cd9302b64e14cc",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "GBP",
-        "amount": 250,
-        "amountMax": null,
-        "raw": "£250"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-27T05:35:13+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-08-27T09:28:19.626Z",
-      "lastSeen": "2026-08-28T05:18:04.275Z",
       "stale": true
     }
   ]
