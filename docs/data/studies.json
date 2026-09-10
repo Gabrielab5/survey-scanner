@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-10T09:35:49.055Z",
-  "nextUpdateHint": "2026-09-10T10:35:49.055Z",
+  "generatedAt": "2026-09-10T14:18:03.754Z",
+  "nextUpdateHint": "2026-09-10T15:18:03.754Z",
   "counts": {
     "total": 76,
     "paid": 16,
     "autofillable": 8,
     "evergreen": 11,
-    "stale": 9
+    "stale": 11
   },
   "sources": [
     {
@@ -21,8 +21,8 @@
       "type": "reddit",
       "status": "ok",
       "error": null,
-      "count": 4,
-      "ms": 3649
+      "count": 2,
+      "ms": 3374
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 19489
+      "ms": 34036
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 50372
+      "ms": 65876
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 82716
+      "ms": 96570
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2980
+      "ms": 2658
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 48,
-      "ms": 5669
+      "ms": 5276
     },
     {
       "id": "manual",
@@ -76,98 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 172
+      "ms": 41
     }
   ],
   "items": [
-    {
-      "id": "panel-prolific",
-      "title": "Prolific",
-      "summary": "פלטפורמה בינלאומית למחקר אקדמי. פתוחה לתושבי ישראל, משלמת בשעון (מינימום מוצהר לשעה) ישירות ל-PayPal.",
-      "url": "https://www.prolific.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "GBP",
-        "amount": 6,
-        "amountMax": null,
-        "raw": "£6"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": "IL",
-        "notes": [
-          "תושבי ישראל"
-        ]
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.065Z",
-      "tags": [
-        "אקדמי",
-        "בינלאומי",
-        "PayPal"
-      ],
-      "evergreen": true,
-      "titleEn": "Prolific",
-      "rewardNote": "£6–£12 לשעה בממוצע",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "panel-huji-pool",
-      "title": "מאגר הנבדקים – האוניברסיטה העברית",
-      "summary": "מאגר נבדקים של האוניברסיטה העברית (Sona). ניסויים בפסיכולוגיה/כלכלה התנהגותית, חלקם בתשלום מזומן וחלקם בקרדיט אקדמי.",
-      "url": "https://huji.sona-systems.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 40,
-        "amountMax": 80,
-        "raw": "40–80 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.065Z",
-      "tags": [
-        "ירושלים",
-        "מעבדה",
-        "Sona"
-      ],
-      "evergreen": true,
-      "titleEn": "Hebrew University participant pool",
-      "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
     {
       "id": "panel-tau-pool",
       "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
@@ -198,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.065Z",
+      "postedAt": "2026-09-10T14:18:03.766Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -208,7 +120,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -241,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.065Z",
+      "postedAt": "2026-09-10T14:18:03.766Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -250,7 +162,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -283,7 +195,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.065Z",
+      "postedAt": "2026-09-10T14:18:03.766Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -292,7 +204,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -325,7 +237,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.065Z",
+      "postedAt": "2026-09-10T14:18:03.766Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -334,7 +246,7 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -367,7 +279,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.064Z",
+      "postedAt": "2026-09-10T14:18:03.765Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -376,7 +288,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -409,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.064Z",
+      "postedAt": "2026-09-10T14:18:03.765Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -418,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -451,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.064Z",
+      "postedAt": "2026-09-10T14:18:03.765Z",
       "tags": [
         "צרכנות"
       ],
@@ -459,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -492,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.064Z",
+      "postedAt": "2026-09-10T14:18:03.765Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -501,7 +413,95 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "panel-prolific",
+      "title": "Prolific",
+      "summary": "פלטפורמה בינלאומית למחקר אקדמי. פתוחה לתושבי ישראל, משלמת בשעון (מינימום מוצהר לשעה) ישירות ל-PayPal.",
+      "url": "https://www.prolific.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "GBP",
+        "amount": 6,
+        "amountMax": null,
+        "raw": "£6"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": "IL",
+        "notes": [
+          "תושבי ישראל"
+        ]
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-10T14:18:03.765Z",
+      "tags": [
+        "אקדמי",
+        "בינלאומי",
+        "PayPal"
+      ],
+      "evergreen": true,
+      "titleEn": "Prolific",
+      "rewardNote": "£6–£12 לשעה בממוצע",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "panel-huji-pool",
+      "title": "מאגר הנבדקים – האוניברסיטה העברית",
+      "summary": "מאגר נבדקים של האוניברסיטה העברית (Sona). ניסויים בפסיכולוגיה/כלכלה התנהגותית, חלקם בתשלום מזומן וחלקם בקרדיט אקדמי.",
+      "url": "https://huji.sona-systems.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 40,
+        "amountMax": 80,
+        "raw": "40–80 ₪"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-10T14:18:03.765Z",
+      "tags": [
+        "ירושלים",
+        "מעבדה",
+        "Sona"
+      ],
+      "evergreen": true,
+      "titleEn": "Hebrew University participant pool",
+      "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-10T09:35:49.062Z",
+      "postedAt": "2026-09-10T14:18:03.762Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,7 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -583,7 +583,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-09T21:38:44.527Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -622,85 +622,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-09T21:38:44.527Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "906defe7d5e4",
-      "title": "[Academic] High School Teacher–Student Relationships in Australia (18+, attended high school in Australia)",
-      "summary": "https://mquni.au1.qualtrics.com/jfe/form/SV\\_esXG7sXNVun9hSC \n Hi everyone! I’m a research student at Macquarie University in Australia.\n I’m looking for participants aged 18+ who have attended high school in Australia, either fully or partially.\n The survey takes about 15 minutes to complete, and participants can enter a prize draw to win A$100.\n I’d be very grateful if you could take part and…",
-      "url": "https://mquni.au1.qualtrics.com/jfe/form/SV%5C_esXG7sXNVun9hSC",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "USD",
-        "amount": 100,
-        "amountMax": null,
-        "raw": "$100."
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-09-09T11:17:42+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "9ff4e387e49a",
-      "title": "[Marketing] Purchase-stopping feedback on a $89 meteorite necklace (18+, bought/considered $50–200 jewelry or meaningful gifts in past 24 months)",
-      "summary": "I’m testing a real product page for a small jewelry brand and I’m specifically looking for **purchase-stopping feedback**, not compliments.\n Please take part only if at least one of these is true for you:\n - you’ve bought meteorite/mineral/space-themed jewelry in the last 24 months;\n - you’ve seriously considered a $50–200 necklace or pendant in the last 24 months;\n - you’ve bought a $50–200…",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdIjDQqZdxr3RYYyJSAuy46jfVnr6uG5-v9jBClmdNiQlmdQQ/viewform?usp=header",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 89,
-        "amountMax": null,
-        "raw": "$89"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-09-09T09:02:03+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-09-09T09:36:36.161Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -739,7 +661,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -782,7 +704,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -821,48 +743,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "a23044824ea6",
-      "title": "Prelabor Visual Biofeedback by a Self-operated Ultrasound Device",
-      "summary": "A substantial number of women report fear of childbirth and negative birth experiences. The objective of the study is to assess the efficacy of visual biofeedback before labor using a self-operated home ultrasound for maternal pushing training, which is expected to reduce fear of childbirth, increase perceived control during birth, prevent prolonged labor and the ensuing maternal and neonatal…",
-      "url": "https://clinicaltrials.gov/study/NCT06049784",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Petah Tikva",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": 18,
-        "ageMax": null,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "הריון / לאחר לידה",
-          "נשים בלבד",
-          "גיל 18+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-18T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Rabin Medical Center",
-        "NCT06049784"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -903,7 +784,48 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "a23044824ea6",
+      "title": "Prelabor Visual Biofeedback by a Self-operated Ultrasound Device",
+      "summary": "A substantial number of women report fear of childbirth and negative birth experiences. The objective of the study is to assess the efficacy of visual biofeedback before labor using a self-operated home ultrasound for maternal pushing training, which is expected to reduce fear of childbirth, increase perceived control during birth, prevent prolonged labor and the ensuing maternal and neonatal…",
+      "url": "https://clinicaltrials.gov/study/NCT06049784",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Petah Tikva",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "נשים בלבד",
+          "גיל 18+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-18T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Rabin Medical Center",
+        "NCT06049784"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -943,7 +865,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -981,7 +903,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1023,49 +945,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "30689104beb9",
-      "title": "Predicting Progression of Developing Myeloma in a High-Risk Screened Population and General Population",
-      "summary": "We will seek consent from participants to use the data and biospecimens collected according study protocol to address additional research questions for MGUS, SMM, MM, and other conditions.\nOur overarching hypothesis is that early detection of MGUS/SMM in a high- risk population, along with the comprehensive characterization of genomic/epigenomic and microenvironmental/immune regulators of disease…",
-      "url": "https://clinicaltrials.gov/study/NCT05837884",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Beersheba, Haifa, Petah Tikva, Tel Aviv",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 30,
-        "ageMax": null,
-        "requires": [
-          "pregnant",
-          "patients"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "אבחנה רפואית",
-          "גיל 30+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-11T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Soroka",
-        "Rambam healthcare campus",
-        "NCT05837884"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1107,7 +987,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1147,7 +1027,49 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "30689104beb9",
+      "title": "Predicting Progression of Developing Myeloma in a High-Risk Screened Population and General Population",
+      "summary": "We will seek consent from participants to use the data and biospecimens collected according study protocol to address additional research questions for MGUS, SMM, MM, and other conditions.\nOur overarching hypothesis is that early detection of MGUS/SMM in a high- risk population, along with the comprehensive characterization of genomic/epigenomic and microenvironmental/immune regulators of disease…",
+      "url": "https://clinicaltrials.gov/study/NCT05837884",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Beersheba, Haifa, Petah Tikva, Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 30,
+        "ageMax": null,
+        "requires": [
+          "pregnant",
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 30+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-11T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Soroka",
+        "Rambam healthcare campus",
+        "NCT05837884"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1186,7 +1108,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1226,7 +1148,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1269,7 +1191,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1313,7 +1235,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1356,7 +1278,7 @@
         "NCT07168187"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1398,7 +1320,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1437,7 +1359,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1482,7 +1404,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1523,7 +1445,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1562,7 +1484,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1601,7 +1523,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1639,7 +1561,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1678,7 +1600,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1717,7 +1639,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1757,7 +1679,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1795,7 +1717,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1832,7 +1754,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1874,7 +1796,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1911,7 +1833,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1948,7 +1870,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -1985,85 +1907,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "a034a7011388",
-      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
-      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
-      "url": "https://clinicaltrials.gov/study/NCT07539506",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT07539506"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "08c8647253f1",
-      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
-      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
-      "url": "https://clinicaltrials.gov/study/NCT05842239",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Ẕerifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "male",
-        "ageMin": 21,
-        "ageMax": null,
-        "requires": [
-          "patients"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "אבחנה רפואית",
-          "גברים בלבד",
-          "גיל 21+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05842239"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2110,7 +1954,122 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "08c8647253f1",
+      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
+      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
+      "url": "https://clinicaltrials.gov/study/NCT05842239",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Ẕerifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 21,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גברים בלבד",
+          "גיל 21+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-22T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT05842239"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "a034a7011388",
+      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
+      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
+      "url": "https://clinicaltrials.gov/study/NCT07539506",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-22T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT07539506"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "3a25fcdb2410",
+      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
+      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
+      "url": "https://clinicaltrials.gov/study/NCT06748586",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 80,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–80"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT06748586"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2150,44 +2109,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "3a25fcdb2410",
-      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
-      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
-      "url": "https://clinicaltrials.gov/study/NCT06748586",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 80,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 20–80"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT06748586"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2225,7 +2147,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2262,7 +2184,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2303,7 +2225,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2345,14 +2267,14 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
-      "id": "485f4232e773",
-      "title": "PIEB Compared With CEI on Breakthrough Pain in Nulliparous Women",
-      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in nulliparous women compared to continuous epidural infusion.\nNulliparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
-      "url": "https://clinicaltrials.gov/study/NCT06494280",
+      "id": "5d94978faa14",
+      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
+      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
+      "url": "https://clinicaltrials.gov/study/NCT06580327",
       "source": "ct-israel-healthy",
       "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
       "kind": "clinical",
@@ -2381,10 +2303,10 @@
         "מתנדבים בריאים",
         "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
         "Holy Family Hospital",
-        "NCT06494280"
+        "NCT06580327"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2425,46 +2347,7 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "5d94978faa14",
-      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
-      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
-      "url": "https://clinicaltrials.gov/study/NCT06580327",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family Hospital",
-        "NCT06580327"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2504,7 +2387,46 @@
         "NCT06335017"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "485f4232e773",
+      "title": "PIEB Compared With CEI on Breakthrough Pain in Nulliparous Women",
+      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in nulliparous women compared to continuous epidural infusion.\nNulliparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
+      "url": "https://clinicaltrials.gov/study/NCT06494280",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family Hospital",
+        "NCT06494280"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2544,7 +2466,44 @@
         "NCT07517796"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
+      "stale": false
+    },
+    {
+      "id": "545767d2e1e1",
+      "title": "Portable VR-based Chromatic Pupilloperimeter for Diagnosis and Monitoring of Traumatic Brain Injury",
+      "summary": "Accurate and non-invasive methods for objectively identifying and monitoring head injuries (such as a concussion) are still an unmet need. It is known that pupil constriction in response to light stimuli can reflect changes in neural activity in the brain and is associated with sleep disturbances.\nThe investigators aim to examine the feasibility of using virtual reality goggles for monitoring…",
+      "url": "https://clinicaltrials.gov/study/NCT07474987",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Tel Litwinsky",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 67,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–67"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-02T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Sheba Medical Center",
+        "NCT07474987"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2585,44 +2544,7 @@
         "NCT07483411"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
-      "stale": false
-    },
-    {
-      "id": "545767d2e1e1",
-      "title": "Portable VR-based Chromatic Pupilloperimeter for Diagnosis and Monitoring of Traumatic Brain Injury",
-      "summary": "Accurate and non-invasive methods for objectively identifying and monitoring head injuries (such as a concussion) are still an unmet need. It is known that pupil constriction in response to light stimuli can reflect changes in neural activity in the brain and is associated with sleep disturbances.\nThe investigators aim to examine the feasibility of using virtual reality goggles for monitoring…",
-      "url": "https://clinicaltrials.gov/study/NCT07474987",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Tel Litwinsky",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 67,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18–67"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-02T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Sheba Medical Center",
-        "NCT07474987"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2662,7 +2584,7 @@
         "NCT05913752"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2708,7 +2630,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2747,7 +2669,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
     },
     {
@@ -2784,8 +2706,86 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "lastSeen": "2026-09-10T14:18:03.754Z",
       "stale": false
+    },
+    {
+      "id": "906defe7d5e4",
+      "title": "[Academic] High School Teacher–Student Relationships in Australia (18+, attended high school in Australia)",
+      "summary": "https://mquni.au1.qualtrics.com/jfe/form/SV\\_esXG7sXNVun9hSC \n Hi everyone! I’m a research student at Macquarie University in Australia.\n I’m looking for participants aged 18+ who have attended high school in Australia, either fully or partially.\n The survey takes about 15 minutes to complete, and participants can enter a prize draw to win A$100.\n I’d be very grateful if you could take part and…",
+      "url": "https://mquni.au1.qualtrics.com/jfe/form/SV%5C_esXG7sXNVun9hSC",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "USD",
+        "amount": 100,
+        "amountMax": null,
+        "raw": "$100."
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-09-09T11:17:42+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-09T14:27:06.867Z",
+      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "stale": true
+    },
+    {
+      "id": "9ff4e387e49a",
+      "title": "[Marketing] Purchase-stopping feedback on a $89 meteorite necklace (18+, bought/considered $50–200 jewelry or meaningful gifts in past 24 months)",
+      "summary": "I’m testing a real product page for a small jewelry brand and I’m specifically looking for **purchase-stopping feedback**, not compliments.\n Please take part only if at least one of these is true for you:\n - you’ve bought meteorite/mineral/space-themed jewelry in the last 24 months;\n - you’ve seriously considered a $50–200 necklace or pendant in the last 24 months;\n - you’ve bought a $50–200…",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdIjDQqZdxr3RYYyJSAuy46jfVnr6uG5-v9jBClmdNiQlmdQQ/viewform?usp=header",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 89,
+        "amountMax": null,
+        "raw": "$89"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-09-09T09:02:03+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-09T09:36:36.161Z",
+      "lastSeen": "2026-09-10T09:35:49.055Z",
+      "stale": true
     },
     {
       "id": "bb74116e9aac",
