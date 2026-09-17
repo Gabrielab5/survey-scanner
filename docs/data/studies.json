@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T01:18:17.588Z",
-  "nextUpdateHint": "2026-09-17T02:18:17.588Z",
+  "generatedAt": "2026-09-17T07:33:34.466Z",
+  "nextUpdateHint": "2026-09-17T08:33:34.466Z",
   "counts": {
-    "total": 83,
-    "paid": 18,
+    "total": 84,
+    "paid": 19,
     "autofillable": 15,
     "evergreen": 11,
     "stale": 12
@@ -21,8 +21,8 @@
       "type": "reddit",
       "status": "ok",
       "error": null,
-      "count": 8,
-      "ms": 3159
+      "count": 9,
+      "ms": 3571
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 33794
+      "ms": 35001
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 49724
+      "ms": 65596
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 80371
+      "ms": 97496
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2636
+      "ms": 2630
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 48,
-      "ms": 5233
+      "ms": 5231
     },
     {
       "id": "manual",
@@ -76,137 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 50
+      "ms": 46
     }
   ],
   "items": [
-    {
-      "id": "panel-bgu-psych",
-      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
-      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
-      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.601Z",
-      "tags": [
-        "באר שבע",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Ben-Gurion University psychology experiments",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
-      "stale": false
-    },
-    {
-      "id": "panel-reichman-lab",
-      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
-      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
-      "url": "https://www.runi.ac.il/research-institutes/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.601Z",
-      "tags": [
-        "הרצליה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Reichman University labs",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
-      "stale": false
-    },
-    {
-      "id": "panel-huji-pool",
-      "title": "מאגר הנבדקים – האוניברסיטה העברית",
-      "summary": "מאגר נבדקים של האוניברסיטה העברית (Sona). ניסויים בפסיכולוגיה/כלכלה התנהגותית, חלקם בתשלום מזומן וחלקם בקרדיט אקדמי.",
-      "url": "https://huji.sona-systems.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 40,
-        "amountMax": 80,
-        "raw": "40–80 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.600Z",
-      "tags": [
-        "ירושלים",
-        "מעבדה",
-        "Sona"
-      ],
-      "evergreen": true,
-      "titleEn": "Hebrew University participant pool",
-      "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
-      "stale": false
-    },
     {
       "id": "panel-tau-pool",
       "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
@@ -237,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.600Z",
+      "postedAt": "2026-09-17T07:33:34.478Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -247,7 +120,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -280,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.600Z",
+      "postedAt": "2026-09-17T07:33:34.478Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -289,7 +162,91 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
+      "stale": false
+    },
+    {
+      "id": "panel-bgu-psych",
+      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
+      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
+      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-17T07:33:34.478Z",
+      "tags": [
+        "באר שבע",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Ben-Gurion University psychology experiments",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
+      "stale": false
+    },
+    {
+      "id": "panel-reichman-lab",
+      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
+      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
+      "url": "https://www.runi.ac.il/research-institutes/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-17T07:33:34.478Z",
+      "tags": [
+        "הרצליה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Reichman University labs",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -322,7 +279,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.599Z",
+      "postedAt": "2026-09-17T07:33:34.477Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -331,7 +288,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -364,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.599Z",
+      "postedAt": "2026-09-17T07:33:34.477Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -373,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -406,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.599Z",
+      "postedAt": "2026-09-17T07:33:34.477Z",
       "tags": [
         "צרכנות"
       ],
@@ -414,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -447,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.599Z",
+      "postedAt": "2026-09-17T07:33:34.477Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -456,7 +413,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -491,7 +448,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.599Z",
+      "postedAt": "2026-09-17T07:33:34.477Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -501,7 +458,50 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
+      "stale": false
+    },
+    {
+      "id": "panel-huji-pool",
+      "title": "מאגר הנבדקים – האוניברסיטה העברית",
+      "summary": "מאגר נבדקים של האוניברסיטה העברית (Sona). ניסויים בפסיכולוגיה/כלכלה התנהגותית, חלקם בתשלום מזומן וחלקם בקרדיט אקדמי.",
+      "url": "https://huji.sona-systems.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 40,
+        "amountMax": 80,
+        "raw": "40–80 ₪"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-17T07:33:34.477Z",
+      "tags": [
+        "ירושלים",
+        "מעבדה",
+        "Sona"
+      ],
+      "evergreen": true,
+      "titleEn": "Hebrew University participant pool",
+      "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-17T01:18:17.596Z",
+      "postedAt": "2026-09-17T07:33:34.474Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,46 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
+      "stale": false
+    },
+    {
+      "id": "36f3ea87d63b",
+      "title": "$10 Paid Online Interview About English Translations of a Chinese Novel (Native English Speakers, 18+)",
+      "summary": "Hi everyone!\n I’m conducting an academic research study on how readers respond to different English translations of a Chinese novel. I’m looking for native English speakers aged 18 or over to take part in an online interview.\n What will you do?\n Before the interview, you will read three English translations of the same short excerpt from a Chinese novel . The reading should take approximately 5–8…",
+      "url": "https://forms.cloud.microsoft/r/axzrTiDYWC",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 10,
+        "amountMax": null,
+        "raw": "$10"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-09-17T06:45:08+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-17T07:33:34.466Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -583,7 +622,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-17T01:18:17.588Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -622,7 +661,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-16T22:52:26.544Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -663,7 +702,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-16T22:52:26.544Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -704,7 +743,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-16T20:01:00.368Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -743,7 +782,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-16T16:44:35.336Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -782,7 +821,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -821,7 +860,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-16T16:44:35.336Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -860,7 +899,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-16T20:01:00.368Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -899,7 +938,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -939,7 +978,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -982,7 +1021,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1021,7 +1060,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1060,7 +1099,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1101,7 +1140,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1142,7 +1181,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1182,7 +1221,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1220,7 +1259,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1262,7 +1301,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1302,7 +1341,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1344,7 +1383,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1386,7 +1425,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1425,7 +1464,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1465,7 +1504,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1508,7 +1547,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1552,7 +1591,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1595,7 +1634,7 @@
         "NCT07168187"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1637,7 +1676,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1676,7 +1715,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1721,7 +1760,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1762,7 +1801,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1801,7 +1840,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1839,7 +1878,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1878,7 +1917,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1917,7 +1956,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1957,7 +1996,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -1995,7 +2034,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2032,7 +2071,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2074,7 +2113,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2111,7 +2150,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2148,7 +2187,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2185,7 +2224,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2232,7 +2271,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2269,7 +2308,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2310,7 +2349,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2347,7 +2386,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2384,7 +2423,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2424,7 +2463,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2462,7 +2501,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2503,7 +2542,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2545,7 +2584,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2584,7 +2623,7 @@
         "NCT06580327"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2623,7 +2662,7 @@
         "NCT06494280"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2664,7 +2703,7 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2704,7 +2743,7 @@
         "NCT06335017"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2744,7 +2783,7 @@
         "NCT07517796"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2785,7 +2824,7 @@
         "NCT07483411"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2822,7 +2861,7 @@
         "NCT07474987"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2868,7 +2907,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2907,7 +2946,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
@@ -2944,7 +2983,7 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-17T01:18:17.588Z",
+      "lastSeen": "2026-09-17T07:33:34.466Z",
       "stale": false
     },
     {
