@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-22T09:51:30.339Z",
-  "nextUpdateHint": "2026-09-22T10:51:30.339Z",
+  "generatedAt": "2026-09-22T14:42:15.984Z",
+  "nextUpdateHint": "2026-09-22T15:42:15.984Z",
   "counts": {
-    "total": 74,
-    "paid": 10,
-    "autofillable": 9,
+    "total": 76,
+    "paid": 11,
+    "autofillable": 10,
     "evergreen": 11,
-    "stale": 6
+    "stale": 9
   },
   "sources": [
     {
@@ -21,8 +21,8 @@
       "type": "reddit",
       "status": "ok",
       "error": null,
-      "count": 5,
-      "ms": 3680
+      "count": 4,
+      "ms": 3570
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 35673
+      "ms": 34435
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 66717
+      "ms": 50554
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 99196
+      "ms": 81412
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2726
+      "ms": 2866
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 48,
-      "ms": 5402
+      "ms": 5578
     },
     {
       "id": "manual",
@@ -76,52 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 35
+      "ms": 48
     }
   ],
   "items": [
-    {
-      "id": "panel-bgu-psych",
-      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
-      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
-      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.349Z",
-      "tags": [
-        "באר שבע",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Ben-Gurion University psychology experiments",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
     {
       "id": "panel-reichman-lab",
       "title": "מעבדות מחקר – אוניברסיטת רייכמן",
@@ -152,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.349Z",
+      "postedAt": "2026-09-22T14:42:15.996Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -161,7 +119,176 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "panel-tau-pool",
+      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
+      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
+      "url": "https://tau-social.sona-systems.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-22T14:42:15.995Z",
+      "tags": [
+        "תל אביב",
+        "מעבדה",
+        "Sona"
+      ],
+      "evergreen": true,
+      "titleEn": "Tel Aviv University participant pool",
+      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "panel-technion-lab",
+      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
+      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
+      "url": "https://ie.technion.ac.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 30,
+        "amountMax": 100,
+        "raw": "30–100 ₪"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-22T14:42:15.995Z",
+      "tags": [
+        "חיפה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Technion behavioral lab",
+      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "panel-bgu-psych",
+      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
+      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
+      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-22T14:42:15.995Z",
+      "tags": [
+        "באר שבע",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Ben-Gurion University psychology experiments",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "panel-panel4all",
+      "title": "פאנל פור אול",
+      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
+      "url": "https://www.panel4all.co.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-09-22T14:42:15.994Z",
+      "tags": [
+        "מחקרי שוק",
+        "נקודות"
+      ],
+      "evergreen": true,
+      "titleEn": "Panel4All",
+      "rewardNote": "נקודות → שוברים/העברה כספית",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -194,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.348Z",
+      "postedAt": "2026-09-22T14:42:15.994Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -203,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -236,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.348Z",
+      "postedAt": "2026-09-22T14:42:15.994Z",
       "tags": [
         "צרכנות"
       ],
@@ -244,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -277,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.348Z",
+      "postedAt": "2026-09-22T14:42:15.994Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -286,7 +413,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -321,7 +448,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.348Z",
+      "postedAt": "2026-09-22T14:42:15.994Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -331,7 +458,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -364,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.348Z",
+      "postedAt": "2026-09-22T14:42:15.994Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -374,134 +501,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "panel-tau-pool",
-      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
-      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
-      "url": "https://tau-social.sona-systems.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.348Z",
-      "tags": [
-        "תל אביב",
-        "מעבדה",
-        "Sona"
-      ],
-      "evergreen": true,
-      "titleEn": "Tel Aviv University participant pool",
-      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "panel-technion-lab",
-      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
-      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
-      "url": "https://ie.technion.ac.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 30,
-        "amountMax": 100,
-        "raw": "30–100 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.348Z",
-      "tags": [
-        "חיפה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Technion behavioral lab",
-      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "panel-panel4all",
-      "title": "פאנל פור אול",
-      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
-      "url": "https://www.panel4all.co.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.347Z",
-      "tags": [
-        "מחקרי שוק",
-        "נקודות"
-      ],
-      "evergreen": true,
-      "titleEn": "Panel4All",
-      "rewardNote": "נקודות → שוברים/העברה כספית",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-09-22T09:51:30.345Z",
+      "postedAt": "2026-09-22T14:42:15.991Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,85 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "eb0b96e03ea8",
+      "title": "[Academic] Thoughts & Feelings Questionnaire (18+)",
+      "summary": "Hey r/SampleSize ,\n We are psychology researchers at Adelphi University studying how we measure our thoughts and feelings . Our goal is to help improve mental health assessments and inform more precise, effective treatment approaches.\n We are looking for adults (18+) from all backgrounds to participate in a 30-minute anonymous online survey . The survey will ask about your background and your…",
+      "url": "https://adelphiderner.qualtrics.com/jfe/form/SV_bIbmXakqpKpDrlY",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "USD",
+        "amount": 10,
+        "amountMax": null,
+        "raw": "$10"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-09-22T13:06:38+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-22T14:42:15.984Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "0a328b00c5d3",
+      "title": "[Market Research] 90-Day Skincare Supplement Experience Program (US, 18+)",
+      "summary": "Hi everyone! 👋\n Triune Nutricosmetics is looking for US adults aged 18+ to join a 90-day consumer experience program.\n https://preview.redd.it/sn6vmctgo1rh1.png?width=725&format=png&auto=webp&s=6f3847d017278c9c96f6da1057e50cefc7cb89e7 \n Participants will try one supplement and complete three short check-ins on Days 30, 60, and 90, including surveys, photos, and short videos.\n Participants will…",
+      "url": "https://forms.gle/mZ1FDHiFk8c9Dosk7",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 200,
+        "amountMax": null,
+        "raw": "$200"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-09-22T09:59:07+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-22T14:42:15.984Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -583,7 +661,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-21T23:12:09.911Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -622,124 +700,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-09-21T19:18:43.048Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "0e802b1481af",
-      "title": "Past Times and Present Feelings: How recalling past experiences can impact how we feel today (18+, experiencing symptoms of depression)",
-      "summary": "Hi everyone,\n I am a Trainee Clinical Psychologist at the University of Surrey conducting research exploring how recalling past experiences can impact how we feel today.\n I am looking for adults aged 18 or over who are currently experiencing symptoms of depression to take part in an online research study. You do not require a diagnosis.\n The study involves completing a brief eligibility screening…",
-      "url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsurreyfahs.eu.qualtrics.com%2Fjfe%2Fform%2FSV_afNToIwegrvnQge&data=05%7C02%7C%7Cb06c7ee346804a83fec008df180978b7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639256101083420586%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=V%2FuXGWKLFBItN3nLmLGCRUJ3bxCkIW%2FBovuQS6GlCBY%3D&reserved=0",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "GBP",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "£25"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-09-21T17:59:17+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-09-21T19:18:43.048Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "23cce5443cad",
-      "title": "International Student Acculturative Stress and Personality (18+ International Student - English Proficient)",
-      "summary": "Hello! I am currently completing my dissertation on international student mental health, acculturative stress, and personality. My survey is confidential and takes about 15-20 minutes to complete. If you are 18 years old or older, are currently enrolled as an International student at a US university, are proficient in English, and have resided in the US for at least 3 months, it would mean a lot…",
-      "url": "https://iup.co1.qualtrics.com/jfe/form/SV_bw2ydabfMUSUInQ",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "USD",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "$25"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-09-21T16:30:36+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-09-21T19:18:43.048Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "c7b15a684572",
-      "title": "[Academic] Eligibility Survey for Study on Social Media and Substance Use (18+, US)",
-      "summary": "Participate in Research! The DREAM Lab at UCF is conducting a paid research study on social media and substance use. If interested, click here ( https://ucf.qualtrics.com/jfe/form/SV_1IkU1sgZXLbgKX4 ) to complete a short survey to see if you are eligible for this study.\n This survey will ask about your age, race/ethnicity, social media use, and alcohol and drug use\n If eligible, our research team…",
-      "url": "https://ucf.qualtrics.com/jfe/form/SV_1IkU1sgZXLbgKX4?fbclid=IwcGRvZgFleHRuA2FlbQIxMABicmlkETFWaTJ4QlFoN3B3S2s1aktKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHppDa48RDfduoE9YQ-t4bngLukAUHZhfT-yuePIUMDtkwGKol4dRdZjlZ883_aem_5gvuWa4jFg9_5mSp7-9y5A",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-09-21T15:42:18+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-09-21T19:18:43.048Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -776,7 +737,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -816,7 +777,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -855,7 +816,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -894,7 +855,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -937,7 +898,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -976,7 +937,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1017,7 +978,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1058,7 +1019,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1098,7 +1059,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1136,7 +1097,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1178,7 +1139,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1220,7 +1181,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1260,7 +1221,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1302,7 +1263,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1341,7 +1302,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1381,7 +1342,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1424,7 +1385,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1468,7 +1429,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1511,7 +1472,7 @@
         "NCT07168187"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1553,7 +1514,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1592,7 +1553,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1637,7 +1598,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1678,7 +1639,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1717,7 +1678,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1756,7 +1717,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1794,7 +1755,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1833,7 +1794,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1873,7 +1834,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1911,7 +1872,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1948,7 +1909,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -1990,7 +1951,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2027,7 +1988,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2064,7 +2025,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2101,44 +2062,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "a034a7011388",
-      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
-      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
-      "url": "https://clinicaltrials.gov/study/NCT07539506",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT07539506"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2185,7 +2109,44 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "a034a7011388",
+      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
+      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
+      "url": "https://clinicaltrials.gov/study/NCT07539506",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-22T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT07539506"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2226,7 +2187,82 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "3a25fcdb2410",
+      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
+      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
+      "url": "https://clinicaltrials.gov/study/NCT06748586",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 80,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–80"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT06748586"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "536be59cd020",
+      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
+      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
+      "url": "https://clinicaltrials.gov/study/NCT05447416",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גברים בלבד",
+          "גיל 18–45"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT05447416"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2263,7 +2299,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2303,82 +2339,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "3a25fcdb2410",
-      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
-      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
-      "url": "https://clinicaltrials.gov/study/NCT06748586",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 80,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 20–80"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT06748586"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "536be59cd020",
-      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
-      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
-      "url": "https://clinicaltrials.gov/study/NCT05447416",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "male",
-        "ageMin": 18,
-        "ageMax": 45,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גברים בלבד",
-          "גיל 18–45"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05447416"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2419,7 +2380,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2461,7 +2422,86 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "5d94978faa14",
+      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
+      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
+      "url": "https://clinicaltrials.gov/study/NCT06580327",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family Hospital",
+        "NCT06580327"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
+      "stale": false
+    },
+    {
+      "id": "1df45dd705f1",
+      "title": "Castor Oil Ingestion and Balloon Catheter for Labor Induction in Multiparous",
+      "summary": "The goal of this randomized controlled trial is to examine the efficacy of combining castor oil ingestion with extra-amniotic single balloon catheter for cervical ripening on time from induction to delivery in multiparous women.\nThe main question it aims to answer are:\nDoes the addition of the use of castor oil to extra-amniotic single balloon reduce the time until birth? Does the addition of the…",
+      "url": "https://clinicaltrials.gov/study/NCT06335017",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Nazareth",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 60,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–60"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-13T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Holy Family hospital, Nazareth",
+        "NCT06335017"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2502,7 +2542,7 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2541,86 +2581,7 @@
         "NCT06494280"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "5d94978faa14",
-      "title": "Programmed Intermittent Epidural Bolus Compared With Continuous Infusion in Multiparous Women",
-      "summary": "The goal of this randomized controlled trial is to examine the impact of programmed intermittent bolus epidural analgesia technique on the incidence of breakthrough pain during labor in multiparous women compared to continuous epidural infusion.\nmultiparous women will randomly be divided during labor into two groups; study group will receive mix of Bupivacaine and fentanyl once (bolus) every 60…",
-      "url": "https://clinicaltrials.gov/study/NCT06580327",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family Hospital",
-        "NCT06580327"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
-      "stale": false
-    },
-    {
-      "id": "1df45dd705f1",
-      "title": "Castor Oil Ingestion and Balloon Catheter for Labor Induction in Multiparous",
-      "summary": "The goal of this randomized controlled trial is to examine the efficacy of combining castor oil ingestion with extra-amniotic single balloon catheter for cervical ripening on time from induction to delivery in multiparous women.\nThe main question it aims to answer are:\nDoes the addition of the use of castor oil to extra-amniotic single balloon reduce the time until birth? Does the addition of the…",
-      "url": "https://clinicaltrials.gov/study/NCT06335017",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Nazareth",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": 18,
-        "ageMax": 60,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד",
-          "גיל 18–60"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-13T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Holy Family hospital, Nazareth",
-        "NCT06335017"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2660,14 +2621,14 @@
         "NCT07517796"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
-      "id": "e5d5a0604739",
-      "title": "Skin Adhesive Plus Intra-cuticular Suture Versus Suture Alone for Cesarean Skin Closure",
-      "summary": "The goal of this randomized control trial is to compare two skin closure techniques after cesarean section. Both techniques are currently in wide use but no comparison between the two was reasserted yet. The two techniques are- First technique is intracuticular suture using monofilament suture, Second technique is intracuticular suture and biological adhesive material. The investigators' primary…",
-      "url": "https://clinicaltrials.gov/study/NCT07483411",
+      "id": "545767d2e1e1",
+      "title": "Portable VR-based Chromatic Pupilloperimeter for Diagnosis and Monitoring of Traumatic Brain Injury",
+      "summary": "Accurate and non-invasive methods for objectively identifying and monitoring head injuries (such as a concussion) are still an unmet need. It is known that pupil constriction in response to light stimuli can reflect changes in neural activity in the brain and is associated with sleep disturbances.\nThe investigators aim to examine the feasibility of using virtual reality goggles for monitoring…",
+      "url": "https://clinicaltrials.gov/study/NCT07474987",
       "source": "ct-israel-healthy",
       "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
       "kind": "clinical",
@@ -2675,20 +2636,16 @@
       "language": "en",
       "reward": null,
       "paymentConfirmed": false,
-      "location": "Jerusalem",
+      "location": "Tel Litwinsky",
       "scope": "israel",
       "eligibility": {
-        "gender": "female",
+        "gender": null,
         "ageMin": 18,
-        "ageMax": null,
-        "requires": [
-          "patients"
-        ],
+        "ageMax": 67,
+        "requires": [],
         "countryOnly": null,
         "notes": [
-          "נשים בלבד",
-          "אבחנה רפואית",
-          "גיל 18+"
+          "גיל 18–67"
         ]
       },
       "formType": "other",
@@ -2697,11 +2654,11 @@
       "tags": [
         "מתנדבים בריאים",
         "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Hadassah University Medical Center, Ein Karem Campus",
-        "NCT07483411"
+        "Sheba Medical Center",
+        "NCT07474987"
       ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "firstSeen": "2026-09-22T14:42:15.984Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2747,7 +2704,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2786,7 +2743,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
     },
     {
@@ -2823,8 +2780,125 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "lastSeen": "2026-09-22T14:42:15.984Z",
       "stale": false
+    },
+    {
+      "id": "0e802b1481af",
+      "title": "Past Times and Present Feelings: How recalling past experiences can impact how we feel today (18+, experiencing symptoms of depression)",
+      "summary": "Hi everyone,\n I am a Trainee Clinical Psychologist at the University of Surrey conducting research exploring how recalling past experiences can impact how we feel today.\n I am looking for adults aged 18 or over who are currently experiencing symptoms of depression to take part in an online research study. You do not require a diagnosis.\n The study involves completing a brief eligibility screening…",
+      "url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsurreyfahs.eu.qualtrics.com%2Fjfe%2Fform%2FSV_afNToIwegrvnQge&data=05%7C02%7C%7Cb06c7ee346804a83fec008df180978b7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639256101083420586%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=V%2FuXGWKLFBItN3nLmLGCRUJ3bxCkIW%2FBovuQS6GlCBY%3D&reserved=0",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "GBP",
+        "amount": 25,
+        "amountMax": null,
+        "raw": "£25"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-09-21T17:59:17+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-21T19:18:43.048Z",
+      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "stale": true
+    },
+    {
+      "id": "23cce5443cad",
+      "title": "International Student Acculturative Stress and Personality (18+ International Student - English Proficient)",
+      "summary": "Hello! I am currently completing my dissertation on international student mental health, acculturative stress, and personality. My survey is confidential and takes about 15-20 minutes to complete. If you are 18 years old or older, are currently enrolled as an International student at a US university, are proficient in English, and have resided in the US for at least 3 months, it would mean a lot…",
+      "url": "https://iup.co1.qualtrics.com/jfe/form/SV_bw2ydabfMUSUInQ",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "USD",
+        "amount": 25,
+        "amountMax": null,
+        "raw": "$25"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-09-21T16:30:36+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-21T19:18:43.048Z",
+      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "stale": true
+    },
+    {
+      "id": "c7b15a684572",
+      "title": "[Academic] Eligibility Survey for Study on Social Media and Substance Use (18+, US)",
+      "summary": "Participate in Research! The DREAM Lab at UCF is conducting a paid research study on social media and substance use. If interested, click here ( https://ucf.qualtrics.com/jfe/form/SV_1IkU1sgZXLbgKX4 ) to complete a short survey to see if you are eligible for this study.\n This survey will ask about your age, race/ethnicity, social media use, and alcohol and drug use\n If eligible, our research team…",
+      "url": "https://ucf.qualtrics.com/jfe/form/SV_1IkU1sgZXLbgKX4?fbclid=IwcGRvZgFleHRuA2FlbQIxMABicmlkETFWaTJ4QlFoN3B3S2s1aktKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHppDa48RDfduoE9YQ-t4bngLukAUHZhfT-yuePIUMDtkwGKol4dRdZjlZ883_aem_5gvuWa4jFg9_5mSp7-9y5A",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-09-21T15:42:18+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-09-21T19:18:43.048Z",
+      "lastSeen": "2026-09-22T09:51:30.339Z",
+      "stale": true
     },
     {
       "id": "eac4dd8d0055",
@@ -3024,46 +3098,44 @@
       "stale": true
     },
     {
-      "id": "b448a2b242db",
-      "title": "Education Survey (UK Parents)",
-      "summary": "Hi! I'm conducting market research into what families are looking for when it comes to educational support and private tuition in the UK.\n I'm looking for parents with children in Years 7–13. You don't need to currently use or be considering tuition - all views are welcome.\n 🔒 Anonymous\n ⏱️ 2–7 minutes\n 🎁 Optional £30 Waterstones gift-card prize draw\n I'd really appreciate anyone eligible…",
-      "url": "https://forms.gle/cbqfNvGQuMtbG8EGA",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
+      "id": "e5d5a0604739",
+      "title": "Skin Adhesive Plus Intra-cuticular Suture Versus Suture Alone for Cesarean Skin Closure",
+      "summary": "The goal of this randomized control trial is to compare two skin closure techniques after cesarean section. Both techniques are currently in wide use but no comparison between the two was reasserted yet. The two techniques are- First technique is intracuticular suture using monofilament suture, Second technique is intracuticular suture and biological adhesive material. The investigators' primary…",
+      "url": "https://clinicaltrials.gov/study/NCT07483411",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
       "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "GBP",
-        "amount": 30,
-        "amountMax": null,
-        "raw": "£30"
-      },
+      "reward": null,
       "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
+      "location": "Jerusalem",
+      "scope": "israel",
       "eligibility": {
-        "gender": null,
-        "ageMin": null,
+        "gender": "female",
+        "ageMin": 18,
         "ageMax": null,
         "requires": [
-          "children"
+          "patients"
         ],
         "countryOnly": null,
         "notes": [
-          "הורים לילדים"
+          "נשים בלבד",
+          "אבחנה רפואית",
+          "גיל 18+"
         ]
       },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-09-19T10:29:20+00:00",
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-02T00:00:00.000Z",
       "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Hadassah University Medical Center, Ein Karem Campus",
+        "NCT07483411"
       ],
-      "firstSeen": "2026-09-19T10:49:02.453Z",
-      "lastSeen": "2026-09-20T11:14:36.781Z",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-09-22T09:51:30.339Z",
       "stale": true
     }
   ]
