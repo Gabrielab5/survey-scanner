@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T13:33:15.364Z",
-  "nextUpdateHint": "2026-10-10T14:33:15.364Z",
+  "generatedAt": "2026-10-10T18:28:09.147Z",
+  "nextUpdateHint": "2026-10-10T19:28:09.147Z",
   "counts": {
-    "total": 78,
-    "paid": 14,
-    "autofillable": 10,
+    "total": 80,
+    "paid": 15,
+    "autofillable": 12,
     "evergreen": 11,
-    "stale": 7
+    "stale": 9
   },
   "sources": [
     {
@@ -22,7 +22,7 @@
       "status": "ok",
       "error": null,
       "count": 7,
-      "ms": 3805
+      "ms": 3672
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 34868
+      "ms": 34514
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 50725
+      "ms": 66604
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 81762
+      "ms": 97454
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2748
+      "ms": 2696
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 49,
-      "ms": 5467
+      "ms": 5368
     },
     {
       "id": "manual",
@@ -76,52 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 42
+      "ms": 35
     }
   ],
   "items": [
-    {
-      "id": "panel-reichman-lab",
-      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
-      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
-      "url": "https://www.runi.ac.il/research-institutes/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.376Z",
-      "tags": [
-        "הרצליה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Reichman University labs",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
-      "stale": false
-    },
     {
       "id": "panel-huji-pool",
       "title": "מאגר הנבדקים – האוניברסיטה העברית",
@@ -152,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.375Z",
+      "postedAt": "2026-10-10T18:28:09.156Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -162,7 +120,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -195,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.375Z",
+      "postedAt": "2026-10-10T18:28:09.156Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -205,7 +163,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -238,7 +196,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.375Z",
+      "postedAt": "2026-10-10T18:28:09.156Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -247,7 +205,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -280,7 +238,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.375Z",
+      "postedAt": "2026-10-10T18:28:09.156Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -289,7 +247,49 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
+      "stale": false
+    },
+    {
+      "id": "panel-reichman-lab",
+      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
+      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
+      "url": "https://www.runi.ac.il/research-institutes/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-10-10T18:28:09.156Z",
+      "tags": [
+        "הרצליה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Reichman University labs",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -322,7 +322,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.374Z",
+      "postedAt": "2026-10-10T18:28:09.155Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -331,7 +331,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -364,7 +364,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.374Z",
+      "postedAt": "2026-10-10T18:28:09.155Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -373,7 +373,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -406,7 +406,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.374Z",
+      "postedAt": "2026-10-10T18:28:09.155Z",
       "tags": [
         "צרכנות"
       ],
@@ -414,7 +414,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -447,7 +447,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.374Z",
+      "postedAt": "2026-10-10T18:28:09.155Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -456,7 +456,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -491,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.374Z",
+      "postedAt": "2026-10-10T18:28:09.155Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -501,7 +501,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-10T13:33:15.372Z",
+      "postedAt": "2026-10-10T18:28:09.153Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,85 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
+      "stale": false
+    },
+    {
+      "id": "3df5c9bf967c",
+      "title": "Short browser-message understanding survey V2 (18+, everyone)",
+      "summary": "Thanks to the people who did the first survey! It is designed to be a bit ambiguous and grows with feedback until I publish the final reveal. There is a surveycircle code inside, if anyone is a user of that site.\n I’m looking for a few people to help test the wording of messages from a browser tool I’m working on.\n You’ll be shown six short situations where the tool displays a message, and you’ll…",
+      "url": "https://forms.gle/krGnNMuepMdw21RbA",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-10-10T17:37:08+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-10T18:28:09.147Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
+      "stale": false
+    },
+    {
+      "id": "ce40b4d738a5",
+      "title": "I’m building a stigma-free platform for neurodivergent voices — looking for participants ($20 per response)",
+      "summary": "Hi everyone!\n I’m currently developing a website dedicated to neurodiversity, with the goal of creating a stigma-free platform where neurodivergent individuals can share their experiences in their own words. \n I want to help people better understand neurodiversity by hearing directly from the people who experience it, rather than relying solely on outside perspectives or common stereotypes.\n I’m…",
+      "url": "https://forms.gle/b3Wit87tooVSTu4W6",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 20,
+        "amountMax": null,
+        "raw": "$20"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-10-10T13:35:29+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-10T18:28:09.147Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -583,7 +661,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-10T13:33:15.364Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -622,7 +700,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-10T06:57:32.159Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -663,7 +741,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-10T06:57:32.159Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -702,7 +780,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-10T06:57:32.159Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -741,85 +819,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-10T00:42:21.011Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
-      "stale": false
-    },
-    {
-      "id": "93be1de6ec81",
-      "title": "[Academic] Help with my master's thesis! (EVERYONE)",
-      "summary": "Hi everyone! 👋\n I'm collecting participants for my master's thesis, and I'd really appreciate your help! Feel free to leave your survey in the comments and I'll complete it!\n The study explores how people interact with an AI-powered hotel-booking assistant. You'll get to try the assistant in a fictional hotel-booking scenario, choose a room, and answer a few questions about your experience.\n ⏱️…",
-      "url": "https://qualtricsxmv5ls4ynb3.qualtrics.com/jfe/form/SV_1zb9LqURrXcZ7jU",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "EUR",
-        "amount": 50,
-        "amountMax": null,
-        "raw": "€50"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-10-09T19:39:31+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-09T20:49:55.299Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
-      "stale": false
-    },
-    {
-      "id": "96e3d6c5ec41",
-      "title": "Title: How do you know if a doctor is actually good? $25 for a 20-minute interview (US adults 18+ who searched for a doctor in the past year)",
-      "summary": "Hi everyone,\n I'm an MBA student at NYU Stern independently researching a potential business idea focused on helping people find and evaluate doctors.\n One question I've been thinking about is how the average person is supposed to know whether they're seeing a genuinely good physician. Insurance directories tell you who's in-network, and websites like Zocdoc and Healthgrades provide reviews, but…",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeu758aD6kbPka-Hwaw4TSplGCU3GFwF7Xoh5muuPoAIT7WaQ/viewform?usp=header",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "$25"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-10-09T17:53:19+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-09T20:49:55.299Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -858,7 +858,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -898,7 +898,7 @@
         "NCT03762512"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -937,7 +937,7 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -977,7 +977,7 @@
         "NCT07628764"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1017,7 +1017,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1059,7 +1059,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1100,7 +1100,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1138,7 +1138,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1175,7 +1175,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1215,7 +1215,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1254,7 +1254,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1297,7 +1297,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1336,7 +1336,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1375,7 +1375,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1416,7 +1416,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1456,7 +1456,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1494,7 +1494,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1536,7 +1536,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1576,7 +1576,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1618,7 +1618,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1660,7 +1660,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1699,7 +1699,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1739,7 +1739,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1782,7 +1782,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1826,7 +1826,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1868,7 +1868,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1907,7 +1907,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1952,7 +1952,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -1993,7 +1993,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2032,7 +2032,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2071,7 +2071,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2109,7 +2109,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2148,7 +2148,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2188,7 +2188,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2226,7 +2226,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2263,7 +2263,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2305,7 +2305,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2342,7 +2342,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2379,7 +2379,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2416,7 +2416,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2453,7 +2453,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2494,7 +2494,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2541,7 +2541,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2581,7 +2581,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2619,7 +2619,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2656,7 +2656,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2693,7 +2693,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2734,7 +2734,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2776,7 +2776,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2817,7 +2817,7 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2863,7 +2863,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2902,7 +2902,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
     },
     {
@@ -2939,8 +2939,86 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "lastSeen": "2026-10-10T18:28:09.147Z",
       "stale": false
+    },
+    {
+      "id": "93be1de6ec81",
+      "title": "[Academic] Help with my master's thesis! (EVERYONE)",
+      "summary": "Hi everyone! 👋\n I'm collecting participants for my master's thesis, and I'd really appreciate your help! Feel free to leave your survey in the comments and I'll complete it!\n The study explores how people interact with an AI-powered hotel-booking assistant. You'll get to try the assistant in a fictional hotel-booking scenario, choose a room, and answer a few questions about your experience.\n ⏱️…",
+      "url": "https://qualtricsxmv5ls4ynb3.qualtrics.com/jfe/form/SV_1zb9LqURrXcZ7jU",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "EUR",
+        "amount": 50,
+        "amountMax": null,
+        "raw": "€50"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-09T19:39:31+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-09T20:49:55.299Z",
+      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "stale": true
+    },
+    {
+      "id": "96e3d6c5ec41",
+      "title": "Title: How do you know if a doctor is actually good? $25 for a 20-minute interview (US adults 18+ who searched for a doctor in the past year)",
+      "summary": "Hi everyone,\n I'm an MBA student at NYU Stern independently researching a potential business idea focused on helping people find and evaluate doctors.\n One question I've been thinking about is how the average person is supposed to know whether they're seeing a genuinely good physician. Insurance directories tell you who's in-network, and websites like Zocdoc and Healthgrades provide reviews, but…",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeu758aD6kbPka-Hwaw4TSplGCU3GFwF7Xoh5muuPoAIT7WaQ/viewform?usp=header",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 25,
+        "amountMax": null,
+        "raw": "$25"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-10-09T17:53:19+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-09T20:49:55.299Z",
+      "lastSeen": "2026-10-10T13:33:15.364Z",
+      "stale": true
     },
     {
       "id": "e6d2fe74ca9c",
