@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-13T00:32:22.645Z",
-  "nextUpdateHint": "2026-10-13T01:32:22.645Z",
+  "generatedAt": "2026-10-13T07:38:01.992Z",
+  "nextUpdateHint": "2026-10-13T08:38:01.992Z",
   "counts": {
-    "total": 87,
-    "paid": 19,
-    "autofillable": 15,
+    "total": 90,
+    "paid": 21,
+    "autofillable": 17,
     "evergreen": 11,
-    "stale": 19
+    "stale": 21
   },
   "sources": [
     {
@@ -21,8 +21,8 @@
       "type": "reddit",
       "status": "ok",
       "error": null,
-      "count": 4,
-      "ms": 3394
+      "count": 5,
+      "ms": 3505
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 34256
+      "ms": 34497
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 42046
+      "ms": 66435
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 72916
+      "ms": 97264
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2739
+      "ms": 2758
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 49,
-      "ms": 5385
+      "ms": 5400
     },
     {
       "id": "manual",
@@ -76,7 +76,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 28
+      "ms": 47
     }
   ],
   "items": [
@@ -110,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.653Z",
+      "postedAt": "2026-10-13T07:38:02.001Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -120,7 +120,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -153,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.653Z",
+      "postedAt": "2026-10-13T07:38:02.001Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -162,7 +162,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -195,7 +195,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.653Z",
+      "postedAt": "2026-10-13T07:38:02.001Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -204,7 +204,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -237,7 +237,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.653Z",
+      "postedAt": "2026-10-13T07:38:02.001Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -246,7 +246,7 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -279,7 +279,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.652Z",
+      "postedAt": "2026-10-13T07:38:02.000Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -288,7 +288,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -321,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.652Z",
+      "postedAt": "2026-10-13T07:38:02.000Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -330,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -363,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.652Z",
+      "postedAt": "2026-10-13T07:38:02.000Z",
       "tags": [
         "צרכנות"
       ],
@@ -371,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -404,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.652Z",
+      "postedAt": "2026-10-13T07:38:02.000Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -413,7 +413,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -448,7 +448,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.652Z",
+      "postedAt": "2026-10-13T07:38:02.000Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -458,7 +458,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -491,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.652Z",
+      "postedAt": "2026-10-13T07:38:02.000Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -501,7 +501,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-13T00:32:22.650Z",
+      "postedAt": "2026-10-13T07:38:01.998Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,165 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
+      "stale": false
+    },
+    {
+      "id": "ceecd89b56b2",
+      "title": "Deodorant Preferences (Need people who pay 20$ for a deodorant) (Worldwide)",
+      "summary": "Hi everyone! I’m doing a quick survey about deodorants and what people like or dislike about them. I’m specifically looking for people who currently spend around $20 or more on a deodorant . If that sounds like you, I’d really appreciate your help!\n TARGET AUDIENCE : People who currently spend around $20 or more per deodorant\n DURATION: Just 3 minutes",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc0ffUotMkWLeAS1xTrmvO4FGvaEn-HLvmjYgLSHa8BVoM0PQ/viewform",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 20,
+        "amountMax": null,
+        "raw": "$20"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-10-13T07:31:41+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-13T07:38:01.992Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
+      "stale": false
+    },
+    {
+      "id": "adf8c16b5283",
+      "title": "Share Your Experience with Online Survey Platforms (Survey Respondents and Researchers Welcome)",
+      "summary": "Hi everyone! I’m conducting a short survey about people’s experiences with online survey platforms, both as survey respondents and as people who create or publish surveys. It takes about 5-10 minutes to complete.\n The survey asks about the platforms you have used or encountered, your experience completing or creating surveys, views on participant compensation, response quality, survey…",
+      "url": "https://www.credamo.app/answer.html#/s/3IN3Mz/",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-13T06:04:56+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-13T07:38:01.992Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
+      "stale": false
+    },
+    {
+      "id": "5687d8934104",
+      "title": "Calling all Gamers! 🎮 (All Video game Players at least 18 years old)",
+      "summary": "[Academic Research] Calling all gamers who are at least 18 years old! Please consider participating in our research study. We're hoping to better understand how people’s experiences with gaming and gaming communities relate to their social experiences and well-being.\n Survey Link: https://alliant.qualtrics.com/jfe/form/SV_3JHySvZ2WLlNyvQ \n If you take part in this study, you will be asked to…",
+      "url": "https://alliant.qualtrics.com/jfe/form/SV_3JHySvZ2WLlNyvQ",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 25,
+        "amountMax": null,
+        "raw": "$25"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-13T04:56:36+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-13T07:38:01.992Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
+      "stale": false
+    },
+    {
+      "id": "bb47bc0e3ff0",
+      "title": "[Repost] Erotica Usage and Personal Experiences Survey – Looking for Participants! (18+)",
+      "summary": "Hi everyone! \n I’m a researcher studying how people engage with erotica (e.g., romance novels, fanfiction, slash fiction) and how those experiences relate to relationship preferences and mental health. \n If you’re 18+ , I’d really appreciate your help with an anonymous online survey exploring: \n ✨ Your erotica preferences\n 💞 Your relationship attitudes and preferences\n 🧠 Your mental health and…",
+      "url": "https://kstate.qualtrics.com/jfe/form/SV_byF2bIZdXXWWwLk",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-13T04:19:21+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-13T07:38:01.992Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -583,124 +741,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-13T00:32:22.645Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
-      "stale": false
-    },
-    {
-      "id": "9a4163e0e748",
-      "title": "[Academic] Research Study on Cannabis + Sexual Health Seeks Participants (Female, 18+, cannabis users)",
-      "summary": "We're looking for females 18+ who use cannabis/marijuana with a history of sexual trauma for a confidential online survey about how lifestyle may affect sexual well-being. Those who have consumed cannabis and have been sexually active within the past 4 weeks are invited to participate.\n This research is being completed by the principal investigator as partial fulfillment of the requirements for…",
-      "url": "https://frumanliat.wixsite.com/academic-survey-la-1",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-12T15:36:09+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-12T17:45:41.514Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
-      "stale": false
-    },
-    {
-      "id": "47dfbb357f03",
-      "title": "Seeking autistic adults (and their therapists) for a study about autism and psychotherapy (autistic adults)",
-      "summary": "Researchers at the University of Massachusetts Amherst are seeking autistic adults and their therapists for a study about what therapy is like for autistic people. You are eligible to participate in this study if you are an autistic adult who has been in treatment with your current therapist for at least one month.\n Autistic adults and their therapists will each be asked to fill out approximately…",
-      "url": "https://arcsapps.umassmed.edu/redcap/surveys/?s=TNWCFM7H7DNXJHN9",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 10,
-        "amountMax": null,
-        "raw": "$10"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "redcap",
-      "autofill": true,
-      "postedAt": "2026-10-12T15:23:22+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-12T17:45:41.514Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
-      "stale": false
-    },
-    {
-      "id": "15b67250537d",
-      "title": "Are you a member of the LGBTQ+ community? You're eligible to take my 10-15 minute survey! Topic: The Impact of Religiosity and Spirituality on LGBTQ+ Self-Esteem. Religious/spiritual involvement not required. (18+; LGBTQ",
-      "summary": "Hello! I am a clinical psychology master's student at Penn State Harrisburg currently recruiting for my master's thesis titled: An Examination of Religiosity and Spirituality on Gender and Sexual Minority Self-Esteem.\n Over half of the LGBTQ+ population in the U.S. identifies as religious and is exposed to religious doctrine that deems homosexuality as a sin. As such, it is crucial that we…",
-      "url": "https://pennstate.qualtrics.com/jfe/form/SV_6hxEBahnMVKZ5xI",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 100,
-        "amountMax": null,
-        "raw": "$100"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-10-12T14:34:42+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-12T17:45:41.514Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -739,7 +780,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -779,7 +820,7 @@
         "NCT03762512"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -818,7 +859,7 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -858,7 +899,7 @@
         "NCT07628764"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -898,7 +939,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -940,7 +981,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -981,7 +1022,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1019,7 +1060,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1056,7 +1097,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1096,7 +1137,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1135,7 +1176,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1178,7 +1219,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1217,7 +1258,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1256,7 +1297,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1297,7 +1338,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1337,7 +1378,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1375,7 +1416,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1417,7 +1458,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1457,7 +1498,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1499,7 +1540,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1541,7 +1582,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1580,7 +1621,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1620,7 +1661,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1663,7 +1704,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1707,7 +1748,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1749,7 +1790,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1788,7 +1829,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1833,7 +1874,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1874,7 +1915,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1913,7 +1954,7 @@
         "NCT05972317"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1952,7 +1993,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -1990,7 +2031,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2029,7 +2070,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2069,7 +2110,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2107,7 +2148,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2144,7 +2185,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2186,7 +2227,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2223,7 +2264,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2260,7 +2301,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2297,7 +2338,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2334,7 +2375,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2375,7 +2416,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2422,7 +2463,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2462,7 +2503,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2500,7 +2541,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2537,7 +2578,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2574,7 +2615,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2615,7 +2656,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2657,7 +2698,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2698,7 +2739,7 @@
         "NCT06325007"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2744,7 +2785,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2783,7 +2824,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
     },
     {
@@ -2820,8 +2861,125 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "lastSeen": "2026-10-13T07:38:01.992Z",
       "stale": false
+    },
+    {
+      "id": "9a4163e0e748",
+      "title": "[Academic] Research Study on Cannabis + Sexual Health Seeks Participants (Female, 18+, cannabis users)",
+      "summary": "We're looking for females 18+ who use cannabis/marijuana with a history of sexual trauma for a confidential online survey about how lifestyle may affect sexual well-being. Those who have consumed cannabis and have been sexually active within the past 4 weeks are invited to participate.\n This research is being completed by the principal investigator as partial fulfillment of the requirements for…",
+      "url": "https://frumanliat.wixsite.com/academic-survey-la-1",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-12T15:36:09+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-12T17:45:41.514Z",
+      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "stale": true
+    },
+    {
+      "id": "47dfbb357f03",
+      "title": "Seeking autistic adults (and their therapists) for a study about autism and psychotherapy (autistic adults)",
+      "summary": "Researchers at the University of Massachusetts Amherst are seeking autistic adults and their therapists for a study about what therapy is like for autistic people. You are eligible to participate in this study if you are an autistic adult who has been in treatment with your current therapist for at least one month.\n Autistic adults and their therapists will each be asked to fill out approximately…",
+      "url": "https://arcsapps.umassmed.edu/redcap/surveys/?s=TNWCFM7H7DNXJHN9",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 10,
+        "amountMax": null,
+        "raw": "$10"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "redcap",
+      "autofill": true,
+      "postedAt": "2026-10-12T15:23:22+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-12T17:45:41.514Z",
+      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "stale": true
+    },
+    {
+      "id": "15b67250537d",
+      "title": "Are you a member of the LGBTQ+ community? You're eligible to take my 10-15 minute survey! Topic: The Impact of Religiosity and Spirituality on LGBTQ+ Self-Esteem. Religious/spiritual involvement not required. (18+; LGBTQ",
+      "summary": "Hello! I am a clinical psychology master's student at Penn State Harrisburg currently recruiting for my master's thesis titled: An Examination of Religiosity and Spirituality on Gender and Sexual Minority Self-Esteem.\n Over half of the LGBTQ+ population in the U.S. identifies as religious and is exposed to religious doctrine that deems homosexuality as a sin. As such, it is crucial that we…",
+      "url": "https://pennstate.qualtrics.com/jfe/form/SV_6hxEBahnMVKZ5xI",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 100,
+        "amountMax": null,
+        "raw": "$100"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-12T14:34:42+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-12T17:45:41.514Z",
+      "lastSeen": "2026-10-13T00:32:22.645Z",
+      "stale": true
     },
     {
       "id": "b3311873a130",
@@ -3494,45 +3652,6 @@
       ],
       "firstSeen": "2026-10-10T13:33:15.364Z",
       "lastSeen": "2026-10-11T08:40:52.064Z",
-      "stale": true
-    },
-    {
-      "id": "2594eed58d40",
-      "title": "What made you leave your last job? Anonymous job-switch survey (Full-time workers in India who switched employers in the last 24 months)",
-      "summary": "What tipped the balance: pay, growth, your manager, work-life balance, or something else?\n I'm collecting responses for a personal research project about job switching in India. If you work full time in India and changed employers in the last 24 months, this short survey asks what drove your last move and what might have made you stay.\n It's voluntary and anonymous. No names, emails or employers…",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfRdwiveyFCxm-UCo6Z3Z6Jd59J4JwuM6R4xpbs7yOIZbi0qw/viewform",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-10-10T06:44:53+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-10T06:57:32.159Z",
-      "lastSeen": "2026-10-11T01:47:37.209Z",
       "stale": true
     },
     {
