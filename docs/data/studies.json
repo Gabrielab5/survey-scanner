@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-16T07:02:23.030Z",
-  "nextUpdateHint": "2026-10-16T08:02:23.030Z",
+  "generatedAt": "2026-10-16T12:17:25.782Z",
+  "nextUpdateHint": "2026-10-16T13:17:25.782Z",
   "counts": {
-    "total": 91,
-    "paid": 24,
-    "autofillable": 18,
+    "total": 92,
+    "paid": 23,
+    "autofillable": 19,
     "evergreen": 11,
     "stale": 21
   },
@@ -22,7 +22,7 @@
       "status": "ok",
       "error": null,
       "count": 6,
-      "ms": 3485
+      "ms": 3167
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 34351
+      "ms": 33811
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 42160
+      "ms": 41242
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 73036
+      "ms": 71854
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2768
+      "ms": 2676
     },
     {
       "id": "ct-israel-healthy",
@@ -66,8 +66,8 @@
       "type": "clinicaltrials",
       "status": "ok",
       "error": null,
-      "count": 49,
-      "ms": 5486
+      "count": 50,
+      "ms": 5265
     },
     {
       "id": "manual",
@@ -76,52 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 48
+      "ms": 49
     }
   ],
   "items": [
-    {
-      "id": "panel-technion-lab",
-      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
-      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
-      "url": "https://ie.technion.ac.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 30,
-        "amountMax": 100,
-        "raw": "30–100 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.043Z",
-      "tags": [
-        "חיפה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Technion behavioral lab",
-      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
     {
       "id": "panel-bgu-psych",
       "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
@@ -152,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.043Z",
+      "postedAt": "2026-10-16T12:17:25.795Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -161,7 +119,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -194,7 +152,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.043Z",
+      "postedAt": "2026-10-16T12:17:25.795Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -203,7 +161,7 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -236,7 +194,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.042Z",
+      "postedAt": "2026-10-16T12:17:25.794Z",
       "tags": [
         "צרכנות"
       ],
@@ -244,7 +202,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -277,7 +235,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.042Z",
+      "postedAt": "2026-10-16T12:17:25.794Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -286,7 +244,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -321,7 +279,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.042Z",
+      "postedAt": "2026-10-16T12:17:25.794Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -331,7 +289,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -364,7 +322,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.042Z",
+      "postedAt": "2026-10-16T12:17:25.794Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -374,7 +332,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -407,7 +365,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.042Z",
+      "postedAt": "2026-10-16T12:17:25.794Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -417,7 +375,49 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "panel-technion-lab",
+      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
+      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
+      "url": "https://ie.technion.ac.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 30,
+        "amountMax": 100,
+        "raw": "30–100 ₪"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-10-16T12:17:25.794Z",
+      "tags": [
+        "חיפה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Technion behavioral lab",
+      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -450,7 +450,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.041Z",
+      "postedAt": "2026-10-16T12:17:25.793Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -459,7 +459,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -492,7 +492,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.041Z",
+      "postedAt": "2026-10-16T12:17:25.793Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -501,7 +501,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-16T07:02:23.039Z",
+      "postedAt": "2026-10-16T12:17:25.791Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,124 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "673566cd3adb",
+      "title": "Would you buy wildlife photography prints? Quick 2-minute survey (Everyone 18+)",
+      "summary": "Hey everyone!\n A friend and I are thinking about starting a small business selling wildlife photography prints. I take the photos myself, and we're trying to figure out if people would actually be interested in buying them.\n We made a short survey with 3 animal photos (a meerkat, chimpanzee and gorilla). It asks which one you like best and what you'd be willing to pay for a print.\n It takes…",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdfadQ0MKFYqcURoC2Gj_i_vYLMikqztscPGJjC5TAS_fbwCw/viewform",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-10-16T10:52:11+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-16T12:17:25.782Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "571a9bf47f3a",
+      "title": "[Research] Help Improve Psychological Questionnaires (UK, 18+)",
+      "summary": "This is an opportunity to take part in research aiming to improve questionnaires used to understand patterns in thoughts, emotions and behaviours. The study is part of an international research project led by the University of Amsterdam, with the UK study led by researchers at King’s College London.\n We are looking for both people who are currently receiving psychological treatment (for any type…",
+      "url": "https://uva.fra1.qualtrics.com/jfe/form/SV_eVXdAmADxtDZiTA",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "EUR",
+        "amount": 50,
+        "amountMax": null,
+        "raw": "€50"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-16T09:00:24+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-14T13:36:34.399Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "1ac4c0b5c9e3",
+      "title": "How Can Patient Monitoring Better Support Neonatal and Pediatric Intensive Care? (PICU/NICU Nurses)",
+      "summary": "Join a 60-minute usability test in Stuttgart, Germany, and help shape the future of medical technology by ensuring that patient monitoring systems are safe, intuitive, and suited to real clinical workflows, helping to improve care for even the smallest patients in neonatal and pediatric intensive care. \n 📍 Location: USE-Ing. Usability Lab, Stuttgart, Germany\n 📅 When: Early November 2026\n ⏱️…",
+      "url": "https://www.reddit.com/r/SampleSize/comments/1x7aiku/how_can_patient_monitoring_better_support/",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "EUR",
+        "amount": 100,
+        "amountMax": null,
+        "raw": "€100"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-16T08:15:17+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "פוסט ב-Reddit"
+      ],
+      "firstSeen": "2026-10-16T12:17:25.782Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -585,7 +702,44 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-16T07:02:23.030Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "a9100efdc0c2",
+      "title": "The Impact of Hyperbaric Oxygen Therapy on Vocal Performance in Professional Singers",
+      "summary": "The aim of the current study is to evaluate the Impact of Hyperbaric Oxygen Therapy on Vocal Performance in Professional Singers",
+      "url": "https://clinicaltrials.gov/study/NCT07879040",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Ẕerifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 70,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–70"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-16T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Assaf-Harofeh Medical Center",
+        "NCT07879040"
+      ],
+      "firstSeen": "2026-10-16T12:17:25.782Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -624,7 +778,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-16T01:11:49.790Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -663,128 +817,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-15T22:08:49.076Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "9afec1da9005",
-      "title": "[Do mine and I'll do yours] How do college students and young adults engage with current events? (8-12 min, Ages 18-29, $20 raffle)",
-      "summary": "Hello everyone!\n I'm conducting a research survey on how college students and young adults engage with current events, political information, and news media.\n The survey explores:\n Why some young adults follow the news while others avoid it\n What makes current events feel relevant (or irrelevant)\n Different headline and content styles\n What people would want from a current-events organization…",
-      "url": "https://forms.gle/Dote4djsyZvqRaia9",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "USD",
-        "amount": 20,
-        "amountMax": null,
-        "raw": "$20"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 29,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18–29"
-        ]
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-10-15T19:12:27+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-13T21:10:30.703Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "d372f589f342",
-      "title": "Research Participants Requested (14-18, +Caregiver)",
-      "summary": "Hi all! I am a lab manager at a Carnegie Mellon University lab trying to recruit for a research study that pays up to $140. In short, our lab is attempting to examining a better relationship between common life stressors (family, school, peers, and finances) and cardiovascular health. Our target demographic is teens 14-18, which some additional information needed from a legal caregiver. We have…",
-      "url": "https://cmu.ca1.qualtrics.com/jfe/form/SV_3z1uKiJ3qftilAa",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 140,
-        "amountMax": null,
-        "raw": "$140."
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-10-15T18:39:06+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-15T22:08:49.076Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "bcb3553cabc6",
-      "title": "Interview study on mental health experiences (Black undergraduate students in Ontario, ages 18-25, living in Ontario, with experiences of nonsuicidal self-injury)",
-      "summary": "Hi everyone! I'm a graduate student at the University of Toronto (OISE) helping recruit for a research study through the CARE Lab ( thecarelab.ca ), led by principal investigator Rya Buckley and lab director Dr. Chloe Hamza.\n About The Study \n We're interviewing Black undergraduate students about their mental health experiences. The study has two parts: a short questionnaire and a one-hour…",
-      "url": "https://thecarelab.ca/",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 40,
-        "amountMax": null,
-        "raw": "$40"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 25,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18–25"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-15T17:19:26+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-15T18:12:09.042Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -824,7 +857,7 @@
         "NCT05735704"
       ],
       "firstSeen": "2026-10-15T13:19:38.632Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -863,7 +896,7 @@
         "NCT05024188"
       ],
       "firstSeen": "2026-10-13T15:52:24.312Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -902,7 +935,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -941,47 +974,7 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "beb7f304202a",
-      "title": "Collection of Donated Placenta for Isolation of Mitochondria for Research and for Future Use in Mitochondrial Augmentation Therapies",
-      "summary": "Placenta will be collected and from these, mitochondrial will be harvested. Mitochondria will be used in mitochondrial augmentation therapy.",
-      "url": "https://clinicaltrials.gov/study/NCT03762512",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Ramat Gan",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": 18,
-        "ageMax": 45,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד",
-          "גיל 18–45"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-08T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Sheba Medical Center Hospital- Tel Hashomer",
-        "NCT03762512"
-      ],
-      "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1021,7 +1014,47 @@
         "NCT07628764"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "beb7f304202a",
+      "title": "Collection of Donated Placenta for Isolation of Mitochondria for Research and for Future Use in Mitochondrial Augmentation Therapies",
+      "summary": "Placenta will be collected and from these, mitochondrial will be harvested. Mitochondria will be used in mitochondrial augmentation therapy.",
+      "url": "https://clinicaltrials.gov/study/NCT03762512",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Ramat Gan",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "נשים בלבד",
+          "גיל 18–45"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-08T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Sheba Medical Center Hospital- Tel Hashomer",
+        "NCT03762512"
+      ],
+      "firstSeen": "2026-10-08T16:22:58.485Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1061,7 +1094,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1103,7 +1136,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1144,7 +1177,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1182,7 +1215,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1219,7 +1252,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1259,7 +1292,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1298,7 +1331,46 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "ba888ca9b767",
+      "title": "Ultra-Processing and Nutritional Quality: Glycemic Response, Appetite, Dietary Energy Intake, and Eating Rate",
+      "summary": "The UPGRADE Study will examine how food-processing level and nutritional quality affect energy intake, eating rate, satiety, and glycemic response. In a randomized-order crossover design, each participant will consume three laboratory test meals: low processing/high nutritional quality, high processing/high nutritional quality, and high processing/low nutritional quality. Food intake and eating…",
+      "url": "https://clinicaltrials.gov/study/NCT07808892",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Ariel",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 39,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–39"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-09-09T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Ariel University",
+        "NCT07808892"
+      ],
+      "firstSeen": "2026-09-09T14:27:06.867Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1341,46 +1413,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "ba888ca9b767",
-      "title": "Ultra-Processing and Nutritional Quality: Glycemic Response, Appetite, Dietary Energy Intake, and Eating Rate",
-      "summary": "The UPGRADE Study will examine how food-processing level and nutritional quality affect energy intake, eating rate, satiety, and glycemic response. In a randomized-order crossover design, each participant will consume three laboratory test meals: low processing/high nutritional quality, high processing/high nutritional quality, and high processing/low nutritional quality. Food intake and eating…",
-      "url": "https://clinicaltrials.gov/study/NCT07808892",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Ariel",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 39,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18–39"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-09-09T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Ariel University",
-        "NCT07808892"
-      ],
-      "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1419,7 +1452,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1460,7 +1493,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1500,7 +1533,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1538,7 +1571,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1580,7 +1613,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1622,7 +1655,47 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "7f1e2989e948",
+      "title": "The Role of Microbiome in Recurrent Obesity Before and After Antibiotic/Placebo Treatment",
+      "summary": "This past century witnessed a significant increase in the prevalence of obesity. Successful weight loss maintenance is defined as losing at least 10% of the initial body weight and maintaining it for at least one year. However, keeping a low body weight is rarely maintained, as 80% of people who lost 10% of their body weight will return to their initial weight within a year. Although there is no…",
+      "url": "https://clinicaltrials.gov/study/NCT06681246",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Rehovot",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 65,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 10+",
+          "גיל 18–65"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-11T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Weizmann Institute of Science",
+        "NCT06681246"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1664,47 +1737,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "7f1e2989e948",
-      "title": "The Role of Microbiome in Recurrent Obesity Before and After Antibiotic/Placebo Treatment",
-      "summary": "This past century witnessed a significant increase in the prevalence of obesity. Successful weight loss maintenance is defined as losing at least 10% of the initial body weight and maintaining it for at least one year. However, keeping a low body weight is rarely maintained, as 80% of people who lost 10% of their body weight will return to their initial weight within a year. Although there is no…",
-      "url": "https://clinicaltrials.gov/study/NCT06681246",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Rehovot",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 65,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "גיל 10+",
-          "גיל 18–65"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-11T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Weizmann Institute of Science",
-        "NCT06681246"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1743,7 +1776,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1783,7 +1816,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1826,7 +1859,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1870,7 +1903,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1912,7 +1945,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1951,7 +1984,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -1996,7 +2029,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2037,7 +2070,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2075,7 +2108,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2114,7 +2147,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2153,7 +2186,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2193,7 +2226,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2231,7 +2264,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2268,7 +2301,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2310,7 +2343,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2347,7 +2380,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2384,7 +2417,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2421,7 +2454,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2458,7 +2491,48 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "08c8647253f1",
+      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
+      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
+      "url": "https://clinicaltrials.gov/study/NCT05842239",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Ẕerifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 21,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גברים בלבד",
+          "גיל 21+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-22T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT05842239"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2505,160 +2579,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "08c8647253f1",
-      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
-      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
-      "url": "https://clinicaltrials.gov/study/NCT05842239",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Ẕerifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "male",
-        "ageMin": 21,
-        "ageMax": null,
-        "requires": [
-          "patients"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "אבחנה רפואית",
-          "גברים בלבד",
-          "גיל 21+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05842239"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "3a25fcdb2410",
-      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
-      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
-      "url": "https://clinicaltrials.gov/study/NCT06748586",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 80,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 20–80"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT06748586"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "8aa9f3b9e10c",
-      "title": "Determinants of Warfarin Metabolism",
-      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
-      "url": "https://clinicaltrials.gov/study/NCT00162474",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Jerusalem",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 50,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 20–50"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Hadassah Medical Organization",
-        "NCT00162474"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
-      "stale": false
-    },
-    {
-      "id": "536be59cd020",
-      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
-      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
-      "url": "https://clinicaltrials.gov/study/NCT05447416",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "male",
-        "ageMin": 18,
-        "ageMax": 45,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גברים בלבד",
-          "גיל 18–45"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05447416"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2698,7 +2619,119 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "3a25fcdb2410",
+      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
+      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
+      "url": "https://clinicaltrials.gov/study/NCT06748586",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 80,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–80"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT06748586"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "8aa9f3b9e10c",
+      "title": "Determinants of Warfarin Metabolism",
+      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
+      "url": "https://clinicaltrials.gov/study/NCT00162474",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 50,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–50"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Hadassah Medical Organization",
+        "NCT00162474"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
+      "stale": false
+    },
+    {
+      "id": "536be59cd020",
+      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
+      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
+      "url": "https://clinicaltrials.gov/study/NCT05447416",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גברים בלבד",
+          "גיל 18–45"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT05447416"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2739,7 +2772,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2781,7 +2814,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2827,7 +2860,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2866,7 +2899,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2903,7 +2936,7 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "lastSeen": "2026-10-16T12:17:25.782Z",
       "stale": false
     },
     {
@@ -2943,6 +2976,127 @@
       ],
       "firstSeen": "2026-10-15T22:08:49.076Z",
       "lastSeen": "2026-10-15T22:08:49.076Z",
+      "stale": true
+    },
+    {
+      "id": "9afec1da9005",
+      "title": "[Do mine and I'll do yours] How do college students and young adults engage with current events? (8-12 min, Ages 18-29, $20 raffle)",
+      "summary": "Hello everyone!\n I'm conducting a research survey on how college students and young adults engage with current events, political information, and news media.\n The survey explores:\n Why some young adults follow the news while others avoid it\n What makes current events feel relevant (or irrelevant)\n Different headline and content styles\n What people would want from a current-events organization…",
+      "url": "https://forms.gle/Dote4djsyZvqRaia9",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "raffle",
+        "currency": "USD",
+        "amount": 20,
+        "amountMax": null,
+        "raw": "$20"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 29,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–29"
+        ]
+      },
+      "formType": "google-forms",
+      "autofill": true,
+      "postedAt": "2026-10-15T19:12:27+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-13T21:10:30.703Z",
+      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "stale": true
+    },
+    {
+      "id": "d372f589f342",
+      "title": "Research Participants Requested (14-18, +Caregiver)",
+      "summary": "Hi all! I am a lab manager at a Carnegie Mellon University lab trying to recruit for a research study that pays up to $140. In short, our lab is attempting to examining a better relationship between common life stressors (family, school, peers, and finances) and cardiovascular health. Our target demographic is teens 14-18, which some additional information needed from a legal caregiver. We have…",
+      "url": "https://cmu.ca1.qualtrics.com/jfe/form/SV_3z1uKiJ3qftilAa",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 140,
+        "amountMax": null,
+        "raw": "$140."
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-15T18:39:06+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-15T22:08:49.076Z",
+      "lastSeen": "2026-10-16T07:02:23.030Z",
+      "stale": true
+    },
+    {
+      "id": "bcb3553cabc6",
+      "title": "Interview study on mental health experiences (Black undergraduate students in Ontario, ages 18-25, living in Ontario, with experiences of nonsuicidal self-injury)",
+      "summary": "Hi everyone! I'm a graduate student at the University of Toronto (OISE) helping recruit for a research study through the CARE Lab ( thecarelab.ca ), led by principal investigator Rya Buckley and lab director Dr. Chloe Hamza.\n About The Study \n We're interviewing Black undergraduate students about their mental health experiences. The study has two parts: a short questionnaire and a one-hour…",
+      "url": "https://thecarelab.ca/",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 40,
+        "amountMax": null,
+        "raw": "$40"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 25,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–25"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-15T17:19:26+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-15T18:12:09.042Z",
+      "lastSeen": "2026-10-16T07:02:23.030Z",
       "stale": true
     },
     {
@@ -3181,45 +3335,6 @@
       ],
       "firstSeen": "2026-10-14T22:12:46.798Z",
       "lastSeen": "2026-10-15T07:19:00.644Z",
-      "stale": true
-    },
-    {
-      "id": "571a9bf47f3a",
-      "title": "[Research] Help Improve Psychological Questionnaires (UK, 18+)",
-      "summary": "This is an opportunity to take part in research aiming to improve questionnaires used to understand patterns in thoughts, emotions and behaviours. The study is part of an international research project led by the University of Amsterdam, with the UK study led by researchers at King’s College London.\n We are looking for both people who are currently receiving psychological treatment (for any type…",
-      "url": "https://uva.fra1.qualtrics.com/jfe/form/SV_eVXdAmADxtDZiTA",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "EUR",
-        "amount": 50,
-        "amountMax": null,
-        "raw": "€50"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-10-14T08:57:24+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-14T13:36:34.399Z",
-      "lastSeen": "2026-10-14T22:12:46.798Z",
       "stale": true
     },
     {
@@ -3573,84 +3688,6 @@
       ],
       "firstSeen": "2026-10-13T21:10:30.703Z",
       "lastSeen": "2026-10-14T13:36:34.399Z",
-      "stale": true
-    },
-    {
-      "id": "bec568e1aba7",
-      "title": "Wearable Device Usability Study - Paid (NYC residents, 18+, in-person)",
-      "summary": "Hi everyone,\n uTest is recruiting participants for a paid, in-person wearable device usability study in Midtown Manhattan.\n Study details:\n Location: Manhattan (ZIP 10001)\n Duration: Approximately 3 hours (one-time session)\n Compensation: $150 Paid via virtual Visa gift card within 1–2 business days\n PayPal available upon request\n Availability: Monday - Friday at 9:00 AM or 1:30 PM\n During the…",
-      "url": "https://utest.com/c-signup/wearables-nyc-ambassador-2077529",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 150,
-        "amountMax": null,
-        "raw": "$150"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-13T17:53:18+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-13T21:10:30.703Z",
-      "lastSeen": "2026-10-14T07:28:22.451Z",
-      "stale": true
-    },
-    {
-      "id": "731a7b9f2be5",
-      "title": "[Repost] Emotional Variability in Speech (~10 mins, 18+, Speaks English)",
-      "summary": "Hi, I'm a master's student at the Institut National de la Recherche Scientifique (INRS) of Canada. I am looking for participants who are willing to provide speech samples to help me build a real speech dataset. This first session is a quick eligibility check for upcoming speech collection sessions, with a total maximum reward of $30 CAD per participant, depending on how many sessions you…",
-      "url": "https://us.findingfive.com/study/details/6ac175d584f79036110a904f",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 30,
-        "amountMax": null,
-        "raw": "$30"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-13T15:46:15+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-13T15:52:24.312Z",
-      "lastSeen": "2026-10-14T07:28:22.451Z",
       "stale": true
     },
     {
