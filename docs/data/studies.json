@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-18T14:29:20.890Z",
-  "nextUpdateHint": "2026-10-18T15:29:20.890Z",
+  "generatedAt": "2026-10-18T18:00:49.427Z",
+  "nextUpdateHint": "2026-10-18T19:00:49.427Z",
   "counts": {
     "total": 84,
     "paid": 21,
-    "autofillable": 15,
+    "autofillable": 14,
     "evergreen": 11,
-    "stale": 16
+    "stale": 17
   },
   "sources": [
     {
@@ -21,8 +21,8 @@
       "type": "reddit",
       "status": "ok",
       "error": null,
-      "count": 3,
-      "ms": 3227
+      "count": 1,
+      "ms": 4115
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 33894
+      "ms": 20037
     },
     {
       "id": "reddit-telaviv",
@@ -40,16 +40,16 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 49646
+      "ms": 50898
     },
     {
       "id": "reddit-academic-psych",
       "label": "r/AcademicPsychology",
       "type": "reddit",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "count": 0,
-      "ms": 80349
+      "count": 1,
+      "ms": 83128
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2795
+      "ms": 2736
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 50,
-      "ms": 5420
+      "ms": 5380
     },
     {
       "id": "manual",
@@ -76,7 +76,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 45
+      "ms": 37
     }
   ],
   "items": [
@@ -110,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.902Z",
+      "postedAt": "2026-10-18T18:00:49.436Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -120,7 +120,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -153,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.902Z",
+      "postedAt": "2026-10-18T18:00:49.436Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -162,7 +162,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -195,7 +195,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.902Z",
+      "postedAt": "2026-10-18T18:00:49.436Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -204,7 +204,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -237,7 +237,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.902Z",
+      "postedAt": "2026-10-18T18:00:49.436Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -246,7 +246,49 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
+      "stale": false
+    },
+    {
+      "id": "panel-panel4all",
+      "title": "פאנל פור אול",
+      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
+      "url": "https://www.panel4all.co.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-10-18T18:00:49.435Z",
+      "tags": [
+        "מחקרי שוק",
+        "נקודות"
+      ],
+      "evergreen": true,
+      "titleEn": "Panel4All",
+      "rewardNote": "נקודות → שוברים/העברה כספית",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -279,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.901Z",
+      "postedAt": "2026-10-18T18:00:49.435Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -288,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -321,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.901Z",
+      "postedAt": "2026-10-18T18:00:49.435Z",
       "tags": [
         "צרכנות"
       ],
@@ -329,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -362,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.901Z",
+      "postedAt": "2026-10-18T18:00:49.435Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -371,7 +413,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -406,7 +448,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.901Z",
+      "postedAt": "2026-10-18T18:00:49.435Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -416,7 +458,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -449,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.901Z",
+      "postedAt": "2026-10-18T18:00:49.435Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -459,49 +501,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
-      "stale": false
-    },
-    {
-      "id": "panel-panel4all",
-      "title": "פאנל פור אול",
-      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
-      "url": "https://www.panel4all.co.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.900Z",
-      "tags": [
-        "מחקרי שוק",
-        "נקודות"
-      ],
-      "evergreen": true,
-      "titleEn": "Panel4All",
-      "rewardNote": "נקודות → שוברים/העברה כספית",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-18T14:29:20.898Z",
+      "postedAt": "2026-10-18T18:00:49.433Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,96 +544,18 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
-      "id": "15b67250537d",
-      "title": "Are you a member of the LGBTQ+ community? You're eligible to take my 10-15 minute survey! Topic: The Impact of Religiosity and Spirituality on LGBTQ+ Self-Esteem. Religious/spiritual involvement not required. (18+; LGBTQ",
-      "summary": "Hello! I am a clinical psychology master's student at Penn State Harrisburg currently recruiting for my master's thesis titled: An Examination of Religiosity and Spirituality on Gender and Sexual Minority Self-Esteem.\n Over half of the LGBTQ+ population in the U.S. identifies as religious and is exposed to religious doctrine that deems homosexuality as a sin. As such, it is crucial that we…",
-      "url": "https://pennstate.qualtrics.com/jfe/form/SV_6hxEBahnMVKZ5xI",
+      "id": "a35424f70950",
+      "title": "Department of Psychology, McGill University: Participants needed for research on reality-shifting experiences (anonymous online survey)",
+      "summary": "https://preview.redd.it/xkszd0c6t8wh1.png?width=1728&format=png&auto=webp&s=1bc136d2888b79d4500c3e20f471bf378ac99bf5 \n SURVEY LINK: https://surveys.mcgill.ca/ls3/257287?lang=en \n Hi everyone! My name is Sophia Chong, and I’m a research assistant at the Neurophilosophy Lab at McGill University in Montreal, Canada (PI: Dr. Ian Gold, Dr. Elizaveta Solomonova). We are conducting a study titled…",
+      "url": "https://surveys.mcgill.ca/ls3/257287?lang=en",
       "source": "reddit-samplesize",
       "sourceLabel": "r/SampleSize",
       "kind": "survey",
       "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 100,
-        "amountMax": null,
-        "raw": "$100"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-10-17T19:26:24+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-17T22:12:05.540Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
-      "stale": false
-    },
-    {
-      "id": "036447b45c0c",
-      "title": "Mindfulness, Stress, and Family Functioning (Adults in the U.S.)",
-      "summary": "https://luc.co1.qualtrics.com/jfe/form/SV_7WFuGQdAWJ9MhLg \n Loyola University Chicago and The University of Tennessee, Knoxville are conducting a research study on understanding the role of mindfulness in the relationship between , stress, and PTSD, sleep quality on family functioning.\n Total time commitment is 14 days, about 30-40 minutes a day.\n If you choose, you may also have a chance to…",
-      "url": "https://luc.co1.qualtrics.com/jfe/form/SV_7WFuGQdAWJ9MhLg",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 280,
-        "amountMax": null,
-        "raw": "$280"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-10-17T19:16:57+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-17T22:12:05.540Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
-      "stale": false
-    },
-    {
-      "id": "e84039177965",
-      "title": "Why do people keep or cancel streaming subscriptions? 3-min anonymous survey (18+,India, paid for any streaming service in the last 12 months)",
-      "summary": "Hi! I’m a student working on a college project about how people use and cancel streaming subscriptions. It’s a 3-minute anonymous survey for anyone 18+ who has paid for an OTT service in the last year. No names, emails or personal details are collected. Link: https://ott-habits-survey.netlify.app/ Thanks a lot!!!!",
-      "url": "https://ott-habits-survey.netlify.app/",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
       "language": "en",
       "reward": {
         "type": "unspecified",
@@ -655,13 +577,13 @@
       },
       "formType": "other",
       "autofill": false,
-      "postedAt": "2026-10-17T18:54:46+00:00",
+      "postedAt": "2026-10-18T15:18:29+00:00",
       "tags": [
         "פתוח בכל העולם",
         "קישור ישיר לשאלון"
       ],
-      "firstSeen": "2026-10-17T22:12:05.540Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "firstSeen": "2026-10-18T18:00:49.427Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -698,7 +620,7 @@
         "NCT07879040"
       ],
       "firstSeen": "2026-10-16T12:17:25.782Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -738,7 +660,7 @@
         "NCT05735704"
       ],
       "firstSeen": "2026-10-15T13:19:38.632Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -777,7 +699,7 @@
         "NCT05024188"
       ],
       "firstSeen": "2026-10-13T15:52:24.312Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -816,7 +738,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -855,7 +777,7 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -895,7 +817,7 @@
         "NCT07628764"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -935,7 +857,46 @@
         "NCT03762512"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
+      "stale": false
+    },
+    {
+      "id": "3a61a8cfa694",
+      "title": "Is it predatory journal? Journal of Mind and Behavior",
+      "summary": "Hi everyone,\n I'm a student researcher and I'd like to ask whether this situation with the Journal of Mind and Behavior is normal or potentially a red flag.\n I submitted a theoretical/review paper titled:\n “The Role of the Temporo-Parietal Junction in Moral Judgment: Specialized Module or Domain-General Input?” \n The paper went through peer review and I received reviewer comments, after which I…",
+      "url": "https://www.reddit.com/r/AcademicPsychology/comments/1wxek4k/is_it_predatory_journal_journal_of_mind_and/",
+      "source": "reddit-academic-psych",
+      "sourceLabel": "r/AcademicPsychology",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "GBP",
+        "amount": 2000,
+        "amountMax": null,
+        "raw": "£2,000"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-04T12:30:40+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "פוסט ב-Reddit"
+      ],
+      "firstSeen": "2026-10-05T00:46:55.403Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -975,7 +936,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1017,7 +978,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1058,7 +1019,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1096,7 +1057,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1133,7 +1094,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1173,7 +1134,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1212,7 +1173,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1251,7 +1212,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1294,7 +1255,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1333,7 +1294,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1374,7 +1335,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1414,7 +1375,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1452,7 +1413,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1494,7 +1455,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1536,7 +1497,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1576,7 +1537,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1618,7 +1579,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1657,7 +1618,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1697,7 +1658,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1740,7 +1701,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1784,7 +1745,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1826,7 +1787,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1865,7 +1826,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1910,7 +1871,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1951,7 +1912,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -1989,7 +1950,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2028,7 +1989,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2067,7 +2028,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2107,7 +2068,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2145,7 +2106,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2182,7 +2143,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2224,7 +2185,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2261,7 +2222,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2298,7 +2259,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2335,7 +2296,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2372,7 +2333,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2413,7 +2374,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2460,7 +2421,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2500,7 +2461,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2537,7 +2498,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2574,7 +2535,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2612,7 +2573,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2653,7 +2614,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2695,7 +2656,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2741,7 +2702,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2780,7 +2741,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
     },
     {
@@ -2817,8 +2778,125 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "lastSeen": "2026-10-18T18:00:49.427Z",
       "stale": false
+    },
+    {
+      "id": "15b67250537d",
+      "title": "Are you a member of the LGBTQ+ community? You're eligible to take my 10-15 minute survey! Topic: The Impact of Religiosity and Spirituality on LGBTQ+ Self-Esteem. Religious/spiritual involvement not required. (18+; LGBTQ",
+      "summary": "Hello! I am a clinical psychology master's student at Penn State Harrisburg currently recruiting for my master's thesis titled: An Examination of Religiosity and Spirituality on Gender and Sexual Minority Self-Esteem.\n Over half of the LGBTQ+ population in the U.S. identifies as religious and is exposed to religious doctrine that deems homosexuality as a sin. As such, it is crucial that we…",
+      "url": "https://pennstate.qualtrics.com/jfe/form/SV_6hxEBahnMVKZ5xI",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "online",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 100,
+        "amountMax": null,
+        "raw": "$100"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-17T19:26:24+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "stale": true
+    },
+    {
+      "id": "036447b45c0c",
+      "title": "Mindfulness, Stress, and Family Functioning (Adults in the U.S.)",
+      "summary": "https://luc.co1.qualtrics.com/jfe/form/SV_7WFuGQdAWJ9MhLg \n Loyola University Chicago and The University of Tennessee, Knoxville are conducting a research study on understanding the role of mindfulness in the relationship between , stress, and PTSD, sleep quality on family functioning.\n Total time commitment is 14 days, about 30-40 minutes a day.\n If you choose, you may also have a chance to…",
+      "url": "https://luc.co1.qualtrics.com/jfe/form/SV_7WFuGQdAWJ9MhLg",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "USD",
+        "amount": 280,
+        "amountMax": null,
+        "raw": "$280"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "qualtrics",
+      "autofill": true,
+      "postedAt": "2026-10-17T19:16:57+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "stale": true
+    },
+    {
+      "id": "e84039177965",
+      "title": "Why do people keep or cancel streaming subscriptions? 3-min anonymous survey (18+,India, paid for any streaming service in the last 12 months)",
+      "summary": "Hi! I’m a student working on a college project about how people use and cancel streaming subscriptions. It’s a 3-minute anonymous survey for anyone 18+ who has paid for an OTT service in the last year. No names, emails or personal details are collected. Link: https://ott-habits-survey.netlify.app/ Thanks a lot!!!!",
+      "url": "https://ott-habits-survey.netlify.app/",
+      "source": "reddit-samplesize",
+      "sourceLabel": "r/SampleSize",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-17T18:54:46+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "קישור ישיר לשאלון"
+      ],
+      "firstSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T14:29:20.890Z",
+      "stale": true
     },
     {
       "id": "1c6388978038",
@@ -3376,86 +3454,6 @@
       ],
       "firstSeen": "2026-10-16T12:17:25.782Z",
       "lastSeen": "2026-10-16T20:57:23.895Z",
-      "stale": true
-    },
-    {
-      "id": "be734b879a55",
-      "title": "[Academic] UX Design Project Survey: Checking and Paying Bills (18 or older, Global)",
-      "summary": "Hi everyone! 👋\n I’m currently working on a UX design project exploring how people manage, track, and pay their personal or household bills.\n I’d love to hear about your experiences, habits, and any challenges you face when tracking bills and making payments. Your insights will help me better understand people’s needs and identify opportunities to improve the bill payment experience.\n 🕒 Time…",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdH3DRlrfdwY43tm-DpI2D9uk4MoQS0Gm83hDm6G3cq2MM1zQ/viewform?usp=dialog",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18+"
-        ]
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-10-16T01:19:43+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-10-16T07:02:23.030Z",
-      "lastSeen": "2026-10-16T17:19:46.035Z",
-      "stale": true
-    },
-    {
-      "id": "3a61a8cfa694",
-      "title": "Is it predatory journal? Journal of Mind and Behavior",
-      "summary": "Hi everyone,\n I'm a student researcher and I'd like to ask whether this situation with the Journal of Mind and Behavior is normal or potentially a red flag.\n I submitted a theoretical/review paper titled:\n “The Role of the Temporo-Parietal Junction in Moral Judgment: Specialized Module or Domain-General Input?” \n The paper went through peer review and I received reviewer comments, after which I…",
-      "url": "https://www.reddit.com/r/AcademicPsychology/comments/1wxek4k/is_it_predatory_journal_journal_of_mind_and/",
-      "source": "reddit-academic-psych",
-      "sourceLabel": "r/AcademicPsychology",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "GBP",
-        "amount": 2000,
-        "amountMax": null,
-        "raw": "£2,000"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-04T12:30:40+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "פוסט ב-Reddit"
-      ],
-      "firstSeen": "2026-10-05T00:46:55.403Z",
-      "lastSeen": "2026-10-18T10:53:54.078Z",
       "stale": true
     }
   ]
