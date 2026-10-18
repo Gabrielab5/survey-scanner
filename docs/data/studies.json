@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-17T22:12:05.540Z",
-  "nextUpdateHint": "2026-10-17T23:12:05.540Z",
+  "generatedAt": "2026-10-18T00:52:57.124Z",
+  "nextUpdateHint": "2026-10-18T01:52:57.124Z",
   "counts": {
     "total": 90,
     "paid": 24,
     "autofillable": 19,
     "evergreen": 11,
-    "stale": 21
+    "stale": 20
   },
   "sources": [
     {
@@ -22,7 +22,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 3633
+      "ms": 3955
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 34529
+      "ms": 7529
     },
     {
       "id": "reddit-telaviv",
@@ -40,16 +40,16 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 66546
+      "ms": 38367
     },
     {
       "id": "reddit-academic-psych",
       "label": "r/AcademicPsychology",
       "type": "reddit",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "count": 0,
-      "ms": 97396
+      "count": 1,
+      "ms": 70532
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2849
+      "ms": 2858
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 50,
-      "ms": 5605
+      "ms": 5513
     },
     {
       "id": "manual",
@@ -76,52 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 152
+      "ms": 120
     }
   ],
   "items": [
-    {
-      "id": "panel-reichman-lab",
-      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
-      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
-      "url": "https://www.runi.ac.il/research-institutes/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.553Z",
-      "tags": [
-        "הרצליה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Reichman University labs",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
-      "stale": false
-    },
     {
       "id": "panel-huji-pool",
       "title": "מאגר הנבדקים – האוניברסיטה העברית",
@@ -152,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.552Z",
+      "postedAt": "2026-10-18T00:52:57.133Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -162,7 +120,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -195,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.552Z",
+      "postedAt": "2026-10-18T00:52:57.133Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -205,7 +163,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -238,7 +196,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.552Z",
+      "postedAt": "2026-10-18T00:52:57.133Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -247,7 +205,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -280,7 +238,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.552Z",
+      "postedAt": "2026-10-18T00:52:57.133Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -289,7 +247,49 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
+      "stale": false
+    },
+    {
+      "id": "panel-reichman-lab",
+      "title": "מעבדות מחקר – אוניברסיטת רייכמן",
+      "summary": "מכוני המחקר של אוניברסיטת רייכמן מגייסים משתתפים לניסויים התנהגותיים, לעיתים בתשלום.",
+      "url": "https://www.runi.ac.il/research-institutes/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-10-18T00:52:57.133Z",
+      "tags": [
+        "הרצליה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Reichman University labs",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -322,7 +322,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.551Z",
+      "postedAt": "2026-10-18T00:52:57.132Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -331,7 +331,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -364,7 +364,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.551Z",
+      "postedAt": "2026-10-18T00:52:57.132Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -373,7 +373,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -406,7 +406,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.551Z",
+      "postedAt": "2026-10-18T00:52:57.132Z",
       "tags": [
         "צרכנות"
       ],
@@ -414,7 +414,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -447,7 +447,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.551Z",
+      "postedAt": "2026-10-18T00:52:57.132Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -456,7 +456,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -491,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.551Z",
+      "postedAt": "2026-10-18T00:52:57.132Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -501,7 +501,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-10-17T22:12:05.548Z",
+      "postedAt": "2026-10-18T00:52:57.130Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,7 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -583,7 +583,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-17T22:12:05.540Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -622,7 +622,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-17T22:12:05.540Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -661,7 +661,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-17T22:12:05.540Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -700,7 +700,7 @@
         "קישור ישיר לשאלון"
       ],
       "firstSeen": "2026-10-17T22:12:05.540Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -737,7 +737,7 @@
         "NCT07879040"
       ],
       "firstSeen": "2026-10-16T12:17:25.782Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -777,7 +777,7 @@
         "NCT05735704"
       ],
       "firstSeen": "2026-10-15T13:19:38.632Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -816,7 +816,7 @@
         "NCT05024188"
       ],
       "firstSeen": "2026-10-13T15:52:24.312Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -855,7 +855,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -894,7 +894,7 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -934,7 +934,7 @@
         "NCT07628764"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -974,7 +974,46 @@
         "NCT03762512"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
+      "stale": false
+    },
+    {
+      "id": "3a61a8cfa694",
+      "title": "Is it predatory journal? Journal of Mind and Behavior",
+      "summary": "Hi everyone,\n I'm a student researcher and I'd like to ask whether this situation with the Journal of Mind and Behavior is normal or potentially a red flag.\n I submitted a theoretical/review paper titled:\n “The Role of the Temporo-Parietal Junction in Moral Judgment: Specialized Module or Domain-General Input?” \n The paper went through peer review and I received reviewer comments, after which I…",
+      "url": "https://www.reddit.com/r/AcademicPsychology/comments/1wxek4k/is_it_predatory_journal_journal_of_mind_and/",
+      "source": "reddit-academic-psych",
+      "sourceLabel": "r/AcademicPsychology",
+      "kind": "survey",
+      "mode": "unknown",
+      "language": "en",
+      "reward": {
+        "type": "cash",
+        "currency": "GBP",
+        "amount": 2000,
+        "amountMax": null,
+        "raw": "£2,000"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "global",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-04T12:30:40+00:00",
+      "tags": [
+        "פתוח בכל העולם",
+        "פוסט ב-Reddit"
+      ],
+      "firstSeen": "2026-10-05T00:46:55.403Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1014,7 +1053,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1056,7 +1095,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1097,7 +1136,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1135,7 +1174,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1172,7 +1211,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1212,7 +1251,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1251,7 +1290,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1290,7 +1329,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1333,7 +1372,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1372,7 +1411,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1413,7 +1452,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1453,7 +1492,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1491,7 +1530,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1533,7 +1572,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1575,7 +1614,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1615,7 +1654,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1657,7 +1696,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1696,7 +1735,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1736,7 +1775,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1779,7 +1818,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1823,7 +1862,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1865,7 +1904,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1904,7 +1943,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1949,7 +1988,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -1990,7 +2029,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2028,7 +2067,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2067,7 +2106,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2106,7 +2145,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2146,7 +2185,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2184,7 +2223,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2221,7 +2260,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2263,7 +2302,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2300,7 +2339,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2337,7 +2376,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2374,7 +2413,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2411,7 +2450,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2452,7 +2491,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2499,7 +2538,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2539,7 +2578,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2576,7 +2615,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2613,7 +2652,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2651,7 +2690,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2692,7 +2731,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2734,7 +2773,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2780,7 +2819,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2819,7 +2858,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -2856,7 +2895,7 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-10-17T22:12:05.540Z",
+      "lastSeen": "2026-10-18T00:52:57.124Z",
       "stale": false
     },
     {
@@ -3655,45 +3694,6 @@
       ],
       "firstSeen": "2026-10-15T18:12:09.042Z",
       "lastSeen": "2026-10-16T01:11:49.790Z",
-      "stale": true
-    },
-    {
-      "id": "3a61a8cfa694",
-      "title": "Is it predatory journal? Journal of Mind and Behavior",
-      "summary": "Hi everyone,\n I'm a student researcher and I'd like to ask whether this situation with the Journal of Mind and Behavior is normal or potentially a red flag.\n I submitted a theoretical/review paper titled:\n “The Role of the Temporo-Parietal Junction in Moral Judgment: Specialized Module or Domain-General Input?” \n The paper went through peer review and I received reviewer comments, after which I…",
-      "url": "https://www.reddit.com/r/AcademicPsychology/comments/1wxek4k/is_it_predatory_journal_journal_of_mind_and/",
-      "source": "reddit-academic-psych",
-      "sourceLabel": "r/AcademicPsychology",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "GBP",
-        "amount": 2000,
-        "amountMax": null,
-        "raw": "£2,000"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-04T12:30:40+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "פוסט ב-Reddit"
-      ],
-      "firstSeen": "2026-10-05T00:46:55.403Z",
-      "lastSeen": "2026-10-17T19:14:44.228Z",
       "stale": true
     }
   ]
