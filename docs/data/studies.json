@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-18T04:09:27.909Z",
-  "nextUpdateHint": "2026-11-18T05:09:27.909Z",
+  "generatedAt": "2026-11-18T13:48:24.356Z",
+  "nextUpdateHint": "2026-11-18T14:48:24.356Z",
   "counts": {
-    "total": 83,
-    "paid": 14,
-    "autofillable": 12,
+    "total": 76,
+    "paid": 13,
+    "autofillable": 7,
     "evergreen": 11,
-    "stale": 19
+    "stale": 12
   },
   "sources": [
     {
@@ -22,7 +22,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 2830
+      "ms": 2653
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 33487
+      "ms": 33310
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 36003
+      "ms": 39874
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 66656
+      "ms": 70546
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2928
+      "ms": 2677
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 49,
-      "ms": 5517
+      "ms": 5278
     },
     {
       "id": "manual",
@@ -76,137 +76,10 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 96
+      "ms": 41
     }
   ],
   "items": [
-    {
-      "id": "panel-tau-pool",
-      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
-      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
-      "url": "https://tau-social.sona-systems.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.919Z",
-      "tags": [
-        "תל אביב",
-        "מעבדה",
-        "Sona"
-      ],
-      "evergreen": true,
-      "titleEn": "Tel Aviv University participant pool",
-      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
-      "stale": false
-    },
-    {
-      "id": "panel-technion-lab",
-      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
-      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
-      "url": "https://ie.technion.ac.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "cash",
-        "currency": "ILS",
-        "amount": 30,
-        "amountMax": 100,
-        "raw": "30–100 ₪"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.919Z",
-      "tags": [
-        "חיפה",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Technion behavioral lab",
-      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
-      "stale": false
-    },
-    {
-      "id": "panel-bgu-psych",
-      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
-      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
-      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "in-person",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.919Z",
-      "tags": [
-        "באר שבע",
-        "מעבדה"
-      ],
-      "evergreen": true,
-      "titleEn": "Ben-Gurion University psychology experiments",
-      "rewardNote": "לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
-      "stale": false
-    },
     {
       "id": "panel-reichman-lab",
       "title": "מעבדות מחקר – אוניברסיטת רייכמן",
@@ -237,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.919Z",
+      "postedAt": "2026-11-18T13:48:24.366Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -246,174 +119,7 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
-      "stale": false
-    },
-    {
-      "id": "panel-panel4all",
-      "title": "פאנל פור אול",
-      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
-      "url": "https://www.panel4all.co.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.918Z",
-      "tags": [
-        "מחקרי שוק",
-        "נקודות"
-      ],
-      "evergreen": true,
-      "titleEn": "Panel4All",
-      "rewardNote": "נקודות → שוברים/העברה כספית",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
-      "stale": false
-    },
-    {
-      "id": "panel-ipanel",
-      "title": "iPanel",
-      "summary": "אחד מפאנלי האינטרנט הגדולים בישראל. סקרי דעת קהל ומחקרי שוק בתשלום, לעיתים גם קבוצות מיקוד.",
-      "url": "https://www.ipanel.co.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.918Z",
-      "tags": [
-        "דעת קהל",
-        "מחקרי שוק"
-      ],
-      "evergreen": true,
-      "titleEn": "iPanel",
-      "rewardNote": "נקודות → שוברים/מזומן",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
-      "stale": false
-    },
-    {
-      "id": "panel-sekernet",
-      "title": "סקרנט",
-      "summary": "פאנל סקרים בתשלום בעברית, כולל סקרים קצרים וסקרי צרכנות.",
-      "url": "https://www.sekernet.co.il/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.918Z",
-      "tags": [
-        "צרכנות"
-      ],
-      "evergreen": true,
-      "titleEn": "Sekernet",
-      "rewardNote": "נקודות/שוברים",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
-      "stale": false
-    },
-    {
-      "id": "panel-toluna-il",
-      "title": "Toluna ישראל",
-      "summary": "קהילת סקרים בינלאומית עם פאנל ישראלי. נקודות לכל סקר, המרה לשוברי מתנה.",
-      "url": "https://il.toluna.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "panel",
-      "mode": "online",
-      "language": "he",
-      "reward": {
-        "type": "voucher",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "שובר / כרטיס מתנה"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.918Z",
-      "tags": [
-        "בינלאומי",
-        "שוברים"
-      ],
-      "evergreen": true,
-      "titleEn": "Toluna Israel",
-      "rewardNote": "נקודות → שוברי מתנה",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -448,7 +154,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.918Z",
+      "postedAt": "2026-11-18T13:48:24.365Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -458,7 +164,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -491,7 +197,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.918Z",
+      "postedAt": "2026-11-18T13:48:24.365Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -501,7 +207,301 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
+      "stale": false
+    },
+    {
+      "id": "panel-tau-pool",
+      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
+      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
+      "url": "https://tau-social.sona-systems.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-18T13:48:24.365Z",
+      "tags": [
+        "תל אביב",
+        "מעבדה",
+        "Sona"
+      ],
+      "evergreen": true,
+      "titleEn": "Tel Aviv University participant pool",
+      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
+      "stale": false
+    },
+    {
+      "id": "panel-technion-lab",
+      "title": "המעבדה לכלכלה התנהגותית – הטכניון",
+      "summary": "ניסויי החלטות וכלכלה התנהגותית בטכניון. ההשתתפות בתשלום, לרוב תלוי-ביצועים.",
+      "url": "https://ie.technion.ac.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "cash",
+        "currency": "ILS",
+        "amount": 30,
+        "amountMax": 100,
+        "raw": "30–100 ₪"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-18T13:48:24.365Z",
+      "tags": [
+        "חיפה",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Technion behavioral lab",
+      "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
+      "stale": false
+    },
+    {
+      "id": "panel-bgu-psych",
+      "title": "ניסויים במחלקה לפסיכולוגיה – אוניברסיטת בן-גוריון",
+      "summary": "עמוד הניסויים של המחלקה לפסיכולוגיה בבן-גוריון, כולל קריאות להשתתפות בתשלום.",
+      "url": "https://in.bgu.ac.il/humsos/psych/Pages/experiments.aspx",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "in-person",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-18T13:48:24.365Z",
+      "tags": [
+        "באר שבע",
+        "מעבדה"
+      ],
+      "evergreen": true,
+      "titleEn": "Ben-Gurion University psychology experiments",
+      "rewardNote": "לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
+      "stale": false
+    },
+    {
+      "id": "panel-panel4all",
+      "title": "פאנל פור אול",
+      "summary": "פאנל סקרים ישראלי ותיק. צוברים נקודות על כל סקר וממירים לשוברים/כסף.",
+      "url": "https://www.panel4all.co.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-18T13:48:24.364Z",
+      "tags": [
+        "מחקרי שוק",
+        "נקודות"
+      ],
+      "evergreen": true,
+      "titleEn": "Panel4All",
+      "rewardNote": "נקודות → שוברים/העברה כספית",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
+      "stale": false
+    },
+    {
+      "id": "panel-ipanel",
+      "title": "iPanel",
+      "summary": "אחד מפאנלי האינטרנט הגדולים בישראל. סקרי דעת קהל ומחקרי שוק בתשלום, לעיתים גם קבוצות מיקוד.",
+      "url": "https://www.ipanel.co.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-18T13:48:24.364Z",
+      "tags": [
+        "דעת קהל",
+        "מחקרי שוק"
+      ],
+      "evergreen": true,
+      "titleEn": "iPanel",
+      "rewardNote": "נקודות → שוברים/מזומן",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
+      "stale": false
+    },
+    {
+      "id": "panel-sekernet",
+      "title": "סקרנט",
+      "summary": "פאנל סקרים בתשלום בעברית, כולל סקרים קצרים וסקרי צרכנות.",
+      "url": "https://www.sekernet.co.il/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-18T13:48:24.364Z",
+      "tags": [
+        "צרכנות"
+      ],
+      "evergreen": true,
+      "titleEn": "Sekernet",
+      "rewardNote": "נקודות/שוברים",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
+      "stale": false
+    },
+    {
+      "id": "panel-toluna-il",
+      "title": "Toluna ישראל",
+      "summary": "קהילת סקרים בינלאומית עם פאנל ישראלי. נקודות לכל סקר, המרה לשוברי מתנה.",
+      "url": "https://il.toluna.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "panel",
+      "mode": "online",
+      "language": "he",
+      "reward": {
+        "type": "voucher",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "שובר / כרטיס מתנה"
+      },
+      "paymentConfirmed": true,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-18T13:48:24.364Z",
+      "tags": [
+        "בינלאומי",
+        "שוברים"
+      ],
+      "evergreen": true,
+      "titleEn": "Toluna Israel",
+      "rewardNote": "נקודות → שוברי מתנה",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-18T04:09:27.916Z",
+      "postedAt": "2026-11-18T13:48:24.362Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,7 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -584,7 +584,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -629,7 +629,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -666,7 +666,7 @@
         "NCT07879040"
       ],
       "firstSeen": "2026-10-16T12:17:25.782Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -706,7 +706,7 @@
         "NCT05735704"
       ],
       "firstSeen": "2026-10-15T13:19:38.632Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -745,7 +745,7 @@
         "NCT05024188"
       ],
       "firstSeen": "2026-10-13T15:52:24.312Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -784,7 +784,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -824,7 +824,7 @@
         "NCT03762512"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -864,7 +864,7 @@
         "NCT07628764"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -903,7 +903,7 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -943,7 +943,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -985,7 +985,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1026,7 +1026,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1064,7 +1064,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1101,7 +1101,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1141,7 +1141,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1180,7 +1180,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1219,7 +1219,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1262,7 +1262,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1301,7 +1301,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1342,7 +1342,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1382,7 +1382,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1420,7 +1420,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1462,7 +1462,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1504,7 +1504,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1546,7 +1546,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1586,7 +1586,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1625,7 +1625,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1668,7 +1668,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1712,7 +1712,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1754,7 +1754,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1793,7 +1793,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1834,7 +1834,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1872,7 +1872,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1911,7 +1911,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1950,7 +1950,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -1990,7 +1990,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2028,7 +2028,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2065,7 +2065,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2107,7 +2107,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2144,7 +2144,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2181,7 +2181,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2218,7 +2218,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2255,7 +2255,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2302,7 +2302,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2343,7 +2343,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2380,7 +2380,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2420,7 +2420,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2458,7 +2458,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2495,7 +2495,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2536,7 +2536,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2582,7 +2582,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2621,7 +2621,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -2658,7 +2658,7 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-18T04:09:27.909Z",
+      "lastSeen": "2026-11-18T13:48:24.356Z",
       "stale": false
     },
     {
@@ -3133,292 +3133,6 @@
       ],
       "firstSeen": "2026-11-16T20:17:38.623Z",
       "lastSeen": "2026-11-16T20:17:38.623Z",
-      "stale": true
-    },
-    {
-      "id": "ef1bbac20e41",
-      "title": "[Academic] Looking for participants ages 13–19 for my dissertation study on social media (13-19)",
-      "summary": "Hi everyone! I'm a clinical psychology doctoral student at Hawai‘i Pacific University, and I'm currently looking for participants for my dissertation research on social media use and well-being.\n I'm looking for people ages 13–19 who use social media for at least 30 minutes a day. The study involves a short initial survey and a follow-up survey 1–5 days later. Participants will be asked to take a…",
-      "url": "https://hpupsych.co1.qualtrics.com/jfe/form/SV_byL5AR4W2tJVodE?Q_CHL=qr",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "USD",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "$25"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 13,
-        "ageMax": 19,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 13–19"
-        ]
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-11-16T06:51:18+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-11-16T09:27:32.486Z",
-      "lastSeen": "2026-11-16T09:27:32.486Z",
-      "stale": true
-    },
-    {
-      "id": "035a83116b6c",
-      "title": "Respondents needed for thrift-based survey in Manila, Philippines! (Academic)",
-      "summary": "Hi! I am currently conducting an academic study on circular fashion, thrift shopping habits, and micro-aesthetics (Coquette, Y2K, Punk, Grunge, Downtown) in Metro Manila.\n If you are aged 18-34 living or studying in NCR , I'd love to hear your thoughts! It will only take 3-4 minutes to answer and it’s 100% confidential.\n Survey Link: https://forms.gle/mc1F8pKZTU3gdpws6 \n Answer now to get a…",
-      "url": "https://forms.gle/mc1F8pKZTU3gdpws6",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "הגרלה (לא תשלום מובטח)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 34,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18–34"
-        ]
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-11-16T05:10:42+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-11-16T09:27:32.486Z",
-      "lastSeen": "2026-11-16T09:27:32.486Z",
-      "stale": true
-    },
-    {
-      "id": "0e7409bc6dbc",
-      "title": "[Academic] AI Anxiety, Career Adaptability, Engagement, and Insecurity (College Students & Recent Graduates, 18+)",
-      "summary": "Hi everyone!\n I'm a senior Psychology student at the University of St. Thomas (UST), conducting an IRB-approved research study.\n Study Title: Will AI Replace Me? Exploring AI Anxiety, Career Adaptability, Engagement, and Insecurity in the Age of AI. \n Eligibility Criteria: \n Must be 18 years or older, and meet one of the following:\n Currently enrolled undergraduate students.\n Undergraduate…",
-      "url": "https://www.surveymonkey.com/r/3LPQC86",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [
-          "students"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "סטודנטים בלבד"
-        ]
-      },
-      "formType": "surveymonkey",
-      "autofill": true,
-      "postedAt": "2026-11-16T00:53:23+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-11-16T01:52:10.675Z",
-      "lastSeen": "2026-11-16T09:27:32.486Z",
-      "stale": true
-    },
-    {
-      "id": "3cbf914f1b29",
-      "title": "[Academic] Why do we delay or abandon online purchases? Behavioral economics study on digital shopping (Everyone 18+, ~4 min)",
-      "summary": "Hi everyone! I'm sharing an academic survey for a study titled \"Determinants of Consumer Decision-Making in the Digital Age,\" conducted from a behavioral economics perspective.\n Online shopping today means endless products, personalized ads, and instant payments, and that doesn't always lead to better decisions. This study looks at how these factors affect your buying behavior:\n • Choice…",
-      "url": "https://forms.gle/RQibyDmQNYwPvJeW6",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-11-15T22:28:45+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-11-16T01:52:10.675Z",
-      "lastSeen": "2026-11-16T09:27:32.486Z",
-      "stale": true
-    },
-    {
-      "id": "dc3a97d6ba08",
-      "title": "[Repost] Work and family plans for the future: bachelor’s thesis survey (Men, 18+, Germany)",
-      "summary": "Hi everyone! I’m writing my bachelor’s thesis at FH Aachen on how people in Germany think about their future careers and family plans. I still need about 20 more responses from men , so if that’s you, I’d really appreciate your help. The survey takes about 5 minutes and is fully anonymous. Everyone who takes part can enter a raffle for a €25 voucher. \n Link: https://tally.so/r/xVX1ZJ \n Happy to…",
-      "url": "https://tally.so/r/xVX1ZJ",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "EUR",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "€25"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-11-15T19:38:05+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-11-15T21:40:11.825Z",
-      "lastSeen": "2026-11-16T09:27:32.486Z",
-      "stale": true
-    },
-    {
-      "id": "52604341c6da",
-      "title": "[Repost - Academic] Drinking to Cope with Psychological Aggression in Relationships (18+, Women)",
-      "summary": "Hello! We are a faculty member and graduate student who are interested in better understanding women's drinking habits following emotional abuse in romantic and sexual relationships. Anyone age 18 and older that identifies as female is eligible to complete this survey. Five (5) random participants will win a $25 Amazon gift card after data collection is complete.\n Survey Link:…",
-      "url": "https://odu.co1.qualtrics.com/jfe/form/SV_81RMQBP5s53XULI",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "$25"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18+"
-        ]
-      },
-      "formType": "qualtrics",
-      "autofill": true,
-      "postedAt": "2026-11-15T18:26:54+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-11-13T22:30:18.572Z",
-      "lastSeen": "2026-11-16T09:27:32.486Z",
-      "stale": true
-    },
-    {
-      "id": "700802e7cad0",
-      "title": "Membrane Stripping for Cervical Ripening",
-      "summary": "The goal of this interventional study is to evaluate the effectiveness of membrane stripping in cervical ripening compared to double balloon catheter induction.\nThe study population consists of women undergoing labor induction.\nThe main questions it aims to answer are:\n1. Is membrane stripping as effective as double balloon catheter induction in cervical ripening?\n2. What is the influence of…",
-      "url": "https://clinicaltrials.gov/study/NCT06591247",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Kfar Saba",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": 18,
-        "ageMax": 50,
-        "requires": [
-          "pregnant",
-          "patients"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "נשים בלבד",
-          "אבחנה רפואית",
-          "גיל 18–50"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-15T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Meir Medical Center",
-        "NCT06591247"
-      ],
-      "firstSeen": "2026-11-13T16:08:38.442Z",
-      "lastSeen": "2026-11-16T09:27:32.486Z",
       "stale": true
     }
   ]
