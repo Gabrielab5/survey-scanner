@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T03:12:08.922Z",
-  "nextUpdateHint": "2026-11-19T04:12:08.922Z",
+  "generatedAt": "2026-11-19T12:50:48.133Z",
+  "nextUpdateHint": "2026-11-19T13:50:48.133Z",
   "counts": {
-    "total": 73,
-    "paid": 12,
-    "autofillable": 6,
+    "total": 71,
+    "paid": 11,
+    "autofillable": 5,
     "evergreen": 11,
-    "stale": 8
+    "stale": 6
   },
   "sources": [
     {
@@ -22,7 +22,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 2674
+      "ms": 2690
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 33505
+      "ms": 17465
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 64344
+      "ms": 48409
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 95188
+      "ms": 79280
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2697
+      "ms": 2694
     },
     {
       "id": "ct-israel-healthy",
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "count": 50,
-      "ms": 5437
+      "ms": 5353
     },
     {
       "id": "manual",
@@ -76,7 +76,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 40
+      "ms": 35
     }
   ],
   "items": [
@@ -110,7 +110,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.933Z",
+      "postedAt": "2026-11-19T12:50:48.142Z",
       "tags": [
         "תל אביב",
         "מעבדה",
@@ -120,7 +120,7 @@
       "titleEn": "Tel Aviv University participant pool",
       "rewardNote": "תשלום או קרדיט, לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -153,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.933Z",
+      "postedAt": "2026-11-19T12:50:48.142Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -162,7 +162,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -195,7 +195,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.933Z",
+      "postedAt": "2026-11-19T12:50:48.142Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -204,7 +204,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -237,7 +237,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.933Z",
+      "postedAt": "2026-11-19T12:50:48.142Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -246,7 +246,7 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -279,7 +279,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.932Z",
+      "postedAt": "2026-11-19T12:50:48.141Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -288,7 +288,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -321,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.932Z",
+      "postedAt": "2026-11-19T12:50:48.141Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -330,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -363,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.932Z",
+      "postedAt": "2026-11-19T12:50:48.141Z",
       "tags": [
         "צרכנות"
       ],
@@ -371,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -404,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.932Z",
+      "postedAt": "2026-11-19T12:50:48.141Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -413,7 +413,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -448,7 +448,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.932Z",
+      "postedAt": "2026-11-19T12:50:48.141Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -458,7 +458,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -491,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.932Z",
+      "postedAt": "2026-11-19T12:50:48.141Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -501,7 +501,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-19T03:12:08.929Z",
+      "postedAt": "2026-11-19T12:50:48.139Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,7 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -584,7 +584,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -629,7 +629,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -666,7 +666,7 @@
         "NCT07879040"
       ],
       "firstSeen": "2026-10-16T12:17:25.782Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -706,7 +706,7 @@
         "NCT05735704"
       ],
       "firstSeen": "2026-10-15T13:19:38.632Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -745,7 +745,7 @@
         "NCT05024188"
       ],
       "firstSeen": "2026-10-13T15:52:24.312Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -784,7 +784,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -824,7 +824,7 @@
         "NCT03762512"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -864,7 +864,7 @@
         "NCT07628764"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -903,7 +903,7 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -943,7 +943,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -985,7 +985,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1026,7 +1026,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1064,7 +1064,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1101,7 +1101,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1141,7 +1141,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1180,7 +1180,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1223,7 +1223,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1262,7 +1262,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1301,7 +1301,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1342,7 +1342,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1382,7 +1382,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1420,7 +1420,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1462,7 +1462,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1502,7 +1502,7 @@
         "NCT06681246"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1544,7 +1544,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1586,7 +1586,7 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1625,7 +1625,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1668,7 +1668,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1712,7 +1712,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1754,7 +1754,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1793,7 +1793,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1834,7 +1834,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1872,7 +1872,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1911,7 +1911,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1950,7 +1950,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -1990,7 +1990,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2028,7 +2028,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2065,7 +2065,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2107,7 +2107,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2144,7 +2144,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2181,7 +2181,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2218,7 +2218,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2265,7 +2265,7 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2306,7 +2306,7 @@
         "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2343,7 +2343,7 @@
         "NCT07539506"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2383,7 +2383,7 @@
         "NCT07430150"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2420,7 +2420,7 @@
         "NCT06748586"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2458,7 +2458,7 @@
         "NCT05447416"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2495,7 +2495,7 @@
         "NCT00162474"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2536,7 +2536,7 @@
         "NCT07405723"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2578,7 +2578,7 @@
         "NCT06591247"
       ],
       "firstSeen": "2026-11-18T21:49:14.801Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2624,7 +2624,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2663,7 +2663,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2700,7 +2700,7 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-19T03:12:08.922Z",
+      "lastSeen": "2026-11-19T12:50:48.133Z",
       "stale": false
     },
     {
@@ -2937,86 +2937,6 @@
       ],
       "firstSeen": "2026-11-17T03:42:06.421Z",
       "lastSeen": "2026-11-17T13:07:34.470Z",
-      "stale": true
-    },
-    {
-      "id": "285f801976d0",
-      "title": "Student living & everyday essentials - Win a $25 gift card! (College/University Students)",
-      "summary": "Hi! We’re researching how students access everyday essentials like soap, shampoo, and laundry detergent. \n If you’re a current student living on or near campus , please take our 2–3 minute survey for a chance to win one of two $25 gift cards! 🎁\n https://forms.gle/TsvpzLtrrwyF5rCT7 \n Thanks for your help!",
-      "url": "https://forms.gle/TsvpzLtrrwyF5rCT7",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "unknown",
-      "language": "en",
-      "reward": {
-        "type": "raffle",
-        "currency": "USD",
-        "amount": 25,
-        "amountMax": null,
-        "raw": "$25"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "google-forms",
-      "autofill": true,
-      "postedAt": "2026-11-16T21:23:03+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "קישור ישיר לשאלון"
-      ],
-      "firstSeen": "2026-11-17T03:42:06.421Z",
-      "lastSeen": "2026-11-17T03:42:06.421Z",
-      "stale": true
-    },
-    {
-      "id": "3c4f7e2bd25e",
-      "title": "Paid UCLA Research Study on Mood and Brain Development (Teens/Adolescents)",
-      "summary": "Are you or someone you know 14-21 years old, experiencing sad or irritable moods, and considering antidepressant medication? We’re currently recruiting adolescents (14-21yo) who are planning to start antidepressants prescribed by their providers for our 18-month paid study on mood and brain development!\n Please share this post with anyone who might be interested! Thank you for helping us advance…",
-      "url": "https://www.reddit.com/r/SampleSize/comments/1xy0dgm/paid_ucla_research_study_on_mood_and_brain/",
-      "source": "reddit-samplesize",
-      "sourceLabel": "r/SampleSize",
-      "kind": "survey",
-      "mode": "online",
-      "language": "en",
-      "reward": {
-        "type": "cash",
-        "currency": "USD",
-        "amount": 1200,
-        "amountMax": null,
-        "raw": "$1200"
-      },
-      "paymentConfirmed": true,
-      "location": null,
-      "scope": "global",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 14,
-        "ageMax": 21,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 14–21"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-11-16T20:31:55+00:00",
-      "tags": [
-        "פתוח בכל העולם",
-        "פוסט ב-Reddit"
-      ],
-      "firstSeen": "2026-11-17T03:42:06.421Z",
-      "lastSeen": "2026-11-17T03:42:06.421Z",
       "stale": true
     }
   ]
