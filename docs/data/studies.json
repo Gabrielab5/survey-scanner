@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T12:36:58.132Z",
-  "nextUpdateHint": "2026-11-25T13:36:58.132Z",
+  "generatedAt": "2026-11-25T22:24:45.787Z",
+  "nextUpdateHint": "2026-11-25T23:24:45.787Z",
   "counts": {
-    "total": 67,
+    "total": 71,
     "paid": 9,
     "autofillable": 0,
     "evergreen": 11,
-    "stale": 1
+    "stale": 6
   },
   "sources": [
     {
@@ -22,7 +22,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 2703
+      "ms": 2795
     },
     {
       "id": "reddit-israel",
@@ -31,7 +31,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 5280
+      "ms": 17448
     },
     {
       "id": "reddit-telaviv",
@@ -40,7 +40,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 36218
+      "ms": 48136
     },
     {
       "id": "reddit-academic-psych",
@@ -49,7 +49,7 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 67156
+      "ms": 78814
     },
     {
       "id": "ct-israel-paid",
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "count": 4,
-      "ms": 2712
+      "ms": 2859
     },
     {
       "id": "ct-israel-healthy",
@@ -66,8 +66,8 @@
       "type": "clinicaltrials",
       "status": "ok",
       "error": null,
-      "count": 51,
-      "ms": 5371
+      "count": 50,
+      "ms": 5486
     },
     {
       "id": "manual",
@@ -76,10 +76,53 @@
       "status": "empty",
       "error": null,
       "count": 0,
-      "ms": 38
+      "ms": 154
     }
   ],
   "items": [
+    {
+      "id": "panel-tau-pool",
+      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
+      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
+      "url": "https://tau-social.sona-systems.com/",
+      "source": "registry",
+      "sourceLabel": "רשימת פאנלים קבועים",
+      "kind": "lab",
+      "mode": "hybrid",
+      "language": "he",
+      "reward": {
+        "type": "unspecified",
+        "currency": null,
+        "amount": null,
+        "amountMax": null,
+        "raw": "תשלום (סכום לא צוין)"
+      },
+      "paymentConfirmed": false,
+      "location": null,
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": null,
+        "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": []
+      },
+      "formType": "portal",
+      "autofill": false,
+      "postedAt": "2026-11-25T22:24:45.795Z",
+      "tags": [
+        "תל אביב",
+        "מעבדה",
+        "Sona"
+      ],
+      "evergreen": true,
+      "titleEn": "Tel Aviv University participant pool",
+      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
     {
       "id": "panel-technion-lab",
       "title": "המעבדה לכלכלה התנהגותית – הטכניון",
@@ -110,7 +153,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.142Z",
+      "postedAt": "2026-11-25T22:24:45.795Z",
       "tags": [
         "חיפה",
         "מעבדה"
@@ -119,7 +162,7 @@
       "titleEn": "Technion behavioral lab",
       "rewardNote": "מזומן, לרוב 30–100 ₪ למפגש",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -152,7 +195,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.142Z",
+      "postedAt": "2026-11-25T22:24:45.795Z",
       "tags": [
         "באר שבע",
         "מעבדה"
@@ -161,7 +204,7 @@
       "titleEn": "Ben-Gurion University psychology experiments",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -194,7 +237,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.142Z",
+      "postedAt": "2026-11-25T22:24:45.795Z",
       "tags": [
         "הרצליה",
         "מעבדה"
@@ -203,7 +246,7 @@
       "titleEn": "Reichman University labs",
       "rewardNote": "לפי הניסוי",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -236,7 +279,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.141Z",
+      "postedAt": "2026-11-25T22:24:45.794Z",
       "tags": [
         "מחקרי שוק",
         "נקודות"
@@ -245,7 +288,7 @@
       "titleEn": "Panel4All",
       "rewardNote": "נקודות → שוברים/העברה כספית",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -278,7 +321,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.141Z",
+      "postedAt": "2026-11-25T22:24:45.794Z",
       "tags": [
         "דעת קהל",
         "מחקרי שוק"
@@ -287,7 +330,7 @@
       "titleEn": "iPanel",
       "rewardNote": "נקודות → שוברים/מזומן",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -320,7 +363,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.141Z",
+      "postedAt": "2026-11-25T22:24:45.794Z",
       "tags": [
         "צרכנות"
       ],
@@ -328,7 +371,7 @@
       "titleEn": "Sekernet",
       "rewardNote": "נקודות/שוברים",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -361,7 +404,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.141Z",
+      "postedAt": "2026-11-25T22:24:45.794Z",
       "tags": [
         "בינלאומי",
         "שוברים"
@@ -370,7 +413,7 @@
       "titleEn": "Toluna Israel",
       "rewardNote": "נקודות → שוברי מתנה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -405,7 +448,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.141Z",
+      "postedAt": "2026-11-25T22:24:45.794Z",
       "tags": [
         "אקדמי",
         "בינלאומי",
@@ -415,7 +458,7 @@
       "titleEn": "Prolific",
       "rewardNote": "£6–£12 לשעה בממוצע",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -448,7 +491,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.141Z",
+      "postedAt": "2026-11-25T22:24:45.794Z",
       "tags": [
         "ירושלים",
         "מעבדה",
@@ -458,50 +501,7 @@
       "titleEn": "Hebrew University participant pool",
       "rewardNote": "כ-40–80 ₪ לשעה בניסויי מעבדה",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "panel-tau-pool",
-      "title": "מאגר הנבדקים – אוניברסיטת תל אביב",
-      "summary": "מערכת Sona של הפקולטה למדעי החברה בתל אביב: הרשמה לניסויים מקוונים ובמעבדה.",
-      "url": "https://tau-social.sona-systems.com/",
-      "source": "registry",
-      "sourceLabel": "רשימת פאנלים קבועים",
-      "kind": "lab",
-      "mode": "hybrid",
-      "language": "he",
-      "reward": {
-        "type": "unspecified",
-        "currency": null,
-        "amount": null,
-        "amountMax": null,
-        "raw": "תשלום (סכום לא צוין)"
-      },
-      "paymentConfirmed": false,
-      "location": null,
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": null,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": []
-      },
-      "formType": "portal",
-      "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.141Z",
-      "tags": [
-        "תל אביב",
-        "מעבדה",
-        "Sona"
-      ],
-      "evergreen": true,
-      "titleEn": "Tel Aviv University participant pool",
-      "rewardNote": "תשלום או קרדיט, לפי הניסוי",
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -534,7 +534,7 @@
       },
       "formType": "portal",
       "autofill": false,
-      "postedAt": "2026-11-25T12:36:58.139Z",
+      "postedAt": "2026-11-25T22:24:45.793Z",
       "tags": [
         "אקדמי",
         "סקרים מקוונים",
@@ -544,7 +544,162 @@
       "titleEn": "Midgam Project",
       "rewardNote": "כ-10–60 ₪ לסקר (לפי אורך)",
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
+    {
+      "id": "86cf8057c279",
+      "title": "Determination of Physical Parameters Relevant to Ophthalmic Lasers",
+      "summary": "The use of lasers in medicine in general, and diagnosis and treatment in ophthalmology in particular, increased significantly. Making retinal surgery using lasers have become increasingly common. The goal: to diagnose eye diseases safely",
+      "url": "https://clinicaltrials.gov/study/NCT02023073",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Tel HaShomer",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 40,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–40"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-11-25T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Goldschleger Eye Research Institute, Sheba Medical Center,",
+        "NCT02023073"
+      ],
+      "firstSeen": "2026-11-25T22:24:45.787Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
+    {
+      "id": "545767d2e1e1",
+      "title": "Portable VR-based Chromatic Pupilloperimeter for Diagnosis and Monitoring of Traumatic Brain Injury",
+      "summary": "Accurate and non-invasive methods for objectively identifying and monitoring head injuries (such as a concussion) are still an unmet need. It is known that pupil constriction in response to light stimuli can reflect changes in neural activity in the brain and is associated with sleep disturbances.\nThe investigators aim to examine the feasibility of using virtual reality goggles for monitoring…",
+      "url": "https://clinicaltrials.gov/study/NCT07474987",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Tel HaShomer",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 67,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18–67"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-11-25T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Sheba Medical Center",
+        "NCT07474987"
+      ],
+      "firstSeen": "2026-11-25T22:24:45.787Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
+    {
+      "id": "b733af82cd86",
+      "title": "Multifocal Chromatic Pupilloperimetry in Patients With Pseudotumor Cerebri and Healthy Subjects.",
+      "summary": "PTC(Pseudotumor cerebri) patients may develop increased Intracranial pressure (ICP) that can produces increased pressure around the distal optic nerve,which is likely followed by venule compression, ischemia, and loss of visual function.Vision loss in PTC is most commonly characterized by standard automated perimetry to measure peripheral visual field sensitivity.\nPupillometry is a promising…",
+      "url": "https://clinicaltrials.gov/study/NCT03304314",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Tel HaShomer",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 80,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 18–80"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-11-25T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Sheba Medical Center",
+        "NCT03304314"
+      ],
+      "firstSeen": "2026-11-25T22:24:45.787Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
+    {
+      "id": "895da117d3e2",
+      "title": "Family-Based Mediterranean Diet Intervention in First-Degree Relatives of Children With IBD",
+      "summary": "The goal of this interventional study is to evaluate whether a structured, family-based Mediterranean-style dietary intervention can improve household dietary patterns among first-degree relatives (parents and siblings) of children newly diagnosed with inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis.\nThe main questions it aims to answer are:\n* Does the…",
+      "url": "https://clinicaltrials.gov/study/NCT07958977",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Be’er Ya‘aqov, Ramat Gan, Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 6,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 6+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-11-25T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Shamir Medical Center (Assaf Harofeh), Be'er Ya'akov, Israel",
+        "Sheba Medical Center (Tel HaShomer), Ramat Gan, Israel",
+        "NCT07958977"
+      ],
+      "firstSeen": "2026-11-25T22:24:45.787Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -585,7 +740,7 @@
         "NCT07957963"
       ],
       "firstSeen": "2026-11-24T17:29:48.219Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -622,7 +777,7 @@
         "NCT02030366"
       ],
       "firstSeen": "2026-11-23T21:12:59.354Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -662,7 +817,7 @@
         "NCT04970056"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -707,7 +862,7 @@
         "NCT00231400"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -744,7 +899,7 @@
         "NCT07879040"
       ],
       "firstSeen": "2026-10-16T12:17:25.782Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -784,7 +939,7 @@
         "NCT05735704"
       ],
       "firstSeen": "2026-10-15T13:19:38.632Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -823,7 +978,7 @@
         "NCT05024188"
       ],
       "firstSeen": "2026-10-13T15:52:24.312Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -862,47 +1017,7 @@
         "NCT07868861"
       ],
       "firstSeen": "2026-10-09T16:06:06.963Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "18e0914e7882",
-      "title": "Within-Individual Variability of Resting Metabolic Rate Over 12 Weeks",
-      "summary": "This prospective observational study aims to characterize within-individual variability in resting metabolic rate (RMR) over a 12-week period using high-frequency repeated measurements under standardized conditions. Participants will undergo RMR assessments three times per week using whole-room indirect calorimetry.\nThe study will quantify the magnitude of physiological variability in RMR,…",
-      "url": "https://clinicaltrials.gov/study/NCT07628764",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Tel Aviv",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 65,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "גיל 12+",
-          "גיל 18–65"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-10-08T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Sylvan Adams Sport Science Institute",
-        "NCT07628764"
-      ],
-      "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -942,7 +1057,7 @@
         "NCT03762512"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -981,7 +1096,47 @@
         "NCT07594613"
       ],
       "firstSeen": "2026-10-08T16:22:58.485Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
+    {
+      "id": "18e0914e7882",
+      "title": "Within-Individual Variability of Resting Metabolic Rate Over 12 Weeks",
+      "summary": "This prospective observational study aims to characterize within-individual variability in resting metabolic rate (RMR) over a 12-week period using high-frequency repeated measurements under standardized conditions. Participants will undergo RMR assessments three times per week using whole-room indirect calorimetry.\nThe study will quantify the magnitude of physiological variability in RMR,…",
+      "url": "https://clinicaltrials.gov/study/NCT07628764",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Tel Aviv",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 65,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 12+",
+          "גיל 18–65"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-10-08T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Sylvan Adams Sport Science Institute",
+        "NCT07628764"
+      ],
+      "firstSeen": "2026-10-08T16:22:58.485Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1021,7 +1176,7 @@
         "NCT05224726"
       ],
       "firstSeen": "2026-09-30T13:35:29.841Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1063,7 +1218,7 @@
         "NCT07759895"
       ],
       "firstSeen": "2026-09-29T15:41:16.519Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1104,7 +1259,7 @@
         "NCT07703917"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1142,7 +1297,7 @@
         "NCT05963711"
       ],
       "firstSeen": "2026-09-23T16:47:04.703Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1179,7 +1334,7 @@
         "NCT05923944"
       ],
       "firstSeen": "2026-09-18T14:56:04.911Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1218,7 +1373,7 @@
         "NCT06494826"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1258,7 +1413,7 @@
         "NCT06849037"
       ],
       "firstSeen": "2026-09-15T13:27:03.422Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1297,7 +1452,7 @@
         "NCT07808892"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1340,7 +1495,7 @@
         "NCT07808983"
       ],
       "firstSeen": "2026-09-09T14:27:06.867Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1379,7 +1534,7 @@
         "NCT07725237"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1420,7 +1575,7 @@
         "NCT06049784"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1460,7 +1615,7 @@
         "NCT03626844"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1498,7 +1653,7 @@
         "NCT03334708"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1540,47 +1695,7 @@
         "NCT07763990"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "7f1e2989e948",
-      "title": "The Role of Microbiome in Recurrent Obesity Before and After Antibiotic/Placebo Treatment",
-      "summary": "This past century witnessed a significant increase in the prevalence of obesity. Successful weight loss maintenance is defined as losing at least 10% of the initial body weight and maintaining it for at least one year. However, keeping a low body weight is rarely maintained, as 80% of people who lost 10% of their body weight will return to their initial weight within a year. Although there is no…",
-      "url": "https://clinicaltrials.gov/study/NCT06681246",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Rehovot",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": 65,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "גיל 10+",
-          "גיל 18–65"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-08-11T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Weizmann Institute of Science",
-        "NCT06681246"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1622,7 +1737,7 @@
         "NCT05837884"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1664,7 +1779,47 @@
         "NCT05133804"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
+    {
+      "id": "7f1e2989e948",
+      "title": "The Role of Microbiome in Recurrent Obesity Before and After Antibiotic/Placebo Treatment",
+      "summary": "This past century witnessed a significant increase in the prevalence of obesity. Successful weight loss maintenance is defined as losing at least 10% of the initial body weight and maintaining it for at least one year. However, keeping a low body weight is rarely maintained, as 80% of people who lost 10% of their body weight will return to their initial weight within a year. Although there is no…",
+      "url": "https://clinicaltrials.gov/study/NCT06681246",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Rehovot",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": 65,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "גיל 10+",
+          "גיל 18–65"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-08-11T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Weizmann Institute of Science",
+        "NCT06681246"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1703,7 +1858,7 @@
         "NCT04477785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1746,7 +1901,7 @@
         "NCT07714902"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1790,7 +1945,7 @@
         "NCT06235749"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1832,7 +1987,7 @@
         "NCT07362992"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1871,7 +2026,7 @@
         "NCT07311395"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1912,7 +2067,7 @@
         "NCT06963047"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1950,7 +2105,7 @@
         "NCT07620067"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -1989,7 +2144,7 @@
         "NCT07620002"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2028,7 +2183,7 @@
         "NCT07495865"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2068,7 +2223,7 @@
         "NCT07430358"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2106,7 +2261,7 @@
         "NCT05325736"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2143,7 +2298,7 @@
         "NCT07596576"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2185,7 +2340,7 @@
         "NCT07038785"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2222,7 +2377,7 @@
         "NCT07580612"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2259,7 +2414,7 @@
         "NCT07558928"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2296,85 +2451,7 @@
         "NCT05253560"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "08c8647253f1",
-      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
-      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
-      "url": "https://clinicaltrials.gov/study/NCT05842239",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Tsrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "male",
-        "ageMin": 21,
-        "ageMax": null,
-        "requires": [
-          "patients"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "אבחנה רפואית",
-          "גברים בלבד",
-          "גיל 21+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05842239"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "a034a7011388",
-      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
-      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
-      "url": "https://clinicaltrials.gov/study/NCT07539506",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 18,
-        "ageMax": null,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 18+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-22T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT07539506"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2421,51 +2498,14 @@
         "NCT03451968"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
-      "id": "8aa9f3b9e10c",
-      "title": "Determinants of Warfarin Metabolism",
-      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
-      "url": "https://clinicaltrials.gov/study/NCT00162474",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Jerusalem",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 50,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 20–50"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Hadassah Medical Organization",
-        "NCT00162474"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "c30f6a37053d",
-      "title": "Long Lasting Effect of Hyperbaric Oxygen Therapy on Cognitive Function in Traumatic Brain Injury Patients",
-      "summary": "To evaluate the cognitive functions of patients who suffered brain injury due to traumatic head injury and were previously treated in a hyperbaric chamber between one and four years after the end of treatment.",
-      "url": "https://clinicaltrials.gov/study/NCT07430150",
+      "id": "a034a7011388",
+      "title": "Cross Modal Correlation of EEG and MRI Functional Connectivity: An Investigative Study",
+      "summary": "Cross modal correlation of EEG and MRI functional connectivity: An Investigative Study. Correlating EEG Analysis with Brain Network Connectivity in Functional MRI. The primary aim of this study is to correlate correlation of MRI and EEG.",
+      "url": "https://clinicaltrials.gov/study/NCT07539506",
       "source": "ct-israel-healthy",
       "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
       "kind": "clinical",
@@ -2479,142 +2519,64 @@
         "gender": null,
         "ageMin": 18,
         "ageMax": null,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 18+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-22T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT07539506"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
+      "stale": false
+    },
+    {
+      "id": "08c8647253f1",
+      "title": "Hyperbaric Oxygen Therapy for Men Suffering From Infertility Due to Oligospermia.",
+      "summary": "Infertility in a couple is defined as the inability to achieve conception despite one year of frequent, unprotected intercourse. Infertility affects approximately 12% of couples attempting to conceive. The goal of this study is to explore the potential beneficial effect of HBOT on sperm count of infertile male due to oligospermia.",
+      "url": "https://clinicaltrials.gov/study/NCT05842239",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Tsrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 21,
+        "ageMax": null,
         "requires": [
           "patients"
         ],
         "countryOnly": null,
         "notes": [
           "אבחנה רפואית",
-          "גיל 18+"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT07430150"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "3a25fcdb2410",
-      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
-      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
-      "url": "https://clinicaltrials.gov/study/NCT06748586",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": null,
-        "ageMin": 20,
-        "ageMax": 80,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
-          "גיל 20–80"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT06748586"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "536be59cd020",
-      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
-      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
-      "url": "https://clinicaltrials.gov/study/NCT05447416",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Zrifin",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "male",
-        "ageMin": 18,
-        "ageMax": 45,
-        "requires": [],
-        "countryOnly": null,
-        "notes": [
           "גברים בלבד",
-          "גיל 18–45"
+          "גיל 21+"
         ]
       },
       "formType": "other",
       "autofill": false,
-      "postedAt": "2026-04-21T00:00:00.000Z",
+      "postedAt": "2026-04-22T00:00:00.000Z",
       "tags": [
         "מתנדבים בריאים",
         "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
         "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
-        "NCT05447416"
+        "NCT05842239"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
-      "stale": false
-    },
-    {
-      "id": "2894b14a0e7a",
-      "title": "Arm Position and Blood Pressure Measurement Accuracy During Pregnancy",
-      "summary": "Accurate blood pressure measurement is essential during pregnancy, as blood pressure readings guide clinical decisions related to the diagnosis and management of hypertensive disorders of pregnancy. Clinical guidelines recommend measuring blood pressure with the arm supported at heart level; however, in routine practice, blood pressure is often measured with the arm in non-standard positions.…",
-      "url": "https://clinicaltrials.gov/study/NCT07405723",
-      "source": "ct-israel-healthy",
-      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
-      "kind": "clinical",
-      "mode": "in-person",
-      "language": "en",
-      "reward": null,
-      "paymentConfirmed": false,
-      "location": "Ramat Gan",
-      "scope": "israel",
-      "eligibility": {
-        "gender": "female",
-        "ageMin": 18,
-        "ageMax": 55,
-        "requires": [
-          "pregnant"
-        ],
-        "countryOnly": null,
-        "notes": [
-          "הריון / לאחר לידה",
-          "נשים בלבד",
-          "גיל 18–55"
-        ]
-      },
-      "formType": "other",
-      "autofill": false,
-      "postedAt": "2026-04-16T00:00:00.000Z",
-      "tags": [
-        "מתנדבים בריאים",
-        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
-        "Sheba Medical Center",
-        "NCT07405723"
-      ],
-      "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2660,7 +2622,7 @@
         "NCT06764693"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2699,7 +2661,7 @@
         "NCT07321171"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
     },
     {
@@ -2736,8 +2698,201 @@
         "NCT06605079"
       ],
       "firstSeen": "2026-08-19T14:01:09.738Z",
-      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "lastSeen": "2026-11-25T22:24:45.787Z",
       "stale": false
+    },
+    {
+      "id": "8aa9f3b9e10c",
+      "title": "Determinants of Warfarin Metabolism",
+      "summary": "The anticoagulant effect of warfarin varies greatly among individuals. Some of this variability is attributed to differences in the activity of CYP2C9, the predominant enzyme involved in the metabolism of S-warfarin.\nThe present study is designed to define the differences in warfarin metabolism among healthy individuals carrying different CYP2C9 genotypes. In addition, the study will define the…",
+      "url": "https://clinicaltrials.gov/study/NCT00162474",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Jerusalem",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 50,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–50"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Hadassah Medical Organization",
+        "NCT00162474"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "stale": true
+    },
+    {
+      "id": "c30f6a37053d",
+      "title": "Long Lasting Effect of Hyperbaric Oxygen Therapy on Cognitive Function in Traumatic Brain Injury Patients",
+      "summary": "To evaluate the cognitive functions of patients who suffered brain injury due to traumatic head injury and were previously treated in a hyperbaric chamber between one and four years after the end of treatment.",
+      "url": "https://clinicaltrials.gov/study/NCT07430150",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 18,
+        "ageMax": null,
+        "requires": [
+          "patients"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "אבחנה רפואית",
+          "גיל 18+"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT07430150"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "stale": true
+    },
+    {
+      "id": "3a25fcdb2410",
+      "title": "The Effect of Hyperbaric Oxygen Therapy on Circulating Hematopoietic Stem Cell Population",
+      "summary": "Hematopoietic stem cells (HSCs), which govern the production of all blood lineages, transition through a series of functional states characterized by expansion during fetal development, functional quiescence in adulthood, and decline upon aging.\nAlthough research on aging has for a long time been relatively descriptive, much progress has been made in the past decade to uncover the molecular…",
+      "url": "https://clinicaltrials.gov/study/NCT06748586",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": null,
+        "ageMin": 20,
+        "ageMax": 80,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גיל 20–80"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT06748586"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "stale": true
+    },
+    {
+      "id": "536be59cd020",
+      "title": "Intermittent Hypoxic Training (IHT) Versus Hyperbaric Oxygen Therapy (HBOT) for Aerobic Performance",
+      "summary": "Comparing the effect of HBOT and IHT on aerobic performance of athletes.",
+      "url": "https://clinicaltrials.gov/study/NCT05447416",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Zrifin",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "male",
+        "ageMin": 18,
+        "ageMax": 45,
+        "requires": [],
+        "countryOnly": null,
+        "notes": [
+          "גברים בלבד",
+          "גיל 18–45"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-21T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+        "NCT05447416"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "stale": true
+    },
+    {
+      "id": "2894b14a0e7a",
+      "title": "Arm Position and Blood Pressure Measurement Accuracy During Pregnancy",
+      "summary": "Accurate blood pressure measurement is essential during pregnancy, as blood pressure readings guide clinical decisions related to the diagnosis and management of hypertensive disorders of pregnancy. Clinical guidelines recommend measuring blood pressure with the arm supported at heart level; however, in routine practice, blood pressure is often measured with the arm in non-standard positions.…",
+      "url": "https://clinicaltrials.gov/study/NCT07405723",
+      "source": "ct-israel-healthy",
+      "sourceLabel": "ClinicalTrials.gov – ישראל, מתנדבים בריאים",
+      "kind": "clinical",
+      "mode": "in-person",
+      "language": "en",
+      "reward": null,
+      "paymentConfirmed": false,
+      "location": "Ramat Gan",
+      "scope": "israel",
+      "eligibility": {
+        "gender": "female",
+        "ageMin": 18,
+        "ageMax": 55,
+        "requires": [
+          "pregnant"
+        ],
+        "countryOnly": null,
+        "notes": [
+          "הריון / לאחר לידה",
+          "נשים בלבד",
+          "גיל 18–55"
+        ]
+      },
+      "formType": "other",
+      "autofill": false,
+      "postedAt": "2026-04-16T00:00:00.000Z",
+      "tags": [
+        "מתנדבים בריאים",
+        "תשלום/החזר הוצאות – לברר מול המרכז הרפואי",
+        "Sheba Medical Center",
+        "NCT07405723"
+      ],
+      "firstSeen": "2026-08-19T14:01:09.738Z",
+      "lastSeen": "2026-11-25T12:36:58.132Z",
+      "stale": true
     },
     {
       "id": "700802e7cad0",
